@@ -1,0 +1,113 @@
+{
+  "consumeCatalyst": false,
+  "location": "fdamb:craftcore",
+  "traits": {
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 80,
+        "y": 52,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 80,
+        "y": 106,
+        "autoIO": true
+      }
+    ],
+    "background": "multiblocked:textures/jei_fusion_background10.png"
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "draconicevolution:fusion_crafting_core",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABA",
+        "   ",
+        "A A"
+      ],
+      [
+        "BAB",
+        " @ ",
+        " A "
+      ],
+      [
+        "ABA",
+        "   ",
+        "A A"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "appliedenergistics2:condenser",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "null"
+      },
+      "controller": {
+        "location": "fdamb:craftcore",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "botania:pool"
+          }
+        ],
+        "type": "blocks"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ]
+    }
+  },
+  "recipeMap": "exbotingot"
+}

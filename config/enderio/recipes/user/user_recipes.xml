@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+	<recipe name="Alloy: Steel" required="false" disabled="true"/>
+	<recipe name="Alloy: Steel (Oredict)" required="false" disabled="true"/>
+	<recipe name="Alloy: Constantan (Thermal Expansion)" required="false" disabled="true"/>
+	
+</enderio:recipes>

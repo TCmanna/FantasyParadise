@@ -1,0 +1,179 @@
+{
+  "consumeCatalyst": false,
+  "location": "fdamb:capacitor_create_mechine",
+  "traits": {
+    "item": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 61,
+        "y": 57,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 79,
+        "y": 57,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 97,
+        "y": 57,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 61,
+        "y": 75,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 79,
+        "y": 75,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 97,
+        "y": 75,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 61,
+        "y": 93,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 79,
+        "y": 93,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 97,
+        "y": 93,
+        "autoIO": false
+      }
+    ],
+    "background": "multiblocked:textures/capacitor_create_mechine.png"
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "immersiveengineering:metal_device0",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "state": {
+      "id": "mekanism:basicblock",
+      "meta": 7
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "AA",
+        "BC"
+      ],
+      [
+        "A@",
+        "B "
+      ],
+      [
+        "AA",
+        "B "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "ic2:resource",
+            "meta": 12
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "fdamb:capacitor_create_mechine",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration1",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "minecraft:chest",
+            "meta": 3
+          }
+        ],
+        "type": "states",
+        "io": "IN"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ]
+    }
+  },
+  "recipeMap": "capacitor_create_mechine"
+}

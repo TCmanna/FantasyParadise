@@ -1,0 +1,157 @@
+{
+  "catalyst": "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"ic2:dust\",Count:1b,Damage:6s}",
+  "consumeCatalyst": false,
+  "location": "fdamb:crystal_revitalizer",
+  "traits": {
+    "background": "multiblocked:textures/jei_fusion_background10.png",
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 80,
+        "y": 52,
+        "autoIO": true
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 80,
+        "y": 106,
+        "autoIO": true
+      }
+    ],
+    "forge_energy": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 38,
+      "y": 150,
+      "width": 100,
+      "height": 14,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "capacity": 100000,
+      "maxReceive": 10000,
+      "maxExtract": 10000
+    }
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "botania:opencrate",
+      "meta": 1
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "state": {
+      "id": "botania_tweaks:dire_crafty_crate",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABA",
+        "C C",
+        "ADA"
+      ],
+      [
+        "B B",
+        " @ ",
+        "D D"
+      ],
+      [
+        "ABA",
+        "C C",
+        "ADA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "tconstruct:clear_stained_glass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "fdamb:crystal_revitalizer",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "tconstruct:clear_stained_glass",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "tconstruct:clear_stained_glass",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "tconstruct:clear_stained_glass",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ]
+    }
+  },
+  "recipeMap": "crystal_revitalizer"
+}
