@@ -1,0 +1,82 @@
+{
+  "canShared": true,
+  "location": "fdamb:input_bus",
+  "traits": {
+    "background": "multiblocked:textures/capacitor_create_mechine.png",
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 61,
+        "y": 57,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 79,
+        "y": 57,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 97,
+        "y": 57,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 61,
+        "y": 75,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 79,
+        "y": 75,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 97,
+        "y": 75,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 61,
+        "y": 93,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 79,
+        "y": 93,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 97,
+        "y": 93,
+        "autoIO": false
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "appliedenergistics2:spatial_pylon",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true
+}

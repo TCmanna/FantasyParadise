@@ -1,0 +1,28 @@
+{
+  "canShared": true,
+  "location": "fdamb:rf_input",
+  "traits": {
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 23,
+      "y": 76,
+      "width": 130,
+      "height": 12,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "capacity": 1000000,
+      "maxReceive": 1000000,
+      "maxExtract": 1000000
+    }
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "forestry:greenhouse",
+      "meta": 3
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true
+}

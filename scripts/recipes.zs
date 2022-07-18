@@ -324,6 +324,13 @@ recipes.remove(<ic2:te:88>);
 recipes.remove(<ic2:te:89>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<fdamb:implosion_compressor>, [[<enderio:block_infinity>, <ic2:resource:13>, <enderio:block_infinity>],[<ic2:resource:13>, <thermalexpansion:machine:3>, <ic2:resource:13>], [<enderio:block_infinity>, <ic2:resource:13>, <enderio:block_infinity>]]);
+recipes.addShaped(<fdamb:output_bus>, [[null, <thermalexpansion:device:5>, <ore:circuitBasic>],[null, null, null], [null, null, null]]);
+recipes.addShaped(<fdamb:input_bus>, [[<ore:circuitBasic>, <thermalexpansion:device:5>, null],[null, null, null], [null, null, null]]);
+recipes.addShaped(<fdamb:rf_input>, [[null, null, null],[null, <thermalexpansion:cell>, null], [null, <ore:circuitBasic>, null]]);
+recipes.addShaped(<fdamb:large_centrifuge>, [[<mekanism:basicblock:8>, <mekanism:basicblock2:7>, <mekanism:basicblock:8>],[<mekanism:basicblock2:7>, <thermalexpansion:machine:10>, <mekanism:basicblock2:7>], [<mekanism:basicblock:8>, <mekanism:basicblock2:7>, <mekanism:basicblock:8>]]);
+recipes.addShaped(<fdamb:crystal_revitalizer>, [[<botania:livingwood:1>, <galacticraftcore:grating>, <botania:livingwood:1>],[<galacticraftcore:grating>, <botania:pylon>, <galacticraftcore:grating>], [<botania:livingwood:1>, <galacticraftcore:grating>, <botania:livingwood:1>]]);
+recipes.addShaped(<fdamb:capacitor_create_mechine>, [[<enderio:item_basic_capacitor>, <immersiveengineering:sheetmetal:9>, <enderio:item_basic_capacitor>],[<ore:circuitBasic>, <immersiveengineering:metal_device0>, <ore:circuitBasic>], [<enderio:item_basic_capacitor>, <immersiveengineering:sheetmetal:9>, <enderio:item_basic_capacitor>]]);
 recipes.addShaped(<enderio:item_material:51> * 2, [[<ore:dustNetherQuartz>, <enderio:item_material:74>, <ic2:plate:4>],[<enderio:item_material:48>, <enderio:item_material:50>, <enderio:item_material:48>], [<ic2:plate:4>, <enderio:item_material:74>, <ore:dustNetherQuartz>]]);
 recipes.addShaped(<enderio:item_material>, [[<minecraft:iron_bars>, <ore:dustBedrock>, <minecraft:iron_bars>],[<ore:dustAluminum>, <ic2:resource:12>, <ore:dustAluminum>], [<minecraft:iron_bars>, <ore:dustBedrock>, <minecraft:iron_bars>]]);
 recipes.addShaped(<ic2:resource:13>, [[<ore:dustDiamond>, <ic2:crafting:15>, <ore:dustDiamond>],[<enderio:item_material:1>, <enderio:item_material:11>, <ic2:resource:12>], [<ore:plateAdvancedAlloy>, <ic2:crafting:15>, <ore:plateAdvancedAlloy>]]);

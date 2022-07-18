@@ -1,0 +1,82 @@
+{
+  "canShared": true,
+  "location": "fdamb:output_bus",
+  "traits": {
+    "background": "multiblocked:textures/capacitor_create_mechine.png",
+    "item": [
+      {
+        "cIO": 1,
+        "gIO": 2,
+        "x": 61,
+        "y": 57,
+        "autoIO": true
+      },
+      {
+        "cIO": 1,
+        "gIO": 2,
+        "x": 79,
+        "y": 57,
+        "autoIO": true
+      },
+      {
+        "cIO": 1,
+        "gIO": 2,
+        "x": 97,
+        "y": 57,
+        "autoIO": true
+      },
+      {
+        "cIO": 1,
+        "gIO": 2,
+        "x": 61,
+        "y": 75,
+        "autoIO": true
+      },
+      {
+        "cIO": 1,
+        "gIO": 2,
+        "x": 79,
+        "y": 75,
+        "autoIO": true
+      },
+      {
+        "cIO": 1,
+        "gIO": 2,
+        "x": 97,
+        "y": 75,
+        "autoIO": true
+      },
+      {
+        "cIO": 1,
+        "gIO": 2,
+        "x": 61,
+        "y": 93,
+        "autoIO": true
+      },
+      {
+        "cIO": 1,
+        "gIO": 2,
+        "x": 79,
+        "y": 93,
+        "autoIO": true
+      },
+      {
+        "cIO": 1,
+        "gIO": 2,
+        "x": 97,
+        "y": 93,
+        "autoIO": true
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "mekanismgenerators:reactor",
+      "meta": 2
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true
+}

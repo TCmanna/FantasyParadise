@@ -2,15 +2,25 @@ tile.fdamb.capacitor_create_mechine.name=电容构建站
 tile.fdamb.craftcore.name=测试核心
 tile.fdamb.crystal_revitalizer.name=水晶焕活器
 tile.fdamb.large_centrifuge.name=大型离心机
+tile.fdamb.implosion_compressor.name=聚爆压缩机
 
 
 capacitor_create_mechine.name=电容构建站
 craftcore.name=测试核心
 crystal_revitalizer.name=水晶焕活器
 large_centrifuge.name=大型离心机
+implosion_compressor.name=聚爆压缩机
 
 
 multiblocked.recipe_map.capacitor_create_mechine=电容构建站
 multiblocked.recipe_map.exbotingot=测试核心
 multiblocked.recipe_map.crystal_revitalizer=水晶焕活器
 multiblocked.recipe_map.large_centrifuge=大型离心机
+multiblocked.recipe_map.implosion_compressor=聚爆压缩机
+
+
+
+
+tile.fdamb.rf_input.name=RF能源仓
+tile.fdamb.input_bus.name=输入端口
+tile.fdamb.output_bus.name=输出端口
