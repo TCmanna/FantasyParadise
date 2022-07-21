@@ -23,6 +23,7 @@ mods.tconstruct.Alloy.removeRecipe(<liquid:pulsating_iron>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:dark_steel>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:nihilite_fluid>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:pigiron>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:constantan>,[<liquid:copper>,<liquid:nickel>]);
 
 
 
