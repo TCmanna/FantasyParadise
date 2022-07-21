@@ -1,0 +1,18 @@
+{
+  "canShared": true,
+  "location": "fdamb:calciner_machine_casing",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "fdamb:blocks/calciner_machine_casing",
+    "frontTexture": "fdamb:blocks/calciner_machine_casing",
+    "type": "gregtech"
+  },
+  "formedRenderer": {
+    "baseTexture": "fdamb:blocks/calciner_machine_casing_f",
+    "frontTexture": "fdamb:blocks/calciner_machine_casing_f",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true
+}

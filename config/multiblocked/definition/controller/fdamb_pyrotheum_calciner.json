@@ -1,0 +1,185 @@
+{
+  "catalyst": "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"thermalfoundation:material\",Count:1b,Damage:1024s}",
+  "consumeCatalyst": true,
+  "location": "fdamb:pyrotheum_calciner",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "fdamb:blocks/pyrotheumcalciner_top",
+    "frontTexture": "fdamb:blocks/pyrotheumcalciner_face",
+    "backTexture": "fdamb:blocks/pyrotheumcalciner_back",
+    "leftTexture": "fdamb:blocks/pyrotheumcalciner_left",
+    "rightTexture": "fdamb:blocks/pyrotheumcalciner_right",
+    "downTexture": "fdamb:blocks/pyrotheumcalciner_down",
+    "type": "gregtech"
+  },
+  "formedRenderer": {
+    "baseTexture": "fdamb:blocks/pyrotheumcalciner_top_f",
+    "frontTexture": "fdamb:blocks/pyrotheumcalciner_face_f",
+    "backTexture": "fdamb:blocks/pyrotheumcalciner_back_f",
+    "leftTexture": "fdamb:blocks/pyrotheumcalciner_left_f",
+    "rightTexture": "fdamb:blocks/pyrotheumcalciner_right_f",
+    "downTexture": "fdamb:blocks/pyrotheumcalciner_down_f",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "ABA",
+        "C@C",
+        "ABA"
+      ],
+      [
+        "BBB",
+        "EDE",
+        "BGB"
+      ],
+      [
+        "ABA",
+        "CFC",
+        "ABA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "fdamb:calciner_machine_casing_pro",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "fdamb:pyrotheum_calciner",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "fdamb:calciner_machine_hull",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "fdamb:calciner_machine_casing",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_device0",
+            "meta": 2
+          }
+        ],
+        "type": "states",
+        "customTips": "放置于多方块中心"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "fdamb:input_bus",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "maxCount": 1,
+        "io": "IN"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "fdamb:output_bus",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "maxCount": 1,
+        "io": "OUT"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "fdamb:rf_input",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "maxCount": 1,
+        "io": "IN"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "tconstruct:seared_tank",
+            "meta": 1
+          }
+        ],
+        "type": "states",
+        "maxCount": 1,
+        "previewCount": 1,
+        "io": "IN",
+        "customTips": "正下方为高压电容器"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "C",
+        "E",
+        "F"
+      ],
+      "F": [
+        "C",
+        "G"
+      ],
+      "G": [
+        "B",
+        "H"
+      ]
+    }
+  },
+  "recipeMap": "pyrotheum_calciner"
+}

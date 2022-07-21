@@ -1,0 +1,18 @@
+{
+  "canShared": true,
+  "location": "fdamb:calciner_machine_hull",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "fdamb:blocks/calciner_machine_hull",
+    "frontTexture": "fdamb:blocks/calciner_machine_hull",
+    "type": "gregtech"
+  },
+  "formedRenderer": {
+    "baseTexture": "fdamb:blocks/calciner_machine_hull_f",
+    "frontTexture": "fdamb:blocks/calciner_machine_hull_f",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true
+}

@@ -5,11 +5,18 @@
   "allowRotate": true,
   "showInJei": true,
   "baseRenderer": {
-    "state": {
-      "id": "galacticraftcore:machine",
-      "meta": 12
-    },
-    "type": "blockstate"
+    "baseTexture": "thermalexpansion:blocks/machine/machine_side",
+    "frontTexture": "thermalexpansion:blocks/machine/machine_face_smelter",
+    "upTexture": "thermalexpansion:blocks/machine/machine_top",
+    "downTexture": "thermalexpansion:blocks/machine/machine_bottom",
+    "type": "gregtech"
+  },
+  "workingRenderer": {
+    "baseTexture": "thermalexpansion:blocks/machine/machine_side",
+    "frontTexture": "thermalexpansion:blocks/machine/machine_active_smelter",
+    "upTexture": "thermalexpansion:blocks/machine/machine_top",
+    "downTexture": "thermalexpansion:blocks/machine/machine_bottom",
+    "type": "gregtech"
   },
   "isOpaqueCube": true,
   "basePattern": {

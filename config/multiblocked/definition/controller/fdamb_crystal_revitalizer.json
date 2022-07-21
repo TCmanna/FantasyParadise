@@ -3,7 +3,7 @@
   "consumeCatalyst": false,
   "location": "fdamb:crystal_revitalizer",
   "traits": {
-    "background": "multiblocked:textures/jei_fusion_background10.png",
+    "background": "fdamb:textures/gui/jei_fusion_background10.png",
     "item": [
       {
         "cIO": 0,

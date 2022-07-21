@@ -72,11 +72,9 @@
   "allowRotate": true,
   "showInJei": true,
   "baseRenderer": {
-    "state": {
-      "id": "appliedenergistics2:spatial_pylon",
-      "meta": 0
-    },
-    "type": "blockstate"
+    "baseTexture": "mekanismgenerators:blocks/reactor_port",
+    "frontTexture": "mekanismgenerators:blocks/reactor_port",
+    "type": "gregtech"
   },
   "isOpaqueCube": true
 }

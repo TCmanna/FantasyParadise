@@ -72,11 +72,9 @@
   "allowRotate": true,
   "showInJei": true,
   "baseRenderer": {
-    "state": {
-      "id": "mekanismgenerators:reactor",
-      "meta": 2
-    },
-    "type": "blockstate"
+    "baseTexture": "mekanismgenerators:blocks/reactor_port_output",
+    "frontTexture": "mekanismgenerators:blocks/reactor_port_output",
+    "type": "gregtech"
   },
   "isOpaqueCube": true
 }

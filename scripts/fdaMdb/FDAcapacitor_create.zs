@@ -9,7 +9,7 @@ var ccm = definition as ControllerDefinition;
 ccm.recipeMap.start()
     .duration(200)
     .inputItems(<ore:plateSteel>,<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})*2,<ic2:casing:2>*2,<ore:plateBronze>*2)
-    .outputItems(<enderio:item_basic_capacitor>*6)
+    .outputItems(<enderio:item_basic_capacitor>*2)
     .buildAndRegister();
 
 ccm.recipeMap.start()
@@ -21,5 +21,5 @@ ccm.recipeMap.start()
 ccm.recipeMap.start()
     .duration(150)
     .inputItems(<thermalfoundation:material:164>*4,<enderio:item_basic_capacitor>*4,<ic2:casing:4>*2,<ore:plateAluminum>*2)
-    .outputItems(<enderio:item_basic_capacitor:1>*6)
+    .outputItems(<enderio:item_basic_capacitor:1>*4)
     .buildAndRegister();
