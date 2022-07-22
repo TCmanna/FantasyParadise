@@ -20,10 +20,9 @@
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
 		},
@@ -46,10 +45,9 @@
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
 		},
@@ -82,10 +80,9 @@
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
 		},
@@ -118,10 +115,9 @@
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
 		},
@@ -136,7 +132,7 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 6
 			},
 			"cluster-count": 2,
 			"min-height": 5,
@@ -144,15 +140,14 @@
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
 		},
 		"platinum": {
-			"enabled": "false",
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -172,23 +167,22 @@
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 5
 			},
-			"cluster-count": 1,
-			"min-height": 5,
-			"max-height": 25,
+			"cluster-count": 3,
+			"min-height": 10,
+			"max-height": 40,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					-31
 				]
 			}
 		},
 		"aluminum": {
-			"enabled": "false",
+			"enabled": "ture",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -201,15 +195,14 @@
 				"cluster-size": 8
 			},
 			"cluster-count": 8,
-			"min-height": 40,
-			"max-height": 75,
+			"min-height": 10,
+			"max-height": 50,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					-28
 				]
 			}
 		},
@@ -242,10 +235,9 @@
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
 		},
@@ -276,10 +268,9 @@
 				]
 			},
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
 		},
@@ -302,10 +293,9 @@
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
 		}

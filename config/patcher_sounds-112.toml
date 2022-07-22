@@ -1,0 +1,1722 @@
+
+[blacklotus]
+
+	[blacklotus.sounds]
+		blacklotus = 100
+
+[bellows]
+
+	[bellows.sounds]
+		bellows = 100
+
+[paint]
+
+	[paint.sounds]
+		paint = 100
+
+[starcaller]
+
+	[starcaller.sounds]
+		starcaller = 100
+
+[gaiatrap]
+
+	[gaiatrap.sounds]
+		gaiatrap = 100
+
+[shield_up]
+
+	[shield_up.sounds]
+		shield_up = 100
+
+[music]
+
+	[music.sounds]
+		music_game = 100
+		music_creative = 100
+		music_herrscher = 100
+		music_nether = 100
+		music_menu = 100
+		music_end = 100
+		music_dragon = 100
+		music_credits = 100
+		music_gaia1 = 100
+		music_gaia2 = 100
+		music_gaia3 = 100
+
+[projector]
+
+	[projector.sounds]
+		projector = 100
+
+[laputastart]
+
+	[laputastart.sounds]
+		laputastart = 100
+
+[record]
+
+	[record.sounds]
+		record_mall = 100
+		record_strad = 100
+		record_wait = 100
+		record_11 = 100
+		record_13 = 100
+		record_cat = 100
+		record_chirp = 100
+		record_far = 100
+		record_blocks = 100
+		record_stal = 100
+		record_mellohi = 100
+		record_ward = 100
+
+[weather]
+
+	[weather.rain]
+		weather_rain_above = 100
+
+	[weather.sounds]
+		weather_rain = 100
+
+[skyhook]
+
+	[skyhook.sounds]
+		skyhook = 100
+
+[block]
+
+	[block.note]
+		block_note_hat = 100
+		block_note_bass = 100
+		block_note_flute = 100
+		block_note_basedrum = 100
+		block_note_chime = 100
+		block_note_xylophone = 100
+		block_note_pling = 100
+		block_note_guitar = 100
+		block_note_bell = 100
+		block_note_snare = 100
+		block_note_harp = 100
+
+	[block.enchantment_table]
+		block_enchantment_table_use = 100
+
+	[block.furnace]
+		block_furnace_fire_crackle = 100
+
+	[block.anvil]
+		block_anvil_use = 100
+		block_anvil_fall = 100
+		block_anvil_break = 100
+		block_anvil_land = 100
+		block_anvil_hit = 100
+		block_anvil_destroy = 100
+		block_anvil_place = 100
+		block_anvil_step = 100
+
+	[block.fence_gate]
+		block_fence_gate_open = 100
+		block_fence_gate_close = 100
+
+	[block.brewing_stand]
+		block_brewing_stand_brew = 100
+
+	[block.wooden_door]
+		block_wooden_door_open = 100
+		block_wooden_door_close = 100
+
+	[block.iron_door]
+		block_iron_door_close = 100
+		block_iron_door_open = 100
+
+	[block.slime]
+		block_slime_step = 100
+		block_slime_break = 100
+		block_slime_hit = 100
+		block_slime_fall = 100
+		block_slime_place = 100
+
+	[block.dispenser]
+		block_dispenser_fail = 100
+		block_dispenser_dispense = 100
+		block_dispenser_launch = 100
+
+	[block.lava]
+		block_lava_ambient = 100
+		block_lava_pop = 100
+		block_lava_extinguish = 100
+
+	[block.chorus_flower]
+		block_chorus_flower_grow = 100
+		block_chorus_flower_death = 100
+
+	[block.sounds]
+		block_altar_craft = 100
+		block_deconstructor = 100
+
+	[block.grass]
+		block_grass_place = 100
+		block_grass_step = 100
+		block_grass_hit = 100
+		block_grass_break = 100
+		block_grass_fall = 100
+
+	[block.iron_trapdoor]
+		block_iron_trapdoor_open = 100
+		block_iron_trapdoor_close = 100
+
+	[block.fire]
+		block_fire_ambient = 100
+		block_fire_extinguish = 100
+
+	[block.stone_button]
+		block_stone_button_click_on = 100
+		block_stone_button_click_off = 100
+
+	[block.wood]
+		block_wood_place = 100
+		block_wood_fall = 100
+		block_wood_hit = 100
+		block_wood_step = 100
+		block_wood_break = 100
+
+	[block.wood_pressureplate]
+		block_wood_pressureplate_click_on = 100
+		block_wood_pressureplate_click_off = 100
+
+	[block.portal]
+		block_portal_trigger = 100
+		block_portal_ambient = 100
+		block_portal_travel = 100
+
+	[block.wooden_trapdoor]
+		block_wooden_trapdoor_close = 100
+		block_wooden_trapdoor_open = 100
+
+	[block.wood_button]
+		block_wood_button_click_off = 100
+		block_wood_button_click_on = 100
+
+	[block.enderchest]
+		block_enderchest_close = 100
+		block_enderchest_open = 100
+
+	[block.chest]
+		block_chest_close = 100
+		block_chest_locked = 100
+		block_chest_open = 100
+
+	[block.glass]
+		block_glass_place = 100
+		block_glass_hit = 100
+		block_glass_step = 100
+		block_glass_break = 100
+		block_glass_fall = 100
+
+	[block.redstone_torch]
+		block_redstone_torch_burnout = 100
+
+	[block.piston]
+		block_piston_contract = 100
+		block_piston_extend = 100
+
+	[block.waterlily]
+		block_waterlily_place = 100
+
+	[block.end_portal]
+		block_end_portal_spawn = 100
+
+	[block.shulker_box]
+		block_shulker_box_close = 100
+		block_shulker_box_open = 100
+
+	[block.metal]
+		block_metal_hit = 100
+		block_metal_step = 100
+		block_metal_break = 100
+		block_metal_place = 100
+		block_metal_fall = 100
+
+	[block.lever]
+		block_lever_click = 100
+
+	[block.water]
+		block_water_ambient = 100
+
+	[block.end_gateway]
+		block_end_gateway_spawn = 100
+
+	[block.end_portal_frame]
+		block_end_portal_frame_fill = 100
+
+	[block.stone]
+		block_stone_hit = 100
+		block_stone_place = 100
+		block_stone_break = 100
+		block_stone_fall = 100
+		block_stone_step = 100
+
+	[block.gravel]
+		block_gravel_fall = 100
+		block_gravel_break = 100
+		block_gravel_hit = 100
+		block_gravel_step = 100
+		block_gravel_place = 100
+
+	[block.sand]
+		block_sand_fall = 100
+		block_sand_step = 100
+		block_sand_break = 100
+		block_sand_hit = 100
+		block_sand_place = 100
+
+	[block.comparator]
+		block_comparator_click = 100
+
+	[block.ladder]
+		block_ladder_step = 100
+		block_ladder_break = 100
+		block_ladder_place = 100
+		block_ladder_fall = 100
+		block_ladder_hit = 100
+
+	[block.stone_pressureplate]
+		block_stone_pressureplate_click_on = 100
+		block_stone_pressureplate_click_off = 100
+
+	[block.snow]
+		block_snow_break = 100
+		block_snow_step = 100
+		block_snow_hit = 100
+		block_snow_fall = 100
+		block_snow_place = 100
+
+	[block.tripwire]
+		block_tripwire_click_on = 100
+		block_tripwire_detach = 100
+		block_tripwire_attach = 100
+		block_tripwire_click_off = 100
+
+	[block.metal_pressureplate]
+		block_metal_pressureplate_click_on = 100
+		block_metal_pressureplate_click_off = 100
+
+	[block.cloth]
+		block_cloth_hit = 100
+		block_cloth_break = 100
+		block_cloth_fall = 100
+		block_cloth_place = 100
+		block_cloth_step = 100
+
+[silence]
+
+	[silence.sounds]
+		silence_step = 100
+		silence_dig = 100
+
+[portal]
+
+	[portal.sounds]
+		portal = 100
+
+[metalpresspiston]
+
+	[metalpresspiston.sounds]
+		metalpresspiston = 100
+
+[chargeslow]
+
+	[chargeslow.sounds]
+		chargeslow = 100
+
+[item]
+
+	[item.shield]
+		item_shield_break = 100
+		item_shield_block = 100
+
+	[item.shovel]
+		item_shovel_flatten = 100
+
+	[item.chorus_fruit]
+		item_chorus_fruit_teleport = 100
+
+	[item.bottle]
+		item_bottle_empty = 100
+		item_bottle_fill = 100
+		item_bottle_fill_dragonbreath = 100
+
+	[item.firecharge]
+		item_firecharge_use = 100
+
+	[item.flintandsteel]
+		item_flintandsteel_use = 100
+
+	[item.bucket]
+		item_bucket_empty = 100
+		item_bucket_empty_lava = 100
+		item_bucket_fill = 100
+		item_bucket_fill_lava = 100
+
+	[item.armor]
+		item_armor_equip_elytra = 100
+		item_armor_equip_chain = 100
+		item_armor_equip_iron = 100
+		item_armor_equip_diamond = 100
+		item_armor_equip_generic = 100
+		item_armor_equip_leather = 100
+		item_armor_equip_gold = 100
+
+	[item.sounds]
+		item_gasmask = 100
+		item_album_open = 100
+		item_jetpack = 100
+		item_camera_use = 100
+
+	[item.elytra]
+		item_elytra_flying = 100
+
+	[item.flamethrower]
+		item_flamethrower_active = 100
+		item_flamethrower_idle = 100
+
+	[item.totem]
+		item_totem_use = 100
+
+	[item.hoe]
+		item_hoe_till = 100
+
+[spray]
+
+	[spray.sounds]
+		spray = 100
+
+[shuttle]
+
+	[shuttle.sounds]
+		shuttle_shuttle = 100
+
+[ambience]
+
+	[ambience.sounds]
+		ambience_scaryscape = 100
+		ambience_singledrip = 100
+
+[spreaderfire]
+
+	[spreaderfire.sounds]
+		spreaderfire = 100
+
+[divinationrod]
+
+	[divinationrod.sounds]
+		divinationrod = 100
+
+[levelup]
+
+	[levelup.sounds]
+		levelup = 100
+
+[orechid]
+
+	[orechid.sounds]
+		orechid = 100
+
+[terrablade]
+
+	[terrablade.sounds]
+		terrablade = 100
+
+[charged]
+
+	[charged.sounds]
+		charged = 100
+
+[slimesling]
+
+	[slimesling.sounds]
+		slimesling = 100
+
+[lexiconpage]
+
+	[lexiconpage.sounds]
+		lexiconpage = 100
+
+[gun]
+
+	[gun.ak47]
+		gun_ak47_load = 100
+
+	[gun.sounds]
+		gun_empty = 100
+
+	[gun.pistol]
+		gun_pistol_shot = 100
+		gun_pistol_trigger = 100
+
+[revolverfirethump]
+
+	[revolverfirethump.sounds]
+		revolverfirethump = 100
+
+[other]
+
+	[other.sounds]
+		other_credit = 100
+
+[thermalily]
+
+	[thermalily.sounds]
+		thermalily = 100
+
+[machine_pulverizer]
+
+	[machine_pulverizer.sounds]
+		machine_pulverizer = 100
+
+[dieselgenerator]
+
+	[dieselgenerator.sounds]
+		dieselgenerator = 100
+
+[mob_basalz_attack]
+
+	[mob_basalz_attack.sounds]
+		mob_basalz_attack = 100
+
+[ambient]
+
+	[ambient.sounds]
+		ambient_cave = 100
+
+[book_open]
+
+	[book_open.sounds]
+		book_open = 100
+
+[little_saw]
+
+	[little_saw.sounds]
+		little_saw = 100
+
+[revolverfire]
+
+	[revolverfire.sounds]
+		revolverfire = 100
+
+[spark]
+
+	[spark.sounds]
+		spark = 100
+
+[endoflame]
+
+	[endoflame.sounds]
+		endoflame = 100
+
+[noise]
+
+	[noise.sounds]
+		noise = 100
+
+[mob_blizz_attack]
+
+	[mob_blizz_attack.sounds]
+		mob_blizz_attack = 100
+
+[enchanterfade]
+
+	[enchanterfade.sounds]
+		enchanterfade = 100
+
+[fusion_rotation]
+
+	[fusion_rotation.sounds]
+		fusion_rotation = 100
+
+[dodge]
+
+	[dodge.sounds]
+		dodge = 100
+
+[charge]
+
+	[charge.sounds]
+		charge = 100
+
+[telepad]
+
+	[telepad.sounds]
+		telepad_active = 100
+		telepad_teleport = 100
+
+[toy_squeak]
+
+	[toy_squeak.sounds]
+		toy_squeak = 100
+
+[machine_sawmill]
+
+	[machine_sawmill.sounds]
+		machine_sawmill = 100
+
+[machine_smelter]
+
+	[machine_smelter.sounds]
+		machine_smelter = 100
+
+[monster]
+
+	[monster.sounds]
+		monster_rinnosuke_ambient = 100
+		monster_rinnosuke_death = 100
+		monster_rinnosuke_hurt = 100
+
+[player_magnet_use]
+
+	[player_magnet_use.sounds]
+		player_magnet_use = 100
+
+[mob_blitz_ambient]
+
+	[mob_blitz_ambient.sounds]
+		mob_blitz_ambient = 100
+
+[laser_beam]
+
+	[laser_beam.sounds]
+		laser_beam = 100
+
+[direswitch]
+
+	[direswitch.sounds]
+		direswitch = 100
+
+[machine_furnace]
+
+	[machine_furnace.sounds]
+		machine_furnace = 100
+
+[babylonattack]
+
+	[babylonattack.sounds]
+		babylonattack = 100
+
+[songs]
+
+	[songs.sounds]
+		songs_kyleb_7by8 = 100
+		songs_kyleb_bard = 100
+		songs_excalibur = 100
+
+[machine]
+
+	[machine.sounds]
+		machine_vat = 100
+		machine_sagmill = 100
+		machine_soulbinder = 100
+		machine_slicensplice = 100
+
+[enchant]
+
+	[enchant.thorns]
+		enchant_thorns_hit = 100
+
+[energy_bolt]
+
+	[energy_bolt.sounds]
+		energy_bolt = 100
+
+[metalpresssmash]
+
+	[metalpresssmash.sounds]
+		metalpresssmash = 100
+
+[agricarnation]
+
+	[agricarnation.sounds]
+		agricarnation = 100
+
+[birthdayparty]
+
+	[birthdayparty.sounds]
+		birthdayparty = 100
+
+[entity]
+
+	[entity.zombie_horse]
+		entity_zombie_horse_death = 100
+		entity_zombie_horse_hurt = 100
+		entity_zombie_horse_ambient = 100
+
+	[entity.snowman]
+		entity_snowman_hurt = 100
+		entity_snowman_ambient = 100
+		entity_snowman_death = 100
+		entity_snowman_shoot = 100
+
+	[entity.egg]
+		entity_egg_throw = 100
+
+	[entity.arrow]
+		entity_arrow_hit = 100
+		entity_arrow_shoot = 100
+		entity_arrow_hit_player = 100
+
+	[entity.hostile]
+		entity_hostile_splash = 100
+		entity_hostile_swim = 100
+		entity_hostile_hurt = 100
+		entity_hostile_death = 100
+		entity_hostile_small_fall = 100
+		entity_hostile_big_fall = 100
+
+	[entity.cow]
+		entity_cow_death = 100
+		entity_cow_step = 100
+		entity_cow_hurt = 100
+		entity_cow_milk = 100
+		entity_cow_ambient = 100
+
+	[entity.pig]
+		entity_pig_step = 100
+		entity_pig_death = 100
+		entity_pig_hurt = 100
+		entity_pig_saddle = 100
+		entity_pig_ambient = 100
+
+	[entity.llama]
+		entity_llama_swag = 100
+		entity_llama_death = 100
+		entity_llama_ambient = 100
+		entity_llama_eat = 100
+		entity_llama_chest = 100
+		entity_llama_step = 100
+		entity_llama_hurt = 100
+		entity_llama_spit = 100
+		entity_llama_angry = 100
+
+	[entity.skeleton]
+		entity_skeleton_shoot = 100
+		entity_skeleton_ambient = 100
+		entity_skeleton_hurt = 100
+		entity_skeleton_step = 100
+		entity_skeleton_death = 100
+
+	[entity.lingeringpotion]
+		entity_lingeringpotion_throw = 100
+
+	[entity.mule]
+		entity_mule_chest = 100
+		entity_mule_death = 100
+		entity_mule_ambient = 100
+		entity_mule_hurt = 100
+
+	[entity.husk]
+		entity_husk_hurt = 100
+		entity_husk_death = 100
+		entity_husk_ambient = 100
+		entity_husk_step = 100
+
+	[entity.bat]
+		entity_bat_ambient = 100
+		entity_bat_death = 100
+		entity_bat_hurt = 100
+		entity_bat_takeoff = 100
+		entity_bat_loop = 100
+
+	[entity.experience_bottle]
+		entity_experience_bottle_throw = 100
+
+	[entity.splash_potion]
+		entity_splash_potion_throw = 100
+		entity_splash_potion_break = 100
+
+	[entity.rabbit]
+		entity_rabbit_ambient = 100
+		entity_rabbit_hurt = 100
+		entity_rabbit_death = 100
+		entity_rabbit_attack = 100
+		entity_rabbit_jump = 100
+
+	[entity.silverfish]
+		entity_silverfish_step = 100
+		entity_silverfish_hurt = 100
+		entity_silverfish_death = 100
+		entity_silverfish_ambient = 100
+
+	[entity.experience_orb]
+		entity_experience_orb_pickup = 100
+
+	[entity.lightning]
+		entity_lightning_impact = 100
+		entity_lightning_thunder = 100
+
+	[entity.enderdragon]
+		entity_enderdragon_growl = 100
+		entity_enderdragon_shoot = 100
+		entity_enderdragon_flap = 100
+		entity_enderdragon_ambient = 100
+		entity_enderdragon_hurt = 100
+		entity_enderdragon_death = 100
+
+	[entity.item]
+		entity_item_pickup = 100
+		entity_item_break = 100
+
+	[entity.stray]
+		entity_stray_hurt = 100
+		entity_stray_ambient = 100
+		entity_stray_death = 100
+		entity_stray_step = 100
+
+	[entity.endermen]
+		entity_endermen_teleport = 100
+		entity_endermen_ambient = 100
+		entity_endermen_hurt = 100
+		entity_endermen_death = 100
+		entity_endermen_scream = 100
+		entity_endermen_stare = 100
+
+	[entity.small_slime]
+		entity_small_slime_squish = 100
+		entity_small_slime_jump = 100
+		entity_small_slime_death = 100
+		entity_small_slime_hurt = 100
+
+	[entity.shulker]
+		entity_shulker_teleport = 100
+		entity_shulker_shoot = 100
+		entity_shulker_hurt_closed = 100
+		entity_shulker_ambient = 100
+		entity_shulker_close = 100
+		entity_shulker_death = 100
+		entity_shulker_open = 100
+		entity_shulker_hurt = 100
+
+	[entity.wither_skeleton]
+		entity_wither_skeleton_death = 100
+		entity_wither_skeleton_step = 100
+		entity_wither_skeleton_hurt = 100
+		entity_wither_skeleton_ambient = 100
+
+	[entity.vex]
+		entity_vex_ambient = 100
+		entity_vex_hurt = 100
+		entity_vex_death = 100
+		entity_vex_charge = 100
+
+	[entity.horse]
+		entity_horse_saddle = 100
+		entity_horse_eat = 100
+		entity_horse_step = 100
+		entity_horse_breathe = 100
+		entity_horse_hurt = 100
+		entity_horse_jump = 100
+		entity_horse_land = 100
+		entity_horse_ambient = 100
+		entity_horse_death = 100
+		entity_horse_gallop = 100
+		entity_horse_step_wood = 100
+		entity_horse_angry = 100
+		entity_horse_armor = 100
+
+	[entity.firework]
+		entity_firework_twinkle_far = 100
+		entity_firework_twinkle = 100
+		entity_firework_blast = 100
+		entity_firework_large_blast = 100
+		entity_firework_blast_far = 100
+		entity_firework_shoot = 100
+		entity_firework_large_blast_far = 100
+		entity_firework_launch = 100
+
+	[entity.minecart]
+		entity_minecart_riding = 100
+		entity_minecart_inside = 100
+
+	[entity.mooshroom]
+		entity_mooshroom_shear = 100
+
+	[entity.vindication_illager]
+		entity_vindication_illager_hurt = 100
+		entity_vindication_illager_ambient = 100
+		entity_vindication_illager_death = 100
+
+	[entity.squid]
+		entity_squid_ambient = 100
+		entity_squid_death = 100
+		entity_squid_hurt = 100
+
+	[entity.tnt]
+		entity_tnt_primed = 100
+
+	[entity.shulker_bullet]
+		entity_shulker_bullet_hit = 100
+		entity_shulker_bullet_hurt = 100
+
+	[entity.snowball]
+		entity_snowball_throw = 100
+
+	[entity.parrot]
+		entity_parrot_death = 100
+		entity_parrot_imitate_endermite = 100
+		entity_parrot_imitate_illusion_illager = 100
+		entity_parrot_imitate_enderdragon = 100
+		entity_parrot_imitate_vindication_illager = 100
+		entity_parrot_eat = 100
+		entity_parrot_imitate_zombie_villager = 100
+		entity_parrot_imitate_zombie = 100
+		entity_parrot_imitate_ghast = 100
+		entity_parrot_imitate_husk = 100
+		entity_parrot_imitate_zombie_pigman = 100
+		entity_parrot_imitate_polar_bear = 100
+		entity_parrot_imitate_wolf = 100
+		entity_parrot_imitate_blaze = 100
+		entity_parrot_imitate_evocation_illager = 100
+		entity_parrot_imitate_enderman = 100
+		entity_parrot_ambient = 100
+		entity_parrot_imitate_shulker = 100
+		entity_parrot_imitate_wither_skeleton = 100
+		entity_parrot_step = 100
+		entity_parrot_imitate_silverfish = 100
+		entity_parrot_imitate_stray = 100
+		entity_parrot_imitate_magmacube = 100
+		entity_parrot_imitate_creeper = 100
+		entity_parrot_imitate_slime = 100
+		entity_parrot_hurt = 100
+		entity_parrot_imitate_skeleton = 100
+		entity_parrot_imitate_elder_guardian = 100
+		entity_parrot_fly = 100
+		entity_parrot_imitate_wither = 100
+		entity_parrot_imitate_vex = 100
+		entity_parrot_imitate_witch = 100
+		entity_parrot_imitate_spider = 100
+
+	[entity.creeper]
+		entity_creeper_death = 100
+		entity_creeper_primed = 100
+		entity_creeper_hurt = 100
+
+	[entity.enderdragon_fireball]
+		entity_enderdragon_fireball_explode = 100
+
+	[entity.bobber]
+		entity_bobber_retrieve = 100
+		entity_bobber_throw = 100
+		entity_bobber_splash = 100
+
+	[entity.magmacube]
+		entity_magmacube_hurt = 100
+		entity_magmacube_death = 100
+		entity_magmacube_squish = 100
+		entity_magmacube_jump = 100
+
+	[entity.chicken]
+		entity_chicken_egg = 100
+		entity_chicken_death = 100
+		entity_chicken_ambient = 100
+		entity_chicken_step = 100
+		entity_chicken_hurt = 100
+
+	[entity.endereye]
+		entity_endereye_launch = 100
+		entity_endereye_death = 100
+
+	[entity.illusion_illager]
+		entity_illusion_illager_hurt = 100
+		entity_illusion_illager_prepare_mirror = 100
+		entity_illusion_illager_death = 100
+		entity_illusion_illager_ambient = 100
+		entity_illusion_illager_cast_spell = 100
+		entity_illusion_illager_prepare_blindness = 100
+		entity_illusion_illager_mirror_move = 100
+
+	[entity.donkey]
+		entity_donkey_angry = 100
+		entity_donkey_ambient = 100
+		entity_donkey_death = 100
+		entity_donkey_hurt = 100
+		entity_donkey_chest = 100
+
+	[entity.evocation_illager]
+		entity_evocation_illager_ambient = 100
+		entity_evocation_illager_death = 100
+		entity_evocation_illager_prepare_attack = 100
+		entity_evocation_illager_prepare_wololo = 100
+		entity_evocation_illager_prepare_summon = 100
+		entity_evocation_illager_hurt = 100
+		entity_evocation_illager_cast_spell = 100
+
+	[entity.slime]
+		entity_slime_squish = 100
+		entity_slime_death = 100
+		entity_slime_hurt = 100
+		entity_slime_jump = 100
+		entity_slime_attack = 100
+
+	[entity.small_magmacube]
+		entity_small_magmacube_death = 100
+		entity_small_magmacube_hurt = 100
+		entity_small_magmacube_squish = 100
+
+	[entity.sounds]
+		entity_box = 100
+		entity_bosslaugh = 100
+		entity_bossdeath = 100
+		entity_ouch = 100
+		entity_slime_death = 100
+		entity_astrominer = 100
+		entity_ooh = 100
+
+	[entity.blaze]
+		entity_blaze_ambient = 100
+		entity_blaze_burn = 100
+		entity_blaze_hurt = 100
+		entity_blaze_death = 100
+		entity_blaze_shoot = 100
+
+	[entity.endermite]
+		entity_endermite_step = 100
+		entity_endermite_death = 100
+		entity_endermite_hurt = 100
+		entity_endermite_ambient = 100
+
+	[entity.evocation_fangs]
+		entity_evocation_fangs_attack = 100
+
+	[entity.cat]
+		entity_cat_hurt = 100
+		entity_cat_purr = 100
+		entity_cat_hiss = 100
+		entity_cat_purreow = 100
+		entity_cat_ambient = 100
+		entity_cat_death = 100
+
+	[entity.zombie]
+		entity_zombie_attack_door_wood = 100
+		entity_zombie_hurt = 100
+		entity_zombie_step = 100
+		entity_zombie_infect = 100
+		entity_zombie_ambient = 100
+		entity_zombie_death = 100
+		entity_zombie_attack_iron_door = 100
+		entity_zombie_break_door_wood = 100
+
+	[entity.irongolem]
+		entity_irongolem_attack = 100
+		entity_irongolem_death = 100
+		entity_irongolem_hurt = 100
+		entity_irongolem_step = 100
+
+	[entity.guardian]
+		entity_guardian_ambient_land = 100
+		entity_guardian_flop = 100
+		entity_guardian_death_land = 100
+		entity_guardian_ambient = 100
+		entity_guardian_death = 100
+		entity_guardian_attack = 100
+		entity_guardian_hurt = 100
+		entity_guardian_hurt_land = 100
+
+	[entity.ghast]
+		entity_ghast_ambient = 100
+		entity_ghast_death = 100
+		entity_ghast_shoot = 100
+		entity_ghast_warn = 100
+		entity_ghast_hurt = 100
+		entity_ghast_scream = 100
+
+	[entity.sheep]
+		entity_sheep_shear = 100
+		entity_sheep_hurt = 100
+		entity_sheep_death = 100
+		entity_sheep_ambient = 100
+		entity_sheep_step = 100
+
+	[entity.player]
+		entity_player_attack_sweep = 100
+		entity_player_hurt_drown = 100
+		entity_player_hurt_on_fire = 100
+		entity_player_attack_weak = 100
+		entity_player_death = 100
+		entity_player_splash = 100
+		entity_player_attack_knockback = 100
+		entity_player_attack_crit = 100
+		entity_player_attack_nodamage = 100
+		entity_player_big_fall = 100
+		entity_player_attack_strong = 100
+		entity_player_breath = 100
+		entity_player_burp = 100
+		entity_player_levelup = 100
+		entity_player_swim = 100
+		entity_player_hurt = 100
+		entity_player_small_fall = 100
+
+	[entity.zombie_pig]
+		entity_zombie_pig_ambient = 100
+		entity_zombie_pig_hurt = 100
+		entity_zombie_pig_angry = 100
+		entity_zombie_pig_death = 100
+
+	[entity.armorstand]
+		entity_armorstand_fall = 100
+		entity_armorstand_place = 100
+		entity_armorstand_break = 100
+		entity_armorstand_hit = 100
+
+	[entity.wolf]
+		entity_wolf_whine = 100
+		entity_wolf_pant = 100
+		entity_wolf_death = 100
+		entity_wolf_ambient = 100
+		entity_wolf_shake = 100
+		entity_wolf_hurt = 100
+		entity_wolf_step = 100
+		entity_wolf_growl = 100
+		entity_wolf_howl = 100
+
+	[entity.villager]
+		entity_villager_yes = 100
+		entity_villager_no = 100
+		entity_villager_hurt = 100
+		entity_villager_death = 100
+		entity_villager_trading = 100
+		entity_villager_ambient = 100
+
+	[entity.skeleton_horse]
+		entity_skeleton_horse_hurt = 100
+		entity_skeleton_horse_death = 100
+		entity_skeleton_horse_ambient = 100
+
+	[entity.zombie_villager]
+		entity_zombie_villager_step = 100
+		entity_zombie_villager_cure = 100
+		entity_zombie_villager_ambient = 100
+		entity_zombie_villager_death = 100
+		entity_zombie_villager_converted = 100
+		entity_zombie_villager_hurt = 100
+
+	[entity.elder_guardian]
+		entity_elder_guardian_flop = 100
+		entity_elder_guardian_death = 100
+		entity_elder_guardian_death_land = 100
+		entity_elder_guardian_ambient_land = 100
+		entity_elder_guardian_hurt = 100
+		entity_elder_guardian_ambient = 100
+		entity_elder_guardian_curse = 100
+		entity_elder_guardian_hurt_land = 100
+
+	[entity.boat]
+		entity_boat_paddle_water = 100
+		entity_boat_paddle_land = 100
+
+	[entity.generic]
+		entity_generic_burn = 100
+		entity_generic_small_fall = 100
+		entity_generic_big_fall = 100
+		entity_generic_extinguish_fire = 100
+		entity_generic_explode = 100
+		entity_generic_hurt = 100
+		entity_generic_swim = 100
+		entity_generic_death = 100
+		entity_generic_drink = 100
+		entity_generic_splash = 100
+		entity_generic_eat = 100
+
+	[entity.polar_bear]
+		entity_polar_bear_ambient = 100
+		entity_polar_bear_warning = 100
+		entity_polar_bear_step = 100
+		entity_polar_bear_death = 100
+		entity_polar_bear_hurt = 100
+		entity_polar_bear_baby_ambient = 100
+
+	[entity.enderpearl]
+		entity_enderpearl_throw = 100
+
+	[entity.painting]
+		entity_painting_place = 100
+		entity_painting_break = 100
+
+	[entity.itemframe]
+		entity_itemframe_add_item = 100
+		entity_itemframe_rotate_item = 100
+		entity_itemframe_break = 100
+		entity_itemframe_place = 100
+		entity_itemframe_remove_item = 100
+
+	[entity.witch]
+		entity_witch_death = 100
+		entity_witch_hurt = 100
+		entity_witch_drink = 100
+		entity_witch_ambient = 100
+		entity_witch_throw = 100
+
+	[entity.spider]
+		entity_spider_death = 100
+		entity_spider_step = 100
+		entity_spider_hurt = 100
+		entity_spider_ambient = 100
+
+	[entity.wither]
+		entity_wither_shoot = 100
+		entity_wither_death = 100
+		entity_wither_spawn = 100
+		entity_wither_hurt = 100
+		entity_wither_break_block = 100
+		entity_wither_ambient = 100
+
+	[entity.leashknot]
+		entity_leashknot_break = 100
+		entity_leashknot_place = 100
+
+[equipbauble]
+
+	[equipbauble.sounds]
+		equipbauble = 100
+
+[potioncreate]
+
+	[potioncreate.sounds]
+		potioncreate = 100
+
+[magic]
+
+	[magic.sounds]
+		magic_charge = 100
+		magic_shot = 100
+
+[frypan_hit]
+
+	[frypan_hit.sounds]
+		frypan_hit = 100
+
+[beam]
+
+	[beam.sounds]
+		beam = 100
+
+[runealtarstart]
+
+	[runealtarstart.sounds]
+		runealtarstart = 100
+
+[tesla]
+
+	[tesla.sounds]
+		tesla = 100
+
+[chute]
+
+	[chute.sounds]
+		chute = 100
+
+[machine_transposer]
+
+	[machine_transposer.sounds]
+		machine_transposer = 100
+
+[device_water_gen]
+
+	[device_water_gen.sounds]
+		device_water_gen = 100
+
+[ds]
+
+	[ds.nightvision]
+		ds_nightvision_off = 100
+		ds_nightvision_on = 100
+
+	[ds.sounds]
+		ds_jump = 100
+
+[galacticraft]
+
+	[galacticraft.sounds]
+		galacticraft_music_space = 100
+
+[manapoolcraft]
+
+	[manapoolcraft.sounds]
+		manapoolcraft = 100
+
+[revolverreload]
+
+	[revolverreload.sounds]
+		revolverreload = 100
+
+[ui]
+
+	[ui.button]
+		ui_button_click = 100
+
+	[ui.toast]
+		ui_toast_out = 100
+		ui_toast_challenge_complete = 100
+		ui_toast_in = 100
+
+[tab]
+
+	[tab.sounds]
+		tab_switch = 100
+
+[enchanterform]
+
+	[enchanterform.sounds]
+		enchanterform = 100
+
+[etc]
+
+	[etc.sounds]
+		etc_pop = 100
+		etc_success = 100
+		etc_cj = 100
+		etc_ding = 100
+		etc_hydraulic = 100
+		etc_beep = 100
+		etc_gasmask = 100
+		etc_click = 100
+		etc_error = 100
+
+[wood_hit]
+
+	[wood_hit.sounds]
+		wood_hit = 100
+
+[manablaster]
+
+	[manablaster.sounds]
+		manablaster = 100
+
+[mob_basalz_ambient]
+
+	[mob_basalz_ambient.sounds]
+		mob_basalz_ambient = 100
+
+[tile]
+
+	[tile.gen]
+		tile_gen_wind = 100
+		tile_gen_gas = 100
+		tile_gen_heat = 100
+		tile_gen_bio = 100
+		tile_gen_solar = 100
+
+	[tile.machine]
+		tile_machine_compressor = 100
+		tile_machine_crusher = 100
+		tile_machine_logisticalsorter = 100
+		tile_machine_resistiveheater = 100
+		tile_machine_metalinfuser = 100
+		tile_machine_sawmill = 100
+		tile_machine_laser = 100
+		tile_machine_purifier = 100
+		tile_machine_washer = 100
+		tile_machine_prc = 100
+		tile_machine_injection = 100
+		tile_machine_dissolution = 100
+		tile_machine_enrichment = 100
+		tile_machine_chargepad = 100
+		tile_machine_crystallizer = 100
+		tile_machine_smelter = 100
+		tile_machine_rotarycondensentrator = 100
+		tile_machine_combiner = 100
+		tile_machine_electrolyticseparator = 100
+		tile_machine_fusionreactor = 100
+		tile_machine_cheminfuser = 100
+		tile_machine_oxidizer = 100
+
+	[tile.christmas]
+		tile_christmas_4 = 100
+		tile_christmas_5 = 100
+		tile_christmas_2 = 100
+		tile_christmas_3 = 100
+		tile_christmas_1 = 100
+
+[missile]
+
+	[missile.sounds]
+		missile = 100
+
+[discharge]
+
+	[discharge.sounds]
+		discharge = 100
+
+[picker]
+
+	[picker.sounds]
+		picker = 100
+
+[maid]
+
+	[maid.mode]
+		maid_mode_farm = 100
+		maid_mode_idle = 100
+		maid_mode_milk = 100
+		maid_mode_danmaku_attack = 100
+		maid_mode_torch = 100
+		maid_mode_range_attack = 100
+		maid_mode_feed = 100
+		maid_mode_feed_animal = 100
+		maid_mode_attack = 100
+		maid_mode_shears = 100
+
+	[maid.environment]
+		maid_environment_night = 100
+		maid_environment_morning = 100
+		maid_environment_rain = 100
+		maid_environment_hot = 100
+		maid_environment_snow = 100
+		maid_environment_cold = 100
+
+	[maid.ai]
+		maid_ai_tamed = 100
+		maid_ai_item_get = 100
+		maid_ai_find_target = 100
+		maid_ai_death = 100
+		maid_ai_hurt_player = 100
+		maid_ai_hurt = 100
+		maid_ai_hurt_fire = 100
+
+[chargefast]
+
+	[chargefast.sounds]
+		chargefast = 100
+
+[crusher]
+
+	[crusher.sounds]
+		crusher = 100
+
+[machine_crucible]
+
+	[machine_crucible.sounds]
+		machine_crucible = 100
+
+[annoyingflower]
+
+	[annoyingflower.sounds]
+		annoyingflower = 100
+
+[bifrostrod]
+
+	[bifrostrod.sounds]
+		bifrostrod = 100
+
+[book_flip]
+
+	[book_flip.sounds]
+		book_flip = 100
+
+[terraformrod]
+
+	[terraformrod.sounds]
+		terraformrod = 100
+
+[lightrelay]
+
+	[lightrelay.sounds]
+		lightrelay = 100
+
+[shield_strike]
+
+	[shield_strike.sounds]
+		shield_strike = 100
+
+[fusion_explosion]
+
+	[fusion_explosion.sounds]
+		fusion_explosion = 100
+
+[stone_hit]
+
+	[stone_hit.sounds]
+		stone_hit = 100
+
+[terrapickmode]
+
+	[terrapickmode.sounds]
+		terrapickmode = 100
+
+[goldenlaurel]
+
+	[goldenlaurel.sounds]
+		goldenlaurel = 100
+
+[divacharm]
+
+	[divacharm.sounds]
+		divacharm = 100
+
+[dash]
+
+	[dash.sounds]
+		dash = 100
+
+[core_sound]
+
+	[core_sound.sounds]
+		core_sound = 100
+
+[boi]
+
+	[boi.sounds]
+		boi = 100
+
+[airrod]
+
+	[airrod.sounds]
+		airrod = 100
+
+[mob_blitz_attack]
+
+	[mob_blitz_attack.sounds]
+		mob_blitz_attack = 100
+
+[boom]
+
+	[boom.sounds]
+		boom = 100
+
+[pageturn]
+
+	[pageturn.sounds]
+		pageturn = 100
+
+[unholycloak]
+
+	[unholycloak.sounds]
+		unholycloak = 100
+
+[babylonspawn]
+
+	[babylonspawn.sounds]
+		babylonspawn = 100
+
+[crossbow_reload]
+
+	[crossbow_reload.sounds]
+		crossbow_reload = 100
+
+[generator]
+
+	[generator.sounds]
+		generator_stirling = 100
+
+	[generator.zombie]
+		generator_zombie_bubble = 100
+
+[holycloak]
+
+	[holycloak.sounds]
+		holycloak = 100
+
+[ding]
+
+	[ding.sounds]
+		ding = 100
+
+[sun_dial_effect]
+
+	[sun_dial_effect.sounds]
+		sun_dial_effect = 100
+
+[laser]
+
+	[laser.sounds]
+		laser_shoot = 100
+		laser_charge = 100
+
+[doit]
+
+	[doit.sounds]
+		doit = 100
+
+[duct_transport_woosh]
+
+	[duct_transport_woosh.sounds]
+		duct_transport_woosh = 100
+
+[human]
+
+	[human.female]
+		human_female_evil_death = 100
+		human_female_villager_trade = 100
+		human_female_villager_yes = 100
+		human_female_villager_attack = 100
+		human_female_villager_hm = 100
+		human_female_villager_what_do_you_need = 100
+		human_female_evil_attack = 100
+		human_female_heroic_justice_served = 100
+		human_female_villager_help = 100
+		human_female_evil_yes = 100
+		human_female_heroic_death = 100
+		human_female_evil_never_defeat_me = 100
+		human_female_heroic_cleanse_scourge = 100
+		human_female_heroic_be_cleansed = 100
+		human_female_heroic_attack = 100
+		human_female_heroic_not_much_time = 100
+		human_female_heroic_hurt = 100
+		human_female_villager_hurt = 100
+		human_female_villager_uhuh = 100
+		human_female_heroic_honor_and_glory = 100
+		human_female_villager_good_day = 100
+		human_female_villager_what_brings_you_here = 100
+		human_female_evil_hurt = 100
+		human_female_villager_death = 100
+		human_female_evil_what_do_you_want = 100
+		human_female_evil_what_do_you_need = 100
+		human_female_heroic_never_fall = 100
+		human_female_villager_heh = 100
+
+	[human.girl]
+		human_girl_evil_attack = 100
+		human_girl_evil_yes = 100
+		human_girl_heroic_hurt = 100
+		human_girl_heroic_not_much_time = 100
+		human_girl_heroic_cleanse_scourge = 100
+		human_girl_heroic_never_fall = 100
+		human_girl_villager_good_day = 100
+		human_girl_villager_uhuh = 100
+		human_girl_villager_what_brings_you_here = 100
+		human_girl_heroic_justice_served = 100
+		human_girl_heroic_attack = 100
+		human_girl_heroic_death = 100
+		human_girl_heroic_be_cleansed = 100
+		human_girl_villager_trade = 100
+		human_girl_villager_hurt = 100
+		human_girl_evil_what_do_you_want = 100
+		human_girl_evil_what_do_you_need = 100
+		human_girl_evil_never_defeat_me = 100
+		human_girl_villager_heh = 100
+		human_girl_villager_hm = 100
+		human_girl_villager_what_do_you_need = 100
+		human_girl_villager_yes = 100
+		human_girl_heroic_honor_and_glory = 100
+		human_girl_villager_help = 100
+		human_girl_villager_attack = 100
+		human_girl_evil_death = 100
+		human_girl_evil_hurt = 100
+		human_girl_villager_death = 100
+
+	[human.male]
+		human_male_heroic_justice_served = 100
+		human_male_heroic_not_much_time = 100
+		human_male_villager_what_brings_you_here = 100
+		human_male_villager_attack = 100
+		human_male_heroic_be_cleansed = 100
+		human_male_villager_death = 100
+		human_male_heroic_honor_and_glory = 100
+		human_male_villager_heh = 100
+		human_male_evil_hurt = 100
+		human_male_villager_help = 100
+		human_male_heroic_hurt = 100
+		human_male_evil_yes = 100
+		human_male_villager_what_do_you_need = 100
+		human_male_evil_death = 100
+		human_male_villager_yes = 100
+		human_male_villager_hurt = 100
+		human_male_evil_what_do_you_need = 100
+		human_male_evil_what_do_you_want = 100
+		human_male_villager_good_day = 100
+		human_male_heroic_cleanse_scourge = 100
+		human_male_villager_uhuh = 100
+		human_male_heroic_death = 100
+		human_male_evil_never_defeat_me = 100
+		human_male_villager_trade = 100
+		human_male_villager_hm = 100
+		human_male_heroic_attack = 100
+		human_male_evil_attack = 100
+		human_male_heroic_never_fall = 100
+
+[spray_fire]
+
+	[spray_fire.sounds]
+		spray_fire = 100
+
+[runealtarcraft]
+
+	[runealtarcraft.sounds]
+		runealtarcraft = 100
+
+[misc]
+
+	[misc.sounds]
+		misc_swosh = 100
+		misc_old_explode = 100
+
+[player]
+
+	[player.sounds]
+		player_openairlock = 100
+		player_parachute = 100
+		player_unlockchest = 100
+		player_closeairlock = 100
+
+[spearsubspace]
+
+	[spearsubspace.sounds]
+		spearsubspace = 100
+
+[burn]
+
+	[burn.sounds]
+		burn = 100
+
+[gaping_void]
+
+	[gaping_void.sounds]
+		gaping_void = 100
+
+[electric_buzz]
+
+	[electric_buzz.sounds]
+		electric_buzz = 100
+
+[railgunfire]
+
+	[railgunfire.sounds]
+		railgunfire = 100
+
+[terrasteelcraft]
+
+	[terrasteelcraft.sounds]
+		terrasteelcraft = 100
+
+[altarcraft]
+
+	[altarcraft.sounds]
+		altarcraft = 100
+
+[way]
+
+	[way.sounds]
+		way = 100
+
+[fusion_complete]
+
+	[fusion_complete.sounds]
+		fusion_complete = 100
+
+[enchanterenchant]
+
+	[enchanterenchant.sounds]
+		enchanterenchant = 100
+
+[lexiconopen]
+
+	[lexiconopen.sounds]
+		lexiconopen = 100
+
+[chaos_chamber_ambient]
+
+	[chaos_chamber_ambient.sounds]
+		chaos_chamber_ambient = 100
+
+[mob_blizz_ambient]
+
+	[mob_blizz_ambient.sounds]
+		mob_blizz_ambient = 100
+

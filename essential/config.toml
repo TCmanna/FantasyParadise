@@ -1,0 +1,48 @@
+
+[general]
+
+	[general.general]
+		streamer_mode = false
+		modcore_warning = true
+		gui_scale = true
+
+	[general.online_status]
+		show_essential_indicator_on_tab = true
+		show_essential_indicator_on_nametags = true
+
+	[general.experience]
+		essential_full = false
+
+	[general.friends]
+		invite_friends = true
+
+[privacy]
+
+	[privacy.general]
+		display_current_server = false
+		friend_privacy_settings = 0
+
+[notifications]
+
+	[notifications.general]
+		disable_all_notifications = false
+		message_sound = true
+		online_friend_alert = true
+		message_notifications = true
+		group_message_notifications = true
+
+[quality_of_life]
+
+	[quality_of_life.fullscreen]
+		windowed_fullscreen = true
+
+	[quality_of_life.zoom]
+		smooth_zoom_animation = false
+		toggle_to_zoom = false
+		smooth_camera_when_zoomed = true
+
+[cosmetics]
+
+	[cosmetics.general]
+		hide_cosmetics_on_server_skin_override = false
+
