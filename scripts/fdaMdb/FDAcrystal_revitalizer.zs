@@ -21,3 +21,11 @@ cr.recipeMap.start()
     .inputFE(10000)
     .perTick(true)
     .buildAndRegister();
+
+cr.recipeMap.start()
+    .duration(100)
+    .inputItems(<botania:pylon:1>,<botania:manaresource:9>,<appliedenergistics2:material:11>,<botania:manaresource:7>*4,<botania:manaresource:8>*2)
+    .outputItems(<botania:pylon:2>)
+    .inputFE(10000)
+    .perTick(true)
+    .buildAndRegister();

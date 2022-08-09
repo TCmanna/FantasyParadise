@@ -1,6 +1,8 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<draconicevolution:draconic_ingot>);
+recipes.remove(<ic2:lapotron_crystal>);
 recipes.remove(<immersiveengineering:wooden_device0:5>);
 recipes.remove(<enderio:block_simple_alloy_smelter>);
 recipes.remove(<immersiveengineering:metal:31>);
@@ -363,7 +365,6 @@ recipes.addShaped(<thermalexpansion:frame:130>, [[<ore:blockSheetmetalLead>, <or
 recipes.addShaped(<thermalexpansion:frame:129>, [[<ore:blockSheetmetalLead>, <ore:gearConstantan>, <ore:blockSheetmetalLead>],[<ore:plateInvar>, <thermalexpansion:frame:128>, <ore:plateInvar>], [<ore:blockSheetmetalLead>, <ore:gearConstantan>, <ore:blockSheetmetalLead>]]);
 recipes.addShapeless(<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), [<ic2:crafting>,<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}).onlyWithTag({type: 0 as byte, insulation: 0 as byte})]);
 recipes.addShaped(<mekanismgenerators:generator:3>, [[<mekanism:ingot:1>, <mekanism:gastank>.withTag({tier: 2}).onlyWithTag({tier: 2}), <mekanism:ingot:1>],[<mekanism:basicblock:8>, <contenttweaker:fdaitem_3>, <mekanism:basicblock:8>], [<enderio:item_material:54>, <enderio:item_material:54>, <enderio:item_material:54>]]);
-recipes.addShaped(<draconicevolution:fusion_crafting_core>, [[<enderio:item_material:71>, <draconicevolution:draconic_core>, <enderio:item_material:71>],[<draconicevolution:draconic_core>, <thermalfoundation:material:263>, <draconicevolution:draconic_core>], [<enderio:item_material:71>, <draconicevolution:draconic_core>, <enderio:item_material:71>]]);
 recipes.addShaped(<thermalexpansion:frame:128>, [[<immersiveengineering:sheetmetal:2>, <ic2:crafting:3>, <immersiveengineering:sheetmetal:2>],[<enderio:item_redstone_conduit>, <thermalfoundation:material:259>, <enderio:item_redstone_conduit>], [<immersiveengineering:sheetmetal:2>, <ic2:crafting:3>, <immersiveengineering:sheetmetal:2>]]);
 recipes.addShaped(<thermaldynamics:duct_0:9>, [[<ic2:glass>, <thermalfoundation:material:289>, <ic2:glass>],[<thermalfoundation:material:1025>, <thermaldynamics:duct_0:4>, <thermalfoundation:material:1025>], [<ic2:glass>, <thermalfoundation:material:289>, <ic2:glass>]]);
 recipes.addShaped(<draconicevolution:wyvern_energy_core>, [[<botania:manaresource:9>, <draconicevolution:draconic_core>, <botania:manaresource:9>],[<draconicevolution:draconic_core>, <enderio:block_alloy:3>, <draconicevolution:draconic_core>], [<botania:manaresource:9>, <draconicevolution:draconic_core>, <botania:manaresource:9>]]);
@@ -384,7 +385,6 @@ recipes.addShaped(<immersiveengineering:material:2> * 2, [[null, <tconstruct:sto
 recipes.addShaped(<immersiveengineering:material:1> * 2, [[null, <minecraft:stick>, null],[null, <ore:plateIron>, <ic2:forge_hammer>.anyDamage()], [null, <minecraft:stick>, null]]);
 recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [[<tconstruct:materials>, <minecraft:brick>, <tconstruct:materials>],[<minecraft:brick>, <tconstruct:seared>, <minecraft:brick>], [<tconstruct:materials>, <minecraft:brick>, <tconstruct:materials>]]);
 recipes.addShaped(<tconstruct:smeltery_controller>, [[<tconstruct:seared:3>, <minecraft:furnace>, <tconstruct:seared:3>],[<minecraft:furnace>, <minecraft:lava_bucket>, <minecraft:furnace>], [<tconstruct:seared:3>, <minecraft:furnace>, <tconstruct:seared:3>]]);
-recipes.addShaped(<draconicevolution:draconic_core>, [[<draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>],[<draconicevolution:draconium_ingot>, <contenttweaker:fdaingot_11>, <draconicevolution:draconium_ingot>], [<draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>]]);
 recipes.addShapeless(<ic2:dust:22> * 9, [<ore:dustLapis>]);
 recipes.addShaped(<botania:manaresource:22>, [[null, <botania:manaresource:16>, null],[<botania:manaresource:16>, <botania:manaresource:23>, <botania:manaresource:16>], [null, <botania:manaresource:16>, null]]);
 recipes.addShaped(<extrabotany:material:7> * 2, [[<extrabotany:material:8>, <botania:manaresource:22>, <extrabotany:material:8>],[<botania:manaresource:22>, <botania:manaresource:14>, <botania:manaresource:22>], [<extrabotany:material:5>, <botania:manaresource:22>, <extrabotany:material:5>]]);
@@ -409,7 +409,6 @@ recipes.addShaped(<ic2:te:78>, [[<ic2:cable>.withTag({type: 0 as byte, insulatio
 recipes.addShapeless(<minecraft:cobblestone>, [<minecraft:stone:3>]);
 recipes.addShapeless(<minecraft:cobblestone>, [<minecraft:stone:1>]);
 recipes.addShapeless(<minecraft:cobblestone>, [<minecraft:stone:5>]);
-recipes.addShaped(<botania:pylon:2>, [[<botania:manaresource:8>, <appliedenergistics2:material:11>, <botania:manaresource:8>],[<botania:manaresource:7>, <botania:pylon:1>, <botania:manaresource:7>], [<botania:manaresource:7>, <botania:manaresource:9>, <botania:manaresource:7>]]);
 recipes.addShapedMirrored(<botania:spreader:3>, [[<botania:manaresource:5>, <botania:manaresource:7>, <botania:manaresource:5>],[<contenttweaker:fdaitem_6>, <botania:spreader:2>, <botania:manaresource:9>], [<botania:manaresource:5>, <botania:manaresource:7>, <botania:manaresource:5>]]);
 recipes.addShapedMirrored(<botania:spreader:2>, [[<botania:dreamwood:5>, <botania:dreamwood:5>, <botania:dreamwood>],[<contenttweaker:fdaitem_6>, <botania:manaresource:7>, <botania:spreader>], [<botania:dreamwood:5>, <botania:dreamwood:5>, <botania:dreamwood>]]);
 recipes.addShaped(<botania:manatablet>,[[<botania:livingrock>,<botania:livingrock>,<botania:livingrock>],[<botania:livingrock>,<ore:reBattery>,<botania:livingrock>],[<botania:livingrock>,<botania:livingrock>,<botania:livingrock>]]);

@@ -9,6 +9,7 @@
 <contenttweaker:fdaitem_9>.displayName = "超越符文";
 <contenttweaker:fdaitem_10>.displayName = "集结符文";
 <contenttweaker:fdaitem_11>.displayName = "泰拉符文";
+<contenttweaker:fdaitem_12>.displayName = "§6始源莲华";
 
 
 

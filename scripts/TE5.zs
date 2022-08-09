@@ -21,6 +21,7 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:ore:6>, <
 mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:ore:6>, <thermalfoundation:material:866>);
 mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:ore:6>);
 mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:71>);
+mods.thermalexpansion.Compactor.removeStorageRecipe(<ic2:crafting:18>);
 
 //--------TE add---------------//
 mods.thermalexpansion.Transposer.addFillRecipe(<galacticraftplanets:item_basic_asteroids>, <contenttweaker:fdaingot_12>, <liquid:cryotheum> * 100, 1200);

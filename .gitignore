@@ -48,3 +48,7 @@
 /config/wecui3.yml
 /config/acronym
 /config/splash.properties
+/config/acronym/base/General.cfg
+/config/AppliedEnergistics2/VersionChecker.cfg
+config/igwmod.cfg
+config/brandon3055/contributors.json

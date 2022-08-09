@@ -22,6 +22,8 @@ item.contenttweaker.WarLords_item_12.name=§6§lWarLords德雷克战斧
 item.contenttweaker._iL_Prismontis.name=§b§lPrismontis§b§l§kx
 
 itemGroup.FantasyParadise=幻梦神域
+itemGroup.FPMaterials=幻梦神域材料
+itemGroup.FPWeapons=幻梦神域武器
 
 tile.contenttweaker.iron_bordered_cobblestone.name=铁边框圆石
 tile.contenttweaker.gold_bordered_cobblestone.name=金边框圆石

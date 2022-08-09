@@ -1,0 +1,32 @@
+mods.avaritia.ExtremeCrafting.addShaped("Primordial Flower",<contenttweaker:fdaitem_12>,
+[[null,null,null,<botania:petal:8>,<botania:petal>,null,<botania:petal:11>,null,null],
+[<botania:petal:1>,<botania:petal:4>,<botania:petal:5>,<botania:petal>,<botania:petal>,<botania:petal:15>,<botania:petal:11>,<botania:petal:2>,null],
+[<botania:petal:14>,<botania:petal:4>,<botania:petal:13>,<botania:petal:9>,<botania:petal>,<botania:petal:3>,<botania:petal:7>,<botania:petal:2>,<botania:petal:10>],
+[<botania:petal:14>,<botania:petal:14>,<botania:petal:1>,<botania:petal:13>,<botania:petal:9>,<botania:petal:3>,<botania:petal:2>,<botania:petal:10>,<botania:petal:6>],
+[<botania:petal:14>,<botania:petal:14>,<contenttweaker:fdaitem_11>,<contenttweaker:fdaitem_5>,<contenttweaker:fdaitem_6>,<contenttweaker:fdaitem_5>,<contenttweaker:fdaitem_11>,<botania:petal:6>,<botania:petal:6>],
+[null,<botania:petal:14>,<contenttweaker:fdaitem_5>,<contenttweaker:fdaitem_11>,<contenttweaker:fdaitem_11>,<contenttweaker:fdaitem_11>,<contenttweaker:fdaitem_5>,<botania:petal:6>,null],
+[null,null,<botania:petal:12>,<contenttweaker:fdaitem_5>,<botania:livingwood>,<botania:manaresource:3>,<botania:petal:12>,null,null],
+[null,null,null,null,<botania:manaresource:3>,null,null,null,null],
+[null,null,null,null,<botania:manaresource:3>,null,null,null,null]]);
+
+mods.avaritia.ExtremeCrafting.addShaped("Draconic Core",<draconicevolution:draconic_core>*2,
+[[null,null,null,null,null,null,null,null,null],
+[null,<draconicevolution:draconium_ingot>,null,null,<thermalfoundation:material:134>,null,null,<draconicevolution:draconium_ingot>,null],
+[null,null,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,<thermalfoundation:material:132>,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,null,null],
+[null,null,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,<galacticraftplanets:item_basic_asteroids>,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,null,null],
+[null,<thermalfoundation:material:134>,<thermalfoundation:material:132>,<galacticraftplanets:item_basic_asteroids>,<advanced_solar_panels:crafting:9>,<galacticraftplanets:item_basic_asteroids>,<thermalfoundation:material:132>,<thermalfoundation:material:134>,null],
+[null,null,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,<galacticraftplanets:item_basic_asteroids>,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,null,null],
+[null,null,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,<thermalfoundation:material:132>,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,null,null],
+[null,<draconicevolution:draconium_ingot>,null,null,<thermalfoundation:material:134>,null,null,<draconicevolution:draconium_ingot>,null],
+[null,null,null,null,null,null,null,null,null]]);
+
+mods.avaritia.ExtremeCrafting.addShaped("Fusion Core",<draconicevolution:fusion_crafting_core>,
+[[<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:draconic_core>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>],
+[<draconicevolution:infused_obsidian>,<enderio:item_material:71>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<enderio:item_material:71>,<draconicevolution:infused_obsidian>],
+[<draconicevolution:infused_obsidian>,<advanced_solar_panels:crafting:6>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<advanced_solar_panels:crafting:6>,<draconicevolution:infused_obsidian>],
+[<draconicevolution:infused_obsidian>,<advanced_solar_panels:crafting:6>,<draconicevolution:infused_obsidian>,<draconicevolution:nugget:1>,<draconicevolution:nugget:1>,<draconicevolution:nugget:1>,<draconicevolution:infused_obsidian>,<advanced_solar_panels:crafting:6>,<draconicevolution:infused_obsidian>],
+[<draconicevolution:draconic_core>,<advanced_solar_panels:crafting:6>,<draconicevolution:infused_obsidian>,<draconicevolution:nugget:1>,<advanced_solar_panels:crafting:13>,<draconicevolution:nugget:1>,<draconicevolution:infused_obsidian>,<advanced_solar_panels:crafting:6>,<draconicevolution:draconic_core>],
+[<draconicevolution:infused_obsidian>,<advanced_solar_panels:crafting:6>,<draconicevolution:infused_obsidian>,<draconicevolution:nugget:1>,<draconicevolution:nugget:1>,<draconicevolution:nugget:1>,<draconicevolution:infused_obsidian>,<advanced_solar_panels:crafting:6>,<draconicevolution:infused_obsidian>],
+[<draconicevolution:infused_obsidian>,<advanced_solar_panels:crafting:6>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<advanced_solar_panels:crafting:6>,<draconicevolution:infused_obsidian>],
+[<draconicevolution:infused_obsidian>,<enderio:item_material:71>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<enderio:item_material:71>,<draconicevolution:infused_obsidian>],
+[<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:draconic_core>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>]]);
