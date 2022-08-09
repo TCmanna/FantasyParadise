@@ -53,35 +53,10 @@ mods.thermalexpansion.Compactor.addPressRecipe(<contenttweaker:fdaplate_2>, <con
 
 mods.thermalexpansion.Refinery.addRecipe(<liquid:fdanickel_2>*3000, <mekores:mekanismore:15>%75 ,<liquid:fdanickel_1>*4000, 400000);
 mods.thermalexpansion.Refinery.addRecipe(<liquid:ic2distilled_water>*1000, <contenttweaker:fdadust_2>,<liquid:fdairidium_2>*1000, 400000);
-//-------GC ADD-------------//
-mods.thermalexpansion.InductionSmelter.addRecipe(<galacticraftcore:basic_item:9>, <ic2:plate:7>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<galacticraftplanets:item_basic_asteroids:6>, <galacticraftplanets:item_basic_asteroids>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<galacticraftcore:item_basic_moon:1>, <galacticraftcore:item_basic_moon>*2, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<galacticraftcore:basic_item:11>, <ic2:plate:3>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<galacticraftcore:basic_item:10>, <ic2:plate:0>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<galacticraftcore:basic_item:8>, <thermalfoundation:material:324>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<galacticraftcore:basic_item:7>, <ic2:plate:8>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<galacticraftcore:basic_item:6>, <ic2:plate:1>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<extraplanets:tier11_items:6>, <thermalfoundation:material:326>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<extraplanets:tier10_items:4>, <extraplanets:tier10_items:5>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<extraplanets:tier9_items:4>, <extraplanets:tier9_items:5>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<extraplanets:tier8_items:4>, <extraplanets:tier8_items:5>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<extraplanets:tier7_items:4>, <extraplanets:tier7_items:5>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<extraplanets:tier7_items:6>, <extraplanets:tier7_items:4>*2, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<extraplanets:tier5_items:6>, <thermalfoundation:material:325>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<extraplanets:tier5_items:4>, <extraplanets:tier5_items:5>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<extraplanets:tier4_items:4>, <extraplanets:tier4_items:5>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<extraplanets:compressed_mercury>, <extraplanets:ingot_mercury>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<extraplanets:tier4_items:4>, <extraplanets:tier4_items:5>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<ic2:crafting:4>, <contenttweaker:fdaingot_11>, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<galacticraftplanets:item_basic_mars:5>, <galacticraftplanets:item_basic_mars:2>*3, <ic2:te:1>*2, 200, null, 1);
-mods.thermalexpansion.InductionSmelter.addRecipe(<ic2:crafting:19>, <ic2:dust:5>*3, <ic2:te:1>*16, 200, null, 1);
+
 
 //-------------heavy plating-----------//
 recipes.addShaped(<contenttweaker:fdaingot_1>, [[<galacticraftcore:basic_item:9>, <galacticraftcore:basic_item:8>, <galacticraftcore:basic_item:10>],[<galacticraftcore:basic_item:9>, <galacticraftcore:basic_item:8>, <galacticraftcore:basic_item:10>], [null, null, null]]);
-mods.thermalexpansion.InductionSmelter.addRecipe(<galacticraftcore:heavy_plating>, <contenttweaker:fdaingot_1>, <ic2:te:1>*2, 200, null, 1);
 recipes.addShapeless(<contenttweaker:fdaingot_2>, [<galacticraftcore:heavy_plating>,<galacticraftcore:item_basic_moon:1>,<ic2:fluid_cell>.withTag({Fluid: {FluidName: "pulsating_iron", Amount: 432}}).onlyWithTag({Fluid: {FluidName: "pulsating_iron", Amount: 432}})]);
-mods.thermalexpansion.InductionSmelter.addRecipe(<galacticraftplanets:item_basic_mars:3>, <contenttweaker:fdaingot_2>, <ic2:te:1>*2, 200, null, 1);
 recipes.addShapeless(<contenttweaker:fdaingot_3>, [<galacticraftplanets:item_basic_mars:3>,<galacticraftplanets:item_basic_mars:5>,<ic2:fluid_cell>.withTag({Fluid: {FluidName: "platinum", Amount: 432}}).onlyWithTag({Fluid: {FluidName: "platinum", Amount: 432}})]);
-mods.thermalexpansion.InductionSmelter.addRecipe(<galacticraftplanets:item_basic_asteroids:5>, <contenttweaker:fdaingot_3>, <ic2:te:1>*2, 200, null, 1);
 
