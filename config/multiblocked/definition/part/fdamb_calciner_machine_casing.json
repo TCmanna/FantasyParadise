@@ -14,5 +14,10 @@
     "frontTexture": "fdamb:blocks/calciner_machine_casing_f",
     "type": "gregtech"
   },
+  "workingRenderer": {
+    "baseTexture": "fdamb:blocks/calciner_machine_casing_R",
+    "frontTexture": "fdamb:blocks/calciner_machine_casing_R",
+    "type": "gregtech"
+  },
   "isOpaqueCube": true
 }

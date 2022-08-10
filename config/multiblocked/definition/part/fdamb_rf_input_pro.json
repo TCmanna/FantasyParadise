@@ -1,0 +1,31 @@
+{
+  "canShared": true,
+  "location": "fdamb:rf_input_pro",
+  "traits": {
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 23,
+      "y": 76,
+      "width": 130,
+      "height": 12,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "capacity": 50000000,
+      "maxReceive": 50000000,
+      "maxExtract": 50000000
+    }
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "minecraft:blocks/quartz_block_side",
+    "frontTexture": "forestry:blocks/farm/gears",
+    "backTexture": "forestry:blocks/farm/gears",
+    "leftTexture": "forestry:blocks/farm/gears",
+    "rightTexture": "forestry:blocks/farm/gears",
+    "upTexture": "forestry:blocks/farm/gears",
+    "downTexture": "forestry:blocks/farm/gears",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true
+}

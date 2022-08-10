@@ -1,0 +1,29 @@
+{
+  "canShared": true,
+  "location": "fdamb:calciner_fluidinput",
+  "traits": {
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "x": 79,
+        "y": 74,
+        "autoIO": false,
+        "tC": 10000
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "fdamb:blocks/calciner_fluidinputfull",
+    "frontTexture": "fdamb:blocks/calciner_fluidinput",
+    "type": "gregtech"
+  },
+  "formedRenderer": {
+    "baseTexture": "fdamb:blocks/calciner_fluidinputfull_F",
+    "frontTexture": "fdamb:blocks/calciner_fluidinput_F",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true
+}

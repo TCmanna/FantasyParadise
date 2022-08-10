@@ -1,0 +1,13 @@
+{
+  "canShared": true,
+  "location": "fdamb:calaciner_fixed",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "fdamb:blocks/calaciner_fixed",
+    "frontTexture": "fdamb:blocks/calaciner_fixed",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true
+}

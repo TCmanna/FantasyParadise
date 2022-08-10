@@ -1,0 +1,251 @@
+{
+  "catalyst": "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"thermalfoundation:material\",Count:1b,Damage:1024s}",
+  "consumeCatalyst": true,
+  "location": "fdamb:pyrotheum_calciner_pro",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "fdamb:blocks/pyrotheumcalciner_top",
+    "frontTexture": "fdamb:blocks/pyrotheumcalciner_face",
+    "backTexture": "fdamb:blocks/pyrotheumcalciner_back",
+    "leftTexture": "fdamb:blocks/pyrotheumcalciner_left",
+    "rightTexture": "fdamb:blocks/pyrotheumcalciner_right",
+    "downTexture": "fdamb:blocks/pyrotheumcalciner_down",
+    "type": "gregtech"
+  },
+  "formedRenderer": {
+    "baseTexture": "fdamb:blocks/pyrotheumcalciner_top_f",
+    "frontTexture": "fdamb:blocks/pyrotheumcalciner_face_f",
+    "backTexture": "fdamb:blocks/pyrotheumcalciner_back_f",
+    "leftTexture": "fdamb:blocks/pyrotheumcalciner_left_f",
+    "rightTexture": "fdamb:blocks/pyrotheumcalciner_right_f",
+    "downTexture": "fdamb:blocks/pyrotheumcalciner_down_f",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        " JKJ ",
+        "ACCCA",
+        "DCCCD",
+        "ACCCA",
+        " ADA "
+      ],
+      [
+        "AEDEF",
+        "C   C",
+        "C   C",
+        "C   C",
+        "AEDEA"
+      ],
+      [
+        "@DDDL",
+        "C G C",
+        "C H C",
+        "C G C",
+        "DDDDD"
+      ],
+      [
+        "AEDEF",
+        "C   C",
+        "C   C",
+        "C   C",
+        "AEDEA"
+      ],
+      [
+        " JKJ ",
+        "ACCCA",
+        "DCCCD",
+        "ACCCA",
+        " ADA "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "fdamb:calciner_machine_hull",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "fdamb:pyrotheum_calciner_pro",
+        "type": "component"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 10
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "fdamb:calciner_machine_casing",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "fdamb:calciner_machine_casing_pro",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "fdamb:calciner_fluidinput",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "fdamb:calaciner_fixed",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "mekanismgenerators:generator",
+            "meta": 9
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "fdamb:calciner_machine_hull",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "fdamb:input_bus",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "L": {
+        "states": [
+          {
+            "id": "fdamb:rf_input_pro",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "M": {
+        "states": [
+          {
+            "id": "fdamb:output_bus",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "input": {
+        "states": [
+          {
+            "id": "fdamb:calciner_fluidinput",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "J": [
+        "input",
+        "J"
+      ],
+      "K": [
+        "K",
+        "M"
+      ],
+      "L": [
+        "L"
+      ]
+    }
+  },
+  "recipeMap": "pyrotheum_calciner_pro"
+}

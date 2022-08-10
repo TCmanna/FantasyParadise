@@ -1,6 +1,9 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<ae2utilities:enhanced_interface_tier3>);
+recipes.remove(<ae2utilities:enhanced_interface_tier2>);
+recipes.remove(<ae2utilities:enhanced_interface_tier1>);
 recipes.remove(<draconicevolution:draconic_ingot>);
 recipes.remove(<ic2:lapotron_crystal>);
 recipes.remove(<immersiveengineering:wooden_device0:5>);
@@ -326,6 +329,12 @@ recipes.remove(<ic2:te:88>);
 recipes.remove(<ic2:te:89>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<fdamb:rf_input_pro>, [[null, null, null],[null, <fdamb:rf_input>, null], [null, <ore:circuitAdvanced>, null]]);
+recipes.addShaped(<fdamb:calaciner_fixed>, [[<mekanism:controlcircuit:2>, <fdamb:calciner_machine_casing_pro>, <mekanism:controlcircuit:2>],[<fdamb:calciner_machine_casing_pro>, <contenttweaker:ae2add_7>, <fdamb:calciner_machine_casing_pro>], [<mekanism:controlcircuit:2>, <fdamb:calciner_machine_casing_pro>, <mekanism:controlcircuit:2>]]);
+recipes.addShaped(<fdamb:calciner_fluidinput>, [[null, null, null],[<extracells:certustank>, <fdamb:calciner_machine_hull>, <ore:circuitAdvanced>], [null, null, null]]);
+recipes.addShaped(<ae2utilities:enhanced_interface_tier3>, [[<contenttweaker:fdaplate_1>, <appliedenergistics2:interface>, <contenttweaker:fdaplate_1>],[<appliedenergistics2:material:44>, <appliedenergistics2:material:37>, <appliedenergistics2:material:43>], [<contenttweaker:fdaplate_1>, <appliedenergistics2:interface>, <contenttweaker:fdaplate_1>]]);
+recipes.addShaped(<ae2utilities:enhanced_interface_tier2>, [[<contenttweaker:fdaplate_1>, <appliedenergistics2:interface>, <contenttweaker:fdaplate_1>],[<appliedenergistics2:material:44>, <appliedenergistics2:material:36>, <appliedenergistics2:material:43>], [<contenttweaker:fdaplate_1>, <appliedenergistics2:interface>, <contenttweaker:fdaplate_1>]]);
+recipes.addShaped(<ae2utilities:enhanced_interface_tier1>, [[<contenttweaker:fdaplate_1>, <appliedenergistics2:interface>, <contenttweaker:fdaplate_1>],[<appliedenergistics2:material:44>, <appliedenergistics2:material:35>, <appliedenergistics2:material:43>], [<contenttweaker:fdaplate_1>, <appliedenergistics2:interface>, <contenttweaker:fdaplate_1>]]);
 recipes.addShaped(<fdamb:calciner_machine_hull>, [[<ic2:crafting:3>, <contenttweaker:fdaplate_2>, <ic2:crafting:3>],[<thermalfoundation:material:324>, <ic2:resource:13>, <thermalfoundation:material:324>], [<ic2:crafting:3>, <contenttweaker:fdaplate_2>, <ic2:crafting:3>]]);
 recipes.addShapeless(<fdamb:calciner_machine_casing>, [<ic2:crafting:1>,<fdamb:calciner_machine_hull>]);
 recipes.addShaped(<fdamb:calciner_machine_casing_pro>, [[<immersiveengineering:sheetmetal:1>, <fdamb:calciner_machine_casing>, <immersiveengineering:sheetmetal:1>],[<fdamb:calciner_machine_casing>, <ore:circuitAdvanced>, <fdamb:calciner_machine_casing>], [<immersiveengineering:sheetmetal:1>, <fdamb:calciner_machine_casing>, <immersiveengineering:sheetmetal:1>]]);
@@ -508,7 +517,7 @@ recipes.addShaped(<contenttweaker:ae2add_6>, [[<ore:plateGold>, <enderio:item_re
 recipes.addShaped(<contenttweaker:ae2add_4>, [[<ore:plateGold>, <enderio:item_redstone_conduit>, <ore:plateGold>],[<contenttweaker:ae2add_1>, <appliedenergistics2:material:20>, <contenttweaker:ae2add_1>], [<ore:plateGold>, <enderio:item_redstone_conduit>, <ore:plateGold>]]);
 recipes.addShaped(<contenttweaker:ae2add_5>, [[<ore:plateGold>, <enderio:item_redstone_conduit>, <ore:plateGold>],[<contenttweaker:ae2add_2>, <appliedenergistics2:material:20>, <contenttweaker:ae2add_2>], [<ore:plateGold>, <enderio:item_redstone_conduit>, <ore:plateGold>]]);
 recipes.addShaped(<appliedenergistics2:chest>, [[<contenttweaker:fdaplate_1>, <appliedenergistics2:part:380>, <contenttweaker:fdaplate_1>],[<appliedenergistics2:part:36>, <ironchest:iron_chest:6>, <appliedenergistics2:part:36>], [<contenttweaker:fdaplate_1>, <appliedenergistics2:material:8>, <contenttweaker:fdaplate_1>]]);
-recipes.addShaped(<appliedenergistics2:drive>, [[<contenttweaker:fdaplate_1>, <appliedenergistics2:material:24>, <contenttweaker:fdaplate_1>],[<appliedenergistics2:part:515>, <appliedenergistics2:chest>, <appliedenergistics2:part:515>], [<contenttweaker:fdaplate_1>, <appliedenergistics2:material:24>, <contenttweaker:fdaplate_1>]]);
+recipes.addShaped(<appliedenergistics2:drive>, [[<contenttweaker:fdaplate_1>, <appliedenergistics2:material:24>, <contenttweaker:fdaplate_1>],[<appliedenergistics2:part:515>, <appliedenergistics2:chest>, <appliedenergistics2:part:515>], [<contenttweaker:fdaplate_1>, <enderio:block_inventory_chest_large>, <contenttweaker:fdaplate_1>]]);
 recipes.addShaped(<appliedenergistics2:material:43>, [[null, <appliedenergistics2:material:8>, null],[<contenttweaker:fdaplate_1>, <appliedenergistics2:material:22>, <contenttweaker:fdaplate_1>], [null, <ore:CertusQuartz>, null]]);
 recipes.addShaped(<appliedenergistics2:material:44>, [[null, <appliedenergistics2:material:8>, null],[<contenttweaker:fdaplate_1>, <appliedenergistics2:material:22>, <contenttweaker:fdaplate_1>], [null, <appliedenergistics2:material:11>, null]]);
 recipes.addShaped(<appliedenergistics2:material:44>, [[null, <appliedenergistics2:material:8>, null],[<contenttweaker:fdaplate_1>, <appliedenergistics2:material:22>, <contenttweaker:fdaplate_1>], [null, <minecraft:quartz>, null]]);
