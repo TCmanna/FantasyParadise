@@ -3,6 +3,7 @@ tile.fdamb.craftcore.name=测试核心
 tile.fdamb.crystal_revitalizer.name=水晶焕活器
 tile.fdamb.large_centrifuge.name=大型离心机
 tile.fdamb.implosion_compressor.name=聚爆压缩机
+tile.fdamb.refinery_mixer.name=固定混合车间
 tile.fdamb.pyrotheum_calciner.name=筑基炽焱煅烧炉
 tile.fdamb.pyrotheum_calciner_pro.name=大乘炽焱煅烧炉
 
@@ -12,6 +13,7 @@ craftcore.name=测试核心
 crystal_revitalizer.name=水晶焕活器
 large_centrifuge.name=大型离心机
 implosion_compressor.name=聚爆压缩机
+refinery_mixer.name=固定混合车间
 pyrotheum_calciner.name=筑基炽焱煅烧炉
 pyrotheum_calciner_pro.name=大乘炽焱煅烧炉
 
@@ -21,6 +23,7 @@ multiblocked.recipe_map.exbotingot=测试核心
 multiblocked.recipe_map.crystal_revitalizer=水晶焕活器
 multiblocked.recipe_map.large_centrifuge=大型离心机
 multiblocked.recipe_map.implosion_compressor=聚爆压缩机
+multiblocked.recipe_map.refinery_mixer=固定混合车间
 multiblocked.recipe_map.pyrotheum_calciner=筑基炽焱煅烧炉
 multiblocked.recipe_map.pyrotheum_calciner_pro=大乘炽焱煅烧炉
 

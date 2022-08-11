@@ -30,3 +30,14 @@ mods.avaritia.ExtremeCrafting.addShaped("Fusion Core",<draconicevolution:fusion_
 [<draconicevolution:infused_obsidian>,<advanced_solar_panels:crafting:6>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<advanced_solar_panels:crafting:6>,<draconicevolution:infused_obsidian>],
 [<draconicevolution:infused_obsidian>,<enderio:item_material:71>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<enderio:item_material:71>,<draconicevolution:infused_obsidian>],
 [<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:draconic_core>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>]]);
+
+mods.avaritia.ExtremeCrafting.addShaped("pyrotheum calciner pro",<fdamb:pyrotheum_calciner_pro>,
+[[null,null,null,null,null,null,null,null,null],
+[null,null,null,null,null,null,null,null,null],
+[null,null,<ic2:crafting:4>,<ic2:crafting:4>,<ore:alloyUltimate>,<ic2:crafting:4>,<ic2:crafting:4>,null,null],
+[null,null,<ic2:crafting:4>,<fdamb:calciner_machine_casing_pro>,<ic2:nuclear:7>,<fdamb:calciner_machine_casing_pro>,<ic2:crafting:4>,null,null],
+[null,null,<ore:alloyUltimate>,<gravisuite:crafting>,<fdamb:pyrotheum_calciner>,<gravisuite:crafting>,<ore:alloyUltimate>,null,null],
+[null,null,<ic2:crafting:4>,<fdamb:calciner_machine_casing_pro>,<mekanism:energycube>.withTag({tier: 3}),<fdamb:calciner_machine_casing_pro>,<ic2:crafting:4>,null,null],
+[null,null,<ic2:crafting:4>,<ic2:crafting:4>,<ore:alloyUltimate>,<ic2:crafting:4>,<ic2:crafting:4>,null,null],
+[null,null,null,null,null,null,null,null,null],
+[null,null,null,null,null,null,null,null,null]]);

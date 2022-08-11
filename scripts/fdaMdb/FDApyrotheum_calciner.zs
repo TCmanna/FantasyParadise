@@ -21,3 +21,27 @@ pc.recipeMap.start()
     .inputFE(300000)
     .outputItems(<thermalfoundation:material:167>)
     .buildAndRegister();
+
+pc.recipeMap.start()
+    .duration(500)
+    .inputItems(<tconstruct:shard>.withTag({Material: "platinum_plustic"})*8)
+    .inputFluids(<liquid:pyrotheum>*4000)
+    .inputFE(100000)
+    .outputItems(<mekores:mekanismore:15>*8)
+    .buildAndRegister();  
+
+pc.recipeMap.start()
+    .duration(150)
+    .inputItems(<contenttweaker:fdadust_3>)
+    .inputFluids(<liquid:pyrotheum>*2000)
+    .inputFE(500000)
+    .outputItems(<contenttweaker:fdaingot_14>)
+    .buildAndRegister(); 
+
+pc.recipeMap.start()
+    .duration(200)
+    .inputItems(<contenttweaker:fdadust_6>)
+    .inputFluids(<liquid:pyrotheum>*2000)
+    .inputFE(500000)
+    .outputItems(<contenttweaker:fdaingot_15>)
+    .buildAndRegister(); 

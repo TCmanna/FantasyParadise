@@ -28,6 +28,6 @@ mods.forestry.Carpenter.addRecipe(<forestry:chipsets:3>.withTag({T: 3 as short})
 [<ore:ingotEnergeticAlloy>,<ore:ingotVibrantAlloy>,<ore:ingotEnergeticAlloy>]],
 10,<liquid:tin>*576,<forestry:chipsets:2>.withTag({T: 2 as short}));
 
-mods.forestry.Centrifuge.addRecipe([<thermalfoundation:material:71>,<mekanism:crystal:2>,<mekanism:crystal:2>%60], <mekores:mekanismore:28>.withTag({display: {Name: "§b铱锇合金粉"}}), 100);
+mods.forestry.Centrifuge.addRecipe([<thermalfoundation:material:71>,<mekanism:crystal:2>,<mekanism:crystal:2>%60], <contenttweaker:fdadust_8>, 100);
 mods.forestry.Centrifuge.addRecipe([<ic2:dust:13>*2,<thermalfoundation:material:68>,<ic2:dust:15>*5], <ic2:dust:1>*8, 100);
 mods.forestry.Centrifuge.addRecipe([<tconstruct:shard>.withTag({Material: "platinum_plustic"})%50,<tconstruct:shard>.withTag({Material: "platinum_plustic"})%5,<tconstruct:shard>.withTag({Material: "platinum_plustic"})%1], <mekores:mekanismore:16>, 500);

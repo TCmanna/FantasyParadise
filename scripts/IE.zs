@@ -27,7 +27,6 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:fdaingot_15>, <
 mods.immersiveengineering.BlastFurnace.addFuel(<minecraft:coal>,300);
 mods.immersiveengineering.BlastFurnace.addFuel(<minecraft:coal_block>,3000);
 
-mods.immersiveengineering.ArcFurnace.addRecipe(<draconicevolution:draconium_ingot>, <ore:ingotPlatinum>, null, 300, 63999, [<ore:dustDraconium>]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:fdaingot_12>, <galacticraftplanets:item_basic_asteroids:9>, null, 200, 8192);
 mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:134>, <thermalfoundation:material:70>*12, <mekores:mekanismore:16>*8, 200, 32768 );
 mods.immersiveengineering.ArcFurnace.addRecipe(<plustic:osmiridiumingot>, <plustic:osmiridiumnugget>*9, null, 200, 32768);

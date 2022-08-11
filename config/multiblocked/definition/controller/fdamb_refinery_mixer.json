@@ -1,0 +1,506 @@
+{
+  "consumeCatalyst": false,
+  "location": "fdamb:refinery_mixer",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "ic2:blocks/machine/processing/advanced/induction_furnace_back",
+    "frontTexture": "ic2:blocks/machine/processing/advanced/induction_furnace_front",
+    "upTexture": "ic2:blocks/machine/processing/advanced/induction_furnace_bottomtop",
+    "downTexture": "ic2:blocks/machine/processing/advanced/induction_furnace_bottomtop",
+    "type": "gregtech"
+  },
+  "workingRenderer": {
+    "baseTexture": "ic2:blocks/machine/processing/advanced/induction_furnace_back",
+    "frontTexture": "ic2:blocks/machine/processing/advanced/induction_furnace_front_active",
+    "upTexture": "ic2:blocks/machine/processing/advanced/induction_furnace_bottomtop",
+    "downTexture": "ic2:blocks/machine/processing/advanced/induction_furnace_bottomtop",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "ABBBC",
+        " A@C ",
+        " DEF ",
+        "DBBBF",
+        " GGG "
+      ],
+      [
+        "HIIIH",
+        "JKLKJ",
+        "JKLKJ",
+        "JB BJ",
+        "MNNNM"
+      ],
+      [
+        "HIIIH",
+        "OKLKO",
+        " KLK ",
+        " PBQ ",
+        "MNNNM"
+      ],
+      [
+        "HIIIH",
+        "JKLKJ",
+        "JKLKJ",
+        "JB BJ",
+        "MNNNM"
+      ],
+      [
+        "ABBBC",
+        " ARC ",
+        " DSF ",
+        "DBBBF",
+        " GGG "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 1
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 0
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 2
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 3
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 4
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 5
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 6
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "fdamb:refinery_mixer",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration1",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 0
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 1
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 2
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 3
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 4
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 5
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 6
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 5
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 0
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 1
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 2
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 3
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 4
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 6
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 2
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 0
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 1
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 3
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 4
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 5
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 6
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 4
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 0
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 1
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 2
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 3
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 5
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 6
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "immersiveengineering:sheetmetal_slab",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "botania:quartzslabsunnyhalf",
+            "meta": 8
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "ic2:resource",
+            "meta": 12
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration1",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "L": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "M": {
+        "states": [
+          {
+            "id": "immersiveengineering:sheetmetal_slab",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "N": {
+        "states": [
+          {
+            "id": "galacticraftcore:slab_gc_half",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "O": {
+        "states": [
+          {
+            "id": "tconstruct:seared_tank",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "P": {
+        "states": [
+          {
+            "id": "fdamb:input_bus",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "Q": {
+        "states": [
+          {
+            "id": "fdamb:output_bus",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "R": {
+        "states": [
+          {
+            "id": "fdamb:rf_input",
+            "meta": 0
+          },
+          {
+            "id": "fdamb:rf_input_pro",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "S": {
+        "states": [
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 3
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 0
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 1
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 2
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 4
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 5
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 6
+          },
+          {
+            "id": "galacticraftcore:moon_stairs_stone",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "M"
+      ],
+      "N": [
+        "N"
+      ],
+      "O": [
+        "O"
+      ],
+      "P": [
+        "P"
+      ],
+      "Q": [
+        "Q"
+      ],
+      "R": [
+        "R"
+      ],
+      "S": [
+        "S"
+      ]
+    }
+  },
+  "recipeMap": "refinery_mixer"
+}

@@ -44,7 +44,7 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:132
 mods.thermalexpansion.InductionSmelter.addRecipe(<mekanism:salt>, <thermalfoundation:material:772>, <ic2:fluid_cell>.withTag({Fluid: {FluidName: "fdairidium_1", Amount: 1000}}), 300000, <ic2:fluid_cell>.withTag({Fluid: {FluidName: "fdairidium_2", Amount: 800}}), 100);
 mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:fdadust_3>, <contenttweaker:fdadust_2>, <ic2:dust:22>*2, 300000, <ic2:misc_resource>*2, 100);
 
-mods.thermalexpansion.Pulverizer.addRecipe(<mekores:mekanismore:28>.withTag({display: {Name: "§b铱锇合金粉"}}), <plustic:osmiridiumingot>, 4000, null, 0);
+mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:fdadust_8>, <plustic:osmiridiumingot>, 4000, null, 0);
 mods.thermalexpansion.Pulverizer.addRecipe(<mekores:mekanismore:18>, <mekores:mekanismore:17>, 4000, <plustic:osmiridiumnugget>*5, 60);
 mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:69>*2, <thermalfoundation:ore:5>, 4000);
 mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:71>, <ic2:misc_resource:1>, 1500, null);

@@ -22,3 +22,13 @@ lc.recipeMap.start()
     .inputFE(200000)
     .perTick(true)
     .buildAndRegister();
+
+lc.recipeMap.start()
+    .duration(500)
+    .inputItems(<mekores:mekanismore:16>*8)
+    .outputItems(0.5,<tconstruct:shard>.withTag({Material: "platinum_plustic"})*8)
+    .outputItems(0.05,<tconstruct:shard>.withTag({Material: "platinum_plustic"})*6)
+    .outputItems(0.01,<tconstruct:shard>.withTag({Material: "platinum_plustic"})*4)
+    .inputFE(200000)
+    .perTick(true)
+    .buildAndRegister();    
