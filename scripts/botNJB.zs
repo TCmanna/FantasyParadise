@@ -3,7 +3,7 @@ import mods.botaniatweaks.Agglomeration;
 Agglomeration.removeRecipe(<botania:manaresource:4>,[<botania:manaresource:2>,<botania:manaresource>,<botania:manaresource:1>]);
 
 Agglomeration.addRecipe(<draconicevolution:nugget:1>*2,[<draconicevolution:draconium_ingot>*2,<thermalfoundation:material:1024>*2,<thermalfoundation:material:1025>*2,<mekanism:dust:2>],5000000,0xA439FB,0xFF6600,<draconicevolution:draconium_block:1>,<botania:storage:4>,<minecraft:beacon>,<draconicevolution:draconium_block>,null,null);
-Agglomeration.addRecipe(<extrabotany:material:1>,[<extrabotany:material:3>,<botania:manaresource:14>*4,<extrabotany:gildedmashedpotato>*2,<extrabotany:material:8>*3,<extrabotany:material:5>*3,<draconicevolution:draconium_ingot>],5000000,0xA439FB,0xFF4DFA,<botania:storage:1>,<botania:storage:3>,<botania:bifrostperm>);
+Agglomeration.addRecipe(<contenttweaker:fdadust_9>,[<extrabotany:material:3>,<botania:manaresource:14>*4,<extrabotany:gildedmashedpotato>*2,<extrabotany:material:8>*3,<extrabotany:material:5>*3,<draconicevolution:draconium_ingot>],5000000,0xA439FB,0xFF4DFA,<botania:storage:1>,<botania:storage:3>,<botania:bifrostperm>);
 Agglomeration.addRecipe(<extrabotany:material:8>,[<extrabotany:material>*3,<extrabotany:gildedmashedpotato>*2,<botania:manaresource:7>*2,<botania:manaresource>,<advanced_solar_panels:crafting:1>,<botania:manaresource:4>],500000,0xA439FB,0xFFFFFF,<botania:storage:1>,<botania:storage:3>,<botania:bifrostperm>);
 Agglomeration.addRecipe(<extrabotany:material:5>,[<extrabotany:nightmarefuel>*3,<extrabotany:gildedmashedpotato>*2,<botania:manaresource:7>*2,<botania:manaresource>,<mekanism:compressedobsidian>,<botania:manaresource:4>],500000,0xA439FB,0x000000,<botania:storage:1>,<botania:storage:3>,<botania:bifrostperm>);
 

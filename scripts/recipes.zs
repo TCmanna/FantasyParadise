@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<draconicevolution:wyvern_core>);
 recipes.removeShapeless(<mekanism:dust:2>, []);
 recipes.remove(<mekanism:dust:2>);
 recipes.remove(<ae2utilities:enhanced_interface_tier3>);
@@ -331,7 +332,8 @@ recipes.remove(<ic2:te:88>);
 recipes.remove(<ic2:te:89>);
 //Don't touch me!
 //#Add
-recipes.addShaped(<fdamb:refinery_mixer>, [[<ore:circuitAdvanced>, <thermalexpansion:machine:1>, <ic2:crafting:3>],[<thermalexpansion:machine:7>, <thermalfoundation:upgrade:35>, <thermalexpansion:machine:8>], [<ic2:crafting:3>, <thermalexpansion:machine:10>, <ore:circuitAdvanced>]]);
+recipes.addShaped(<fdamb:large_electrolyzer>, [[<enderio:item_basic_capacitor:2>, <thermalfoundation:material:262>, <enderio:item_basic_capacitor:2>],[<galacticraftplanets:mars_machine_t2:8>, <mekanism:electrolyticcore>, <ic2:te:76>], [<enderio:item_basic_capacitor:2>, <thermalfoundation:material:262>, <enderio:item_basic_capacitor:2>]]);
+recipes.addShaped(<fdamb:refinery_mixer>, [[<ore:circuitAdvanced>, <thermalexpansion:machine:1>, <mekanism:atomicalloy>],[<thermalexpansion:machine:7>, <thermalfoundation:upgrade:35>, <thermalexpansion:machine:8>], [<mekanism:atomicalloy>, <thermalexpansion:machine:12>, <ore:circuitAdvanced>]]);
 recipes.addShaped(<fdamb:rf_input_pro>, [[null, null, null],[null, <fdamb:rf_input>, null], [null, <ore:circuitAdvanced>, null]]);
 recipes.addShaped(<fdamb:calaciner_fixed>, [[<mekanism:controlcircuit:2>, <fdamb:calciner_machine_casing_pro>, <mekanism:controlcircuit:2>],[<fdamb:calciner_machine_casing_pro>, <contenttweaker:ae2add_7>, <fdamb:calciner_machine_casing_pro>], [<mekanism:controlcircuit:2>, <fdamb:calciner_machine_casing_pro>, <mekanism:controlcircuit:2>]]);
 recipes.addShaped(<fdamb:calciner_fluidinput>, [[null, null, null],[<extracells:certustank>, <fdamb:calciner_machine_hull>, <ore:circuitAdvanced>], [null, null, null]]);

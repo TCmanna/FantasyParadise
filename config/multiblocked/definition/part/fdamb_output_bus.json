@@ -2,7 +2,7 @@
   "canShared": true,
   "location": "fdamb:output_bus",
   "traits": {
-    "background": "multiblocked:textures/capacitor_create_mechine.png",
+    "background": "fdamb:textures/gui/outputbus.png",
     "item": [
       {
         "cIO": 1,

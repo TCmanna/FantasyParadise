@@ -23,3 +23,9 @@ ccm.recipeMap.start()
     .inputItems(<thermalfoundation:material:164>*4,<enderio:item_basic_capacitor>*4,<ic2:casing:4>*2,<ore:plateAluminum>*2)
     .outputItems(<enderio:item_basic_capacitor:1>*4)
     .buildAndRegister();
+
+ccm.recipeMap.start()
+    .duration(150)
+    .inputItems(<contenttweaker:fdaplate_2>*2,<enderio:item_basic_capacitor:1>*2,<ore:plateAluminum>*2,<ore:ingotEndSteel>*2)
+    .outputItems(<enderio:item_basic_capacitor:2>*1)
+    .buildAndRegister();  

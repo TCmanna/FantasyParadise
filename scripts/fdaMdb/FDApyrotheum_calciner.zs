@@ -45,3 +45,19 @@ pc.recipeMap.start()
     .inputFE(500000)
     .outputItems(<contenttweaker:fdaingot_15>)
     .buildAndRegister(); 
+
+pc.recipeMap.start()
+    .duration(500)
+    .inputItems(<thermalfoundation:material:772>*2,<ic2:fluid_cell>)
+    .inputFluids(<liquid:fdairidium_1>*1000)
+    .inputFE(700000)
+    .outputItems(<mekanism:salt>,<ic2:fluid_cell>.withTag({Fluid: {FluidName: "fdairidium_2", Amount: 1000}}))
+    .buildAndRegister(); 
+
+pc.recipeMap.start()
+    .duration(500)
+    .inputItems(<contenttweaker:fdadust_2>,<ore:dustLapis>)
+    .inputFluids(<liquid:pyrotheum>*500)
+    .inputFE(800000)
+    .outputItems(<contenttweaker:fdadust_3>,<ic2:misc_resource>*4)
+    .buildAndRegister();

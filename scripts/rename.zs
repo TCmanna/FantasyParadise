@@ -50,3 +50,4 @@
 <contenttweaker:fdadust_6>.displayName = "纯锇粉";
 <contenttweaker:fdadust_7>.displayName = "泰拉钢粉";
 <contenttweaker:fdadust_8>.displayName = "铱锇合金粉";
+<contenttweaker:fdadust_9>.displayName = "奥利哈刚粉";

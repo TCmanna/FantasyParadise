@@ -46,10 +46,16 @@ FDAdust7.maxStackSize = 64;
 FDAdust7.creativeTab = <creativetab:FPMaterials>;
 FDAdust7.register();
 
-
 val FDAdust8 as Item = VanillaFactory.createItem('FDAdust_8');
 FDAdust8.rarity = "UNCOMMON";
 FDAdust8.maxDamage = -1;
 FDAdust8.maxStackSize = 64;
 FDAdust8.creativeTab = <creativetab:FPMaterials>;
 FDAdust8.register();
+
+val FDAdust9 as Item = VanillaFactory.createItem('FDAdust_9');
+FDAdust9.rarity = "UNCOMMON";
+FDAdust9.maxDamage = -1;
+FDAdust9.maxStackSize = 64;
+FDAdust9.creativeTab = <creativetab:FPMaterials>;
+FDAdust9.register();

@@ -20,6 +20,17 @@ mods.avaritia.ExtremeCrafting.addShaped("Draconic Core",<draconicevolution:draco
 [null,<draconicevolution:draconium_ingot>,null,null,<thermalfoundation:material:134>,null,null,<draconicevolution:draconium_ingot>,null],
 [null,null,null,null,null,null,null,null,null]]);
 
+mods.avaritia.ExtremeCrafting.addShaped("Wyvern Core",<draconicevolution:wyvern_core>*2,
+[[null,null,null,null,null,null,null,null,null],
+[null,<draconicevolution:draconic_core>,null,null,<ore:ingotIridium>,null,null,<draconicevolution:draconic_core>,null],
+[null,null,<draconicevolution:draconic_core>,<draconicevolution:draconium_ingot>,<botania:manaresource:4>,<draconicevolution:draconium_ingot>,<draconicevolution:draconic_core>,null,null],
+[null,null,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,<minecraft:nether_star>,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,null,null],
+[null,<thermalfoundation:material:135>,<botania:manaresource:4>,<minecraft:nether_star>,<advanced_solar_panels:crafting:2>,<minecraft:nether_star>,<botania:manaresource:4>,<thermalfoundation:material:135>,null],
+[null,null,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,<minecraft:nether_star>,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,null,null],
+[null,null,<draconicevolution:draconic_core>,<draconicevolution:draconium_ingot>,<botania:manaresource:4>,<draconicevolution:draconium_ingot>,<draconicevolution:draconic_core>,null,null],
+[null,<draconicevolution:draconic_core>,null,null,<ore:ingotIridium>,null,null,<draconicevolution:draconic_core>,null],
+[null,null,null,null,null,null,null,null,null]]);
+
 mods.avaritia.ExtremeCrafting.addShaped("Fusion Core",<draconicevolution:fusion_crafting_core>,
 [[<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:draconic_core>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>],
 [<draconicevolution:infused_obsidian>,<enderio:item_material:71>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<enderio:item_material:71>,<draconicevolution:infused_obsidian>],

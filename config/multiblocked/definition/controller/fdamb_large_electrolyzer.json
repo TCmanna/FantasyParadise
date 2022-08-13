@@ -1,0 +1,243 @@
+{
+  "consumeCatalyst": false,
+  "location": "fdamb:large_electrolyzer",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "ic2:blocks/machine/processing/advanced/induction_furnace_bottomtop",
+    "frontTexture": "ic2:blocks/machine/uu/scanner_top",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        " A A ",
+        " BBB ",
+        " CCC ",
+        " DDD ",
+        " DDD ",
+        " DDD ",
+        " CCC ",
+        " BBB ",
+        " E E "
+      ],
+      [
+        "AA AA",
+        "BBFBB",
+        "CC CC",
+        "DC CD",
+        "DC CD",
+        "DC CD",
+        "CC CC",
+        "BBFBB",
+        "EGHGE"
+      ],
+      [
+        "     ",
+        "BFFF@",
+        "C   C",
+        "D   D",
+        "D   D",
+        "D   D",
+        "C   C",
+        "BFFFB",
+        " IGJ "
+      ],
+      [
+        "AA AA",
+        "BBFBB",
+        "CC CC",
+        "DC CD",
+        "DC CD",
+        "DC CD",
+        "CC CC",
+        "BBFBB",
+        "EGHGE"
+      ],
+      [
+        " A A ",
+        " BBB ",
+        " CCC ",
+        " DDD ",
+        " DDD ",
+        " DDD ",
+        " CCC ",
+        " BBB ",
+        " E E "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration1",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "fdamb:large_electrolyzer",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "ic2:resource",
+            "meta": 13
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "minecraft:stained_glass_pane",
+            "meta": 15
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "minecraft:stained_glass_pane",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "immersiveengineering:storage_slab",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_device0",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 8
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "fdamb:rf_input_pro",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "fdamb:calciner_fluidinput",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "mekanism:machineblock2",
+            "meta": 11
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  },
+  "recipeMap": "large_electrolyzer"
+}
