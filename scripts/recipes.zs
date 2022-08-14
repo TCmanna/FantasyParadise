@@ -332,6 +332,7 @@ recipes.remove(<ic2:te:88>);
 recipes.remove(<ic2:te:89>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<forestry:fertilizer_compound> * 64, [[<ic2:crafting:24>, <ic2:crafting:24>, <ic2:crafting:24>],[<minecraft:sand>, null, <ic2:crafting:24>], [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]]);
 recipes.addShaped(<fdamb:large_electrolyzer>, [[<enderio:item_basic_capacitor:2>, <thermalfoundation:material:262>, <enderio:item_basic_capacitor:2>],[<galacticraftplanets:mars_machine_t2:8>, <mekanism:electrolyticcore>, <ic2:te:76>], [<enderio:item_basic_capacitor:2>, <thermalfoundation:material:262>, <enderio:item_basic_capacitor:2>]]);
 recipes.addShaped(<fdamb:refinery_mixer>, [[<ore:circuitAdvanced>, <thermalexpansion:machine:1>, <mekanism:atomicalloy>],[<thermalexpansion:machine:7>, <thermalfoundation:upgrade:35>, <thermalexpansion:machine:8>], [<mekanism:atomicalloy>, <thermalexpansion:machine:12>, <ore:circuitAdvanced>]]);
 recipes.addShaped(<fdamb:rf_input_pro>, [[null, null, null],[null, <fdamb:rf_input>, null], [null, <ore:circuitAdvanced>, null]]);
