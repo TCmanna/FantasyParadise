@@ -26,23 +26,11 @@ ic.recipeMap.start()
     .buildAndRegister();
 
 //---gc Heavy plate---
-//青铜
-ic.recipeMap.start()
-    .duration(10)
-    .inputItems(<ore:plateBronze>*3, <ic2:te:1>*2)
-    .outputItems(<galacticraftcore:basic_item:10>)
-    .buildAndRegister(); 
 //铝
 ic.recipeMap.start()
     .duration(10)
     .inputItems(<ore:plateAluminum>*3, <ic2:te:1>*2)
     .outputItems(<galacticraftcore:basic_item:8>)
-    .buildAndRegister(); 
-//钢
-ic.recipeMap.start()
-    .duration(10)
-    .inputItems(<ore:plateSteel>*3, <ic2:te:1>*2)
-    .outputItems(<galacticraftcore:basic_item:9>)
     .buildAndRegister(); 
 //陨铁
 ic.recipeMap.start()

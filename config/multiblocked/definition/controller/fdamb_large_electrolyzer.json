@@ -48,7 +48,7 @@
         "D   D",
         "C   C",
         "BFFFB",
-        " IGJ "
+        " JGJ "
       ],
       [
         "AA AA",
@@ -172,15 +172,6 @@
         ],
         "type": "states"
       },
-      "I": {
-        "states": [
-          {
-            "id": "fdamb:calciner_fluidinput",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
       "J": {
         "states": [
           {
@@ -189,9 +180,6 @@
           }
         ],
         "type": "states"
-      },
-      "air": {
-        "type": "air"
       },
       "any": {
         "type": "any"
@@ -228,14 +216,8 @@
       "H": [
         "H"
       ],
-      "I": [
-        "I"
-      ],
       "J": [
         "J"
-      ],
-      "-": [
-        "air"
       ]
     }
   },

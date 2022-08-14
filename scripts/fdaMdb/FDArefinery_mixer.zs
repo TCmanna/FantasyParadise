@@ -17,6 +17,7 @@ rm.recipeMap.start()
 rm.recipeMap.start()
     .duration(1000)
     .inputFluids(<liquid:ic2oxygen>*2000)
+    .inputItems(<thermalfoundation:material:71>)
     .inputFE(2500000)
     .outputItems(<contenttweaker:fdadust_1>)
     .buildAndRegister(); 

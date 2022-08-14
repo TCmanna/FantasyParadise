@@ -1,5 +1,80 @@
 {
   "name": "implosion_compressor",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
-  "recipes": []
+  "recipes": [
+    {
+      "uid": "811a6293-73e3-4e99-ba4b-64ef33146af3",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "ore": "plateBronze"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"ic2:te\",Count:2b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"galacticraftcore:basic_item\",Count:1b,Damage:10s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1560a305-7ad4-46ce-a4d9-c4b189545955",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "ore": "plateSteel"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"ic2:te\",Count:2b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"galacticraftcore:basic_item\",Count:1b,Damage:9s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
