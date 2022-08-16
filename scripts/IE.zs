@@ -8,6 +8,7 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<draconicevolution:draconium_i
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:134>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:135>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<mekanism:ingot:1>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:167>);
 
 mods.immersiveengineering.Crusher.removeRecipesForInput(<thermalfoundation:ore:5>);
 mods.immersiveengineering.Crusher.removeRecipesForInput(<thermalfoundation:ore:6>);

@@ -3,5 +3,7 @@
 
 	<recipe name="Alloy: Steel" required="false" disabled="true"/>
 	<recipe name="Alloy: Constantan (Thermal Expansion)" required="false" disabled="true"/>
+	<recipe name="Alloy: Enderium Base (Thermal Expansion)" required="false" disabled="true"/>
+	<recipe name="Alloy: Enderium (Thermal Expansion)" required="false" disabled="true"/>
 	
 </enderio:recipes>
