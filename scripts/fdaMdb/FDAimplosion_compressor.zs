@@ -26,6 +26,12 @@ ic.recipeMap.start()
     .buildAndRegister();
 
 //---gc Heavy plate---
+//镁
+ic.recipeMap.start()
+    .duration(10)
+    .inputItems(<extraplanets:tier6_items:5>*3, <ic2:te:1>*2)
+    .outputItems(<extraplanets:tier6_items:4>)
+    .buildAndRegister(); 
 //铝
 ic.recipeMap.start()
     .duration(10)

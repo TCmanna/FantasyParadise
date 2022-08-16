@@ -3,6 +3,43 @@
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "recipes": [
     {
+      "uid": "f5acbe60-a991-43c4-912d-76026c4e5eed",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "ore": "plateCopper"
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"ic2:te\",Count:2b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"galacticraftcore:basic_item\",Count:1b,Damage:6s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "811a6293-73e3-4e99-ba4b-64ef33146af3",
       "duration": 10,
       "inputs": {

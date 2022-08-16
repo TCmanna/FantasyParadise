@@ -1,0 +1,146 @@
+{
+  "consumeCatalyst": false,
+  "location": "fdamb:gaia_mana_liquefaction",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "fdamb:blocks/gaia_mana_liquefaction",
+    "frontTexture": "fdamb:blocks/gaia_mana_liquefaction",
+    "type": "gregtech"
+  },
+  "formedRenderer": {
+    "baseTexture": "fdamb:blocks/gaia_mana_liquefaction_R",
+    "frontTexture": "fdamb:blocks/gaia_mana_liquefaction_R",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABA",
+        "C C",
+        "DDD"
+      ],
+      [
+        "BEB",
+        " F ",
+        "D@D"
+      ],
+      [
+        "ABA",
+        "C C",
+        "DDD"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "botania:quartztypemana",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "fdamb:gaia_mana_liquefaction",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "botania:shimmerrock",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "botania:pool",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "botania:quartzslabsunnyhalf",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "botania:custombrick",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "mekanism:machineblock2",
+            "meta": 11
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ]
+    }
+  },
+  "recipeMap": "gaia_mana_liquefaction"
+}

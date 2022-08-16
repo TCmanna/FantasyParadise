@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<mekanism:machineblock2:1>);
 recipes.remove(<draconicevolution:wyvern_core>);
 recipes.removeShapeless(<mekanism:dust:2>, []);
 recipes.remove(<mekanism:dust:2>);
@@ -332,6 +333,8 @@ recipes.remove(<ic2:te:88>);
 recipes.remove(<ic2:te:89>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<fdamb:gaia_mana_liquefaction>, [[<botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>],[<contenttweaker:fdaitem_8>, <extrabotany:manaliquefaction>, <contenttweaker:fdaitem_8>], [<botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>]]);
+recipes.addShaped(<mekanism:machineblock2:1>, [[<mekanism:enrichedalloy>, <ore:circuitBasic>, <mekanism:enrichedalloy>],[<ironchest:iron_chest>, <mekanism:basicblock:9>, <mekanism:gastank>], [<mekanism:enrichedalloy>, <ore:circuitBasic>, <mekanism:enrichedalloy>]]);
 recipes.addShaped(<forestry:fertilizer_compound> * 64, [[<ic2:crafting:24>, <ic2:crafting:24>, <ic2:crafting:24>],[<minecraft:sand>, null, <ic2:crafting:24>], [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]]);
 recipes.addShaped(<fdamb:large_electrolyzer>, [[<enderio:item_basic_capacitor:2>, <thermalfoundation:material:262>, <enderio:item_basic_capacitor:2>],[<galacticraftplanets:mars_machine_t2:8>, <mekanism:electrolyticcore>, <ic2:te:76>], [<enderio:item_basic_capacitor:2>, <thermalfoundation:material:262>, <enderio:item_basic_capacitor:2>]]);
 recipes.addShaped(<fdamb:refinery_mixer>, [[<ore:circuitAdvanced>, <thermalexpansion:machine:1>, <mekanism:atomicalloy>],[<thermalexpansion:machine:7>, <thermalfoundation:upgrade:35>, <thermalexpansion:machine:8>], [<mekanism:atomicalloy>, <thermalexpansion:machine:12>, <ore:circuitAdvanced>]]);

@@ -3,7 +3,7 @@
   "consumeCatalyst": false,
   "location": "fdamb:crystal_revitalizer",
   "traits": {
-    "background": "fdamb:textures/gui/jei_fusion_background10.png",
+    "background": "fdamb:textures/gui/jei_fusion_background.png",
     "item": [
       {
         "cIO": 0,
@@ -18,6 +18,20 @@
         "x": 80,
         "y": 106,
         "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 62,
+        "y": 52,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 98,
+        "y": 52,
+        "autoIO": false
       }
     ],
     "forge_energy": {

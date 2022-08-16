@@ -5,8 +5,7 @@ tile.fdamb.large_centrifuge.name=大型离心机
 tile.fdamb.implosion_compressor.name=聚爆压缩机
 tile.fdamb.refinery_mixer.name=固定混合车间
 tile.fdamb.large_electrolyzer.name=大型电解机
-tile.fdamb.pyrotheum_calciner.name=筑基炽焱煅烧炉
-tile.fdamb.pyrotheum_calciner_pro.name=大乘炽焱煅烧炉
+tile.fdamb.gaia_mana_liquefaction.name=盖亚魔力液化器
 
 
 capacitor_create_mechine.name=电容构建站
@@ -16,8 +15,7 @@ large_centrifuge.name=大型离心机
 implosion_compressor.name=聚爆压缩机
 refinery_mixer.name=固定混合车间
 large_electrolyzer.name=大型电解机
-pyrotheum_calciner.name=筑基炽焱煅烧炉
-pyrotheum_calciner_pro.name=大乘炽焱煅烧炉
+gaia_mana_liquefaction.name=盖亚魔力液化器
 
 
 multiblocked.recipe_map.capacitor_create_mechine=电容构建站
@@ -27,10 +25,7 @@ multiblocked.recipe_map.large_centrifuge=大型离心机
 multiblocked.recipe_map.implosion_compressor=聚爆压缩机
 multiblocked.recipe_map.refinery_mixer=固定混合车间
 multiblocked.recipe_map.large_electrolyzer=大型电解机
-multiblocked.recipe_map.pyrotheum_calciner=筑基炽焱煅烧炉
-multiblocked.recipe_map.pyrotheum_calciner_pro=大乘炽焱煅烧炉
-
-
+multiblocked.recipe_map.gaia_mana_liquefaction=盖亚魔力液化器
 
 
 tile.fdamb.rf_input.name=RF能源仓
@@ -42,3 +37,10 @@ tile.fdamb.calciner_machine_hull.name=煅烧炉机器外壳
 tile.fdamb.calciner_machine_casing_pro.name=进阶煅烧炉机械方块
 tile.fdamb.calciner_fluidinput.name=煅烧炉流体输入仓
 tile.fdamb.calaciner_fixed.name=煅烧炉高级固定器
+
+tile.fdamb.pyrotheum_calciner.name=筑基炽焱煅烧炉
+tile.fdamb.pyrotheum_calciner_pro.name=大乘炽焱煅烧炉
+pyrotheum_calciner.name=筑基炽焱煅烧炉
+pyrotheum_calciner_pro.name=大乘炽焱煅烧炉
+multiblocked.recipe_map.pyrotheum_calciner=筑基炽焱煅烧炉
+multiblocked.recipe_map.pyrotheum_calciner_pro=大乘炽焱煅烧炉
