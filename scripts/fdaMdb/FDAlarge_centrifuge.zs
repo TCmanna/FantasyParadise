@@ -16,7 +16,7 @@ lc.recipeMap.start()
 
 lc.recipeMap.start()
     .duration(100)
-    .inputItems(<contenttweaker:fdadust_8>*2)
+    .inputItems(<contenttweaker:fdadust_8>*4)
     .outputItems(<mekanism:crystal:2>,<thermalfoundation:material:71>)
     .outputItems(0.8,<mekanism:crystal:2>)
     .inputFE(200000)

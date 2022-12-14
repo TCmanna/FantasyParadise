@@ -8,21 +8,14 @@
       {
         "cIO": 0,
         "gIO": 2,
-        "x": 80,
+        "x": 62,
         "y": 52,
-        "autoIO": true
-      },
-      {
-        "cIO": 1,
-        "gIO": 1,
-        "x": 80,
-        "y": 106,
-        "autoIO": true
+        "autoIO": false
       },
       {
         "cIO": 0,
         "gIO": 2,
-        "x": 62,
+        "x": 80,
         "y": 52,
         "autoIO": false
       },
@@ -32,6 +25,34 @@
         "x": 98,
         "y": 52,
         "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 62,
+        "y": 70,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 80,
+        "y": 70,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 98,
+        "y": 70,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 80,
+        "y": 106,
+        "autoIO": true
       }
     ],
     "forge_energy": {

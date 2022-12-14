@@ -42,7 +42,7 @@ mods.avaritia.ExtremeCrafting.addShaped("Fusion Core",<draconicevolution:fusion_
 [<draconicevolution:infused_obsidian>,<enderio:item_material:71>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<advanced_solar_panels:crafting:6>,<enderio:item_material:71>,<draconicevolution:infused_obsidian>],
 [<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:draconic_core>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>,<draconicevolution:infused_obsidian>]]);
 
-mods.avaritia.ExtremeCrafting.addShaped("pyrotheum calciner pro",<fdamb:pyrotheum_calciner_pro>,
+mods.avaritia.ExtremeCrafting.addShaped("Pyrotheum Calciner Pro",<fdamb:pyrotheum_calciner_pro>,
 [[null,null,null,null,null,null,null,null,null],
 [null,null,null,null,null,null,null,null,null],
 [null,null,<ic2:crafting:4>,<ic2:crafting:4>,<ore:alloyUltimate>,<ic2:crafting:4>,<ic2:crafting:4>,null,null],
@@ -51,4 +51,15 @@ mods.avaritia.ExtremeCrafting.addShaped("pyrotheum calciner pro",<fdamb:pyrotheu
 [null,null,<ic2:crafting:4>,<fdamb:calciner_machine_casing_pro>,<mekanism:energycube>.withTag({tier: 3}),<fdamb:calciner_machine_casing_pro>,<ic2:crafting:4>,null,null],
 [null,null,<ic2:crafting:4>,<ic2:crafting:4>,<ore:alloyUltimate>,<ic2:crafting:4>,<ic2:crafting:4>,null,null],
 [null,null,null,null,null,null,null,null,null],
+[null,null,null,null,null,null,null,null,null]]);
+
+mods.avaritia.ExtremeCrafting.addShaped("Quantum Entangloporter",<mekanism:machineblock3>,
+[[null,null,null,null,null,null,null,null,null],
+[null,<ore:blockRefinedObsidian>,<ore:blockRefinedObsidian>,<ic2:resource:13>,<mekanism:basicblock:8>,<ic2:resource:13>,<ore:blockRefinedObsidian>,<ore:blockRefinedObsidian>,null],
+[null,<ore:blockRefinedObsidian>,<contenttweaker:ae2add_7>,<contenttweaker:ae2add_7>,<mekanism:controlcircuit:3>,<contenttweaker:ae2add_7>,<contenttweaker:ae2add_7>,<ore:blockRefinedObsidian>,null],
+[null,<ic2:resource:13>,<contenttweaker:ae2add_7>,<ic2:te:39>,<enderio:block_transceiver>,<ic2:te:39>,<contenttweaker:ae2add_7>,<ic2:resource:13>,null],
+[null,<mekanism:basicblock:8>,<ore:circuitUltimate>,<enderio:block_transceiver>,<mekanism:teleportationcore>,<enderio:block_transceiver>,<ore:circuitUltimate>,<mekanism:basicblock:8>,null],
+[null,<ic2:resource:13>,<contenttweaker:ae2add_7>,<ic2:te:39>,<enderio:block_transceiver>,<ic2:te:39>,<contenttweaker:ae2add_7>,<ic2:resource:13>,null],
+[null,<ore:blockRefinedObsidian>,<contenttweaker:ae2add_7>,<contenttweaker:ae2add_7>,<mekanism:controlcircuit:3>,<contenttweaker:ae2add_7>,<contenttweaker:ae2add_7>,<ore:blockRefinedObsidian>,null],
+[null,<ore:blockRefinedObsidian>,<ore:blockRefinedObsidian>,<ic2:resource:13>,<mekanism:basicblock:8>,<ic2:resource:13>,<ore:blockRefinedObsidian>,<ore:blockRefinedObsidian>,null],
 [null,null,null,null,null,null,null,null,null]]);

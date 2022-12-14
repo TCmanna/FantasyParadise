@@ -22,3 +22,5 @@ mods.mekanism.thermalevaporation.addRecipe(<liquid:refined_fuel>*1, <liquid:tolu
 mods.mekanism.thermalevaporation.addRecipe(<liquid:fdaosmium_1>*2, <liquid:fdaosmium_2>*1);
 
 mods.mekanism.separator.addRecipe(<liquid:fdanickel_2>*1000, 5000, <gas:nickel>*400, <gas:sulfurtrioxide>*600);
+
+mods.mekanism.crusher.addRecipe(<minecraft:flint_and_steel>, <enderio:item_material:20>*32);

@@ -1,6 +1,10 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<mekanism:teleportationcore>);
+recipes.remove(<mekanism:machineblock3>);
+recipes.remove(<appliedenergistics2:material:28>);
+recipes.remove(<appliedenergistics2:material:25>);
 recipes.remove(<mekanism:machineblock2:1>);
 recipes.remove(<draconicevolution:wyvern_core>);
 recipes.removeShapeless(<mekanism:dust:2>, []);
@@ -333,6 +337,13 @@ recipes.remove(<ic2:te:88>);
 recipes.remove(<ic2:te:89>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<mekanism:teleportationcore>, [[<contenttweaker:fdaitem_3>, <ore:plateDenseGold>, <contenttweaker:fdaitem_3>],[<ore:plateDenseLapis>, <appliedenergistics2:material:47>, <ore:plateDenseLapis>], [<contenttweaker:fdaitem_3>, <ore:plateDenseGold>, <contenttweaker:fdaitem_3>]]);
+recipes.addShaped(<appliedenergistics2:material:28> * 2, [[<contenttweaker:ae2add_2>, <ore:plateElectrum>, <contenttweaker:ae2add_2>],[<ore:ingotRedstoneAlloy>, <ore:gearDiamond>, <ore:ingotRedstoneAlloy>], [<contenttweaker:ae2add_2>, <ore:plateElectrum>, <contenttweaker:ae2add_2>]]);
+recipes.addShaped(<appliedenergistics2:material:25> * 2, [[<appliedenergistics2:material:23>, <ore:plateGold>, <appliedenergistics2:material:23>],[<ore:ingotRedstoneAlloy>, <ore:gearIron>, <ore:ingotRedstoneAlloy>], [<appliedenergistics2:material:23>, <ore:plateGold>, <appliedenergistics2:material:23>]]);
+recipes.addShapeless(<ae2utilities:enhanced_interface_tier3>, [<ae2utilities:part_enhanced_interface_tier3>]);
+recipes.addShapeless(<ae2utilities:enhanced_interface_tier2>, [<ae2utilities:part_enhanced_interface_tier2>]);
+recipes.addShapeless(<ae2utilities:enhanced_interface_tier1>, [<ae2utilities:part_enhanced_interface_tier1>]);
+recipes.addShapeless(<appliedenergistics2:interface>, [<appliedenergistics2:part:440>]);
 recipes.addShaped(<fdamb:gaia_mana_liquefaction>, [[<botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>],[<contenttweaker:fdaitem_8>, <extrabotany:manaliquefaction>, <contenttweaker:fdaitem_8>], [<botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>]]);
 recipes.addShaped(<mekanism:machineblock2:1>, [[<mekanism:enrichedalloy>, <ore:circuitBasic>, <mekanism:enrichedalloy>],[<ironchest:iron_chest>, <mekanism:basicblock:9>, <mekanism:gastank>], [<mekanism:enrichedalloy>, <ore:circuitBasic>, <mekanism:enrichedalloy>]]);
 recipes.addShaped(<forestry:fertilizer_compound> * 64, [[<ic2:crafting:24>, <ic2:crafting:24>, <ic2:crafting:24>],[<minecraft:sand>, null, <ic2:crafting:24>], [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]]);

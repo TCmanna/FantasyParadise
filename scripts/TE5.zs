@@ -48,6 +48,7 @@ mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:fdadust_8>, <plustic:
 mods.thermalexpansion.Pulverizer.addRecipe(<mekores:mekanismore:18>, <mekores:mekanismore:17>, 4000, <plustic:osmiridiumnugget>*5, 60);
 mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:69>*2, <thermalfoundation:ore:5>, 4000);
 mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:71>, <ic2:misc_resource:1>, 1500, null);
+mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:20>*2, <minecraft:flint_and_steel>, 4000, null);
 
 mods.thermalexpansion.Compactor.addPressRecipe(<contenttweaker:fdaplate_1>, <galacticraftplanets:item_basic_asteroids>, 4000);
 mods.thermalexpansion.Compactor.addPressRecipe(<contenttweaker:fdaplate_2>, <contenttweaker:fdaingot_13>, 4000);

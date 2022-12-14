@@ -6,6 +6,15 @@ import mods.multiblocked.recipe.RecipeMap;
 
 var definition as ComponentDefinition = MBDRegistry.getDefinition("fdamb:pyrotheum_calciner_pro");
 var pcp = definition as ControllerDefinition;
+
+pcp.recipeMap.start()
+    .duration(320)
+    .inputItems(<contenttweaker:fdadust_7>)
+    .inputFluids(<liquid:pyrotheum>*1000)
+    .inputFE(300000)
+    .outputItems(<botania:manaresource:4>)
+    .buildAndRegister();
+
 pcp.recipeMap.start()
     .duration(600)
     .inputItems(<contenttweaker:fdadust_9>)
@@ -44,4 +53,12 @@ pcp.recipeMap.start()
     .inputFluids(<liquid:fdairidium_1>*2000)
     .inputFE(2000000)
     .outputItems(<mekanism:salt>*8,<ic2:fluid_cell>.withTag({Fluid: {FluidName: "fdairidium_2", Amount: 1000}})*2)
+    .buildAndRegister(); 
+
+pcp.recipeMap.start()
+    .duration(200)
+    .inputItems(<ore:dustPlatinum>*4)
+    .inputFluids(<liquid:pyrotheum>*2000)
+    .inputFE(800000)
+    .outputItems(<thermalfoundation:material:134>)
     .buildAndRegister(); 
