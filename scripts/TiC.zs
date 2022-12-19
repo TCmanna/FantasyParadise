@@ -45,4 +45,4 @@ mods.tconstruct.Melting.removeRecipe(<liquid:osmiridium>,<plustic:osmiridiumnugg
 mods.tconstruct.Melting.removeRecipe(<liquid:platinum>,<thermalfoundation:ore:6>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<thermalfoundation:material:71>);
 mods.tconstruct.Melting.removeRecipe(<liquid:osmium>,<mekanism:dust:2>);
-
+mods.tconstruct.Melting.removeRecipe(<liquid:ender>, <thermalfoundation:material:103>);

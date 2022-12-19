@@ -8,6 +8,8 @@
 <ore:CertusQuartz>.add(<appliedenergistics2:material:10>) ;
 <ore:NewWrench>.add(<ic2:wrench_new>) ;
 
+<ore:blockMercuryStone>.add(<extraplanets:mercury>, <extraplanets:mercury:1>, <extraplanets:mercury:2>);
+
 <ore:QuantumHelmet>.add(<ic2:quantum_helmet:*>);
 <ore:QuantumChestplate>.add(<ic2:quantum_chestplate:*>);
 <ore:QuantumLeggings>.add(<ic2:quantum_leggings:*>);

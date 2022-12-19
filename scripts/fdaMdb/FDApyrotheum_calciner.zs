@@ -17,15 +17,15 @@ pc.recipeMap.start()
 pc.recipeMap.start()
     .duration(300)
     .inputItems(<thermalfoundation:material:103>)
-    .inputFluids(<liquid:pyrotheum>*1000)
+    .inputFluids(<liquid:pyrotheum>*250)
     .inputFE(300000)
     .outputItems(<thermalfoundation:material:167>)
     .buildAndRegister();
 
 pc.recipeMap.start()
-    .duration(500)
+    .duration(400)
     .inputItems(<tconstruct:shard>.withTag({Material: "platinum_plustic"})*8)
-    .inputFluids(<liquid:pyrotheum>*4000)
+    .inputFluids(<liquid:pyrotheum>*1000)
     .inputFE(100000)
     .outputItems(<mekores:mekanismore:15>*8)
     .buildAndRegister();  
@@ -61,3 +61,11 @@ pc.recipeMap.start()
     .inputFE(800000)
     .outputItems(<contenttweaker:fdadust_3>,<ic2:misc_resource>*4)
     .buildAndRegister();
+
+pc.recipeMap.start()
+    .duration(800)
+    .inputItems(<mekores:mekanismore:109>)
+    .inputFluids(<liquid:pyrotheum>*100)
+    .inputFE(1000000)
+    .outputItems(<extraplanets:tier9_items:5>)
+    .buildAndRegister();  

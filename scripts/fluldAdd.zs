@@ -43,3 +43,11 @@ FdaOsmium2.density = 1000;
 FdaOsmium2.stillLocation = "base:fluids/liquid";
 FdaOsmium2.flowingLocation = "base:fluids/liquid_flow";
 FdaOsmium2.register();
+
+var FdaMolten_Titanium as Fluid = VanillaFactory.createFluid("moltentitanium", 0xFFCCFF);
+FdaMolten_Titanium.density = 3000;
+FdaMolten_Titanium.luminosity = 15;
+FdaMolten_Titanium.viscosity = 3000;
+FdaMolten_Titanium.stillLocation = "base:fluids/molten";
+FdaMolten_Titanium.flowingLocation = "base:fluids/molten_flowing";
+FdaMolten_Titanium.register();

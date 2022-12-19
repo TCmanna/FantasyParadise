@@ -15,6 +15,7 @@
 
 <contenttweaker:fdaplate_1>.displayName = "钛板";
 <contenttweaker:fdaplate_2>.displayName = "硅板";
+<contenttweaker:fdaplate_3>.displayName = "钨板";
 
 
 <contenttweaker:ae2add_1>.displayName = "强化逻辑处理器";
@@ -51,3 +52,5 @@
 <contenttweaker:fdadust_7>.displayName = "泰拉钢粉";
 <contenttweaker:fdadust_8>.displayName = "铱锇合金粉";
 <contenttweaker:fdadust_9>.displayName = "奥利哈刚粉";
+
+<contenttweaker:fda_mercurydust>.displayName = "水星尘埃";

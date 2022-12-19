@@ -1,6 +1,8 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+furnace.remove(<extraplanets:tier9_items:5>);
+recipes.remove(<appliedenergistics2:crafting_unit>);
 recipes.remove(<mekanism:teleportationcore>);
 recipes.remove(<mekanism:machineblock3>);
 recipes.remove(<appliedenergistics2:material:28>);
@@ -337,6 +339,9 @@ recipes.remove(<ic2:te:88>);
 recipes.remove(<ic2:te:89>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<contenttweaker:high_heat_fusion_machineblock>, [[<ic2:cable:1>, <contenttweaker:fdaplate_1>, <ic2:cable:1>],[<mekanism:controlcircuit:2>, <contenttweaker:high_heat_fusion_machinecasing>, <mekanism:controlcircuit:2>], [<ic2:cable:1>, <contenttweaker:fdaplate_1>, <ic2:cable:1>]]);
+recipes.addShaped(<contenttweaker:high_heat_fusion_machinecasing>, [[<contenttweaker:fdaplate_3>, <contenttweaker:fdaplate_3>, <contenttweaker:fdaplate_3>],[<contenttweaker:fdaplate_3>, <ore:gearTin>, <contenttweaker:fdaplate_3>], [<contenttweaker:fdaplate_3>, <contenttweaker:fdaplate_3>, <contenttweaker:fdaplate_3>]]);
+recipes.addShaped(<appliedenergistics2:crafting_unit>, [[<contenttweaker:fdaplate_1>, <appliedenergistics2:material:22>, <appliedenergistics2:part:16>],[<appliedenergistics2:material:23>, <contenttweaker:fdaitem_4>, <appliedenergistics2:material:23>], [<appliedenergistics2:part:16>, <appliedenergistics2:material:22>, <contenttweaker:fdaplate_1>]]);
 recipes.addShaped(<mekanism:teleportationcore>, [[<contenttweaker:fdaitem_3>, <ore:plateDenseGold>, <contenttweaker:fdaitem_3>],[<ore:plateDenseLapis>, <appliedenergistics2:material:47>, <ore:plateDenseLapis>], [<contenttweaker:fdaitem_3>, <ore:plateDenseGold>, <contenttweaker:fdaitem_3>]]);
 recipes.addShaped(<appliedenergistics2:material:28> * 2, [[<contenttweaker:ae2add_2>, <ore:plateElectrum>, <contenttweaker:ae2add_2>],[<ore:ingotRedstoneAlloy>, <ore:gearDiamond>, <ore:ingotRedstoneAlloy>], [<contenttweaker:ae2add_2>, <ore:plateElectrum>, <contenttweaker:ae2add_2>]]);
 recipes.addShaped(<appliedenergistics2:material:25> * 2, [[<appliedenergistics2:material:23>, <ore:plateGold>, <appliedenergistics2:material:23>],[<ore:ingotRedstoneAlloy>, <ore:gearIron>, <ore:ingotRedstoneAlloy>], [<appliedenergistics2:material:23>, <ore:plateGold>, <appliedenergistics2:material:23>]]);
@@ -547,12 +552,12 @@ recipes.addShaped(<appliedenergistics2:charger>, [[<contenttweaker:fdaplate_1>, 
 recipes.addShaped(<appliedenergistics2:inscriber>, [[<contenttweaker:fdaplate_1>, <minecraft:sticky_piston>, <contenttweaker:fdaplate_1>],[<appliedenergistics2:material:12>, <mekanism:machineblock:1>, <appliedenergistics2:material:12>], [<contenttweaker:fdaplate_1>, <minecraft:sticky_piston>, <contenttweaker:fdaplate_1>]]);
 recipes.addShaped(<appliedenergistics2:inscriber>, [[<contenttweaker:fdaplate_1>, <minecraft:sticky_piston>, <contenttweaker:fdaplate_1>],[<appliedenergistics2:material:12>, <mekanism:machineblock:1>, <appliedenergistics2:material:12>], [<contenttweaker:fdaplate_1>, <minecraft:sticky_piston>, <contenttweaker:fdaplate_1>]]);
 recipes.addShaped(<contenttweaker:fdaingot_11>, [[<thermalfoundation:material:327>, <ic2:crafting:3>, <thermalfoundation:material:327>],[<ic2:crafting:3>, <ic2:crafting:19>, <ic2:crafting:3>], [<thermalfoundation:material:327>, <ic2:crafting:3>, <thermalfoundation:material:327>]]);
-recipes.addShaped(<thermalexpansion:dynamo:5>, [[<advanced_solar_panels:machines:2>, <thermalfoundation:material:514>, <advanced_solar_panels:machines:2>],[<ore:plateIron>, <ore:gearDiamond>, <ore:plateIron>], [<minecraft:emerald>, <minecraft:sea_lantern>, <minecraft:emerald>]]);
-recipes.addShaped(<thermalexpansion:dynamo:4>, [[<ic2:te:8>, <thermalfoundation:material:514>, <ic2:te:8>],[<ore:plateIron>, <ore:gearElectrum>, <ore:plateIron>], [<immersiveengineering:sheetmetal:7>, <immersiveengineering:sheetmetal:7>, <immersiveengineering:sheetmetal:7>]]);
-recipes.addShaped(<thermalexpansion:dynamo:3>, [[<ic2:te:7>, <thermalfoundation:material:514>, <ic2:te:7>],[<ore:plateIron>, <ore:gearLead>, <ore:plateIron>], [<immersiveengineering:sheetmetal:2>, <immersiveengineering:sheetmetal:2>, <immersiveengineering:sheetmetal:2>]]);
-recipes.addShaped(<thermalexpansion:dynamo:2>, [[<forestry:engine_generator>, <thermalfoundation:material:514>, <forestry:engine_generator>],[<ore:plateIron>, <ore:gearTin>, <ore:plateIron>], [<thermalfoundation:material:321>, <thermalfoundation:material:321>, <thermalfoundation:material:321>]]);
-recipes.addShaped(<thermalexpansion:dynamo:1>, [[<ic2:te:4>, <thermalfoundation:material:514>, <ic2:te:4>],[<ore:plateIron>, <ore:gearInvar>, <ore:plateIron>], [<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>]]);
-recipes.addShaped(<thermalexpansion:dynamo>, [[<ic2:te:3>, <thermalfoundation:material:514>, <ic2:te:3>],[<ore:plateIron>, <ore:gearCopper>, <ore:plateIron>], [<ore:blockSheetmetalCopper>, <ore:blockSheetmetalCopper>, <ore:blockSheetmetalCopper>]]);
+recipes.addShaped(<thermalexpansion:dynamo:5>, [[<advanced_solar_panels:machines:2>, <thermalfoundation:material:514>, <advanced_solar_panels:machines:2>],[<ore:gearCopper>, <ore:gearDiamond>, <ore:gearCopper>], [<minecraft:emerald>, <minecraft:sea_lantern>, <minecraft:emerald>]]);
+recipes.addShaped(<thermalexpansion:dynamo:4>, [[<ic2:te:8>, <thermalfoundation:material:514>, <ic2:te:8>],[<ore:gearCopper>, <contenttweaker:high_heat_fusion_machineblock>, <ore:gearCopper>], [<immersiveengineering:sheetmetal:7>, <immersiveengineering:sheetmetal:7>, <immersiveengineering:sheetmetal:7>]]);
+recipes.addShaped(<thermalexpansion:dynamo:3>, [[<ic2:te:7>, <thermalfoundation:material:514>, <ic2:te:7>],[<ore:gearCopper>, <contenttweaker:high_heat_fusion_machineblock>, <ore:gearCopper>], [<immersiveengineering:sheetmetal:2>, <immersiveengineering:sheetmetal:2>, <immersiveengineering:sheetmetal:2>]]);
+recipes.addShaped(<thermalexpansion:dynamo:2>, [[<enderio:block_enhanced_combustion_generator>, <thermalfoundation:material:514>, <enderio:block_enhanced_combustion_generator>],[<ore:gearCopper>, <contenttweaker:high_heat_fusion_machineblock>, <ore:gearCopper>], [<thermalfoundation:material:321>, <thermalfoundation:material:321>, <thermalfoundation:material:321>]]);
+recipes.addShaped(<thermalexpansion:dynamo:1>, [[<ic2:te:4>, <thermalfoundation:material:514>, <ic2:te:4>],[<ore:gearCopper>, <contenttweaker:high_heat_fusion_machineblock>, <ore:gearCopper>], [<ore:plateInvar>, <ore:plateInvar>, <ore:plateInvar>]]);
+recipes.addShaped(<thermalexpansion:dynamo>, [[<ic2:te:3>, <thermalfoundation:material:514>, <ic2:te:3>],[<ore:gearCopper>, <contenttweaker:high_heat_fusion_machineblock>, <ore:gearCopper>], [<ore:blockSheetmetalCopper>, <ore:blockSheetmetalCopper>, <ore:blockSheetmetalCopper>]]);
 recipes.addShaped(<thermalfoundation:material:515>, [[<minecraft:redstone>, <ic2:crafting:5>, <ore:ingotElectrum>],[<ic2:crafting:5>, <galacticraftcore:steel_pole>, <ic2:crafting:5>], [<ore:ingotElectrum>, <ic2:crafting:5>, <minecraft:redstone>]]);
 recipes.addShaped(<thermalfoundation:material:514>, [[<minecraft:redstone>, <ic2:crafting:5>, <ore:ingotSilver>],[<ic2:crafting:5>, <galacticraftcore:steel_pole>, <ic2:crafting:5>], [<ore:ingotSilver>, <ic2:crafting:5>, <minecraft:redstone>]]);
 recipes.addShaped(<thermalfoundation:material:515>, [[<minecraft:redstone>, <ic2:crafting:5>, <thermalfoundation:material:161>],[<ic2:crafting:5>, <galacticraftcore:steel_pole>, <ic2:crafting:5>], [<thermalfoundation:material:161>, <ic2:crafting:5>, <minecraft:redstone>]]);

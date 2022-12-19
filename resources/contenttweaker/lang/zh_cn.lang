@@ -6,6 +6,7 @@ fluid.FdaIridium_2=铱溶液
 fluid.FdaOsmium_1=盐酸锇溶液
 fluid.FdaOsmium_2=锇溶液
 fluid.Toluene=甲苯
+fluid.moltentitanium=熔融钛
 
 item.contenttweaker.WarLords_item_1.name=§6§lWarLords双刃刀锋
 item.contenttweaker.WarLords_item_2.name=§6§lWarLords邪火之刃
@@ -30,3 +31,6 @@ tile.contenttweaker.gold_bordered_cobblestone.name=金边框圆石
 tile.contenttweaker.quartz_bordered_cobblestone.name=石英边框圆石
 tile.contenttweaker.diamond_bordered_cobblestone.name=钻石边框圆石
 tile.contenttweaker.emerald_bordered_cobblestone.name=绿宝石边框圆石
+tile.contenttweaker.high_heat_fusion_machinecasing.name=高热容机械外壳
+tile.contenttweaker.high_heat_fusion_machineblock.name=高热容机械方块
+

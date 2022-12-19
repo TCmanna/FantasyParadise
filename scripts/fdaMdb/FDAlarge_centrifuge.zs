@@ -24,11 +24,27 @@ lc.recipeMap.start()
     .buildAndRegister();
 
 lc.recipeMap.start()
-    .duration(500)
+    .duration(400)
     .inputItems(<mekores:mekanismore:16>*8)
-    .outputItems(0.5,<tconstruct:shard>.withTag({Material: "platinum_plustic"})*8)
-    .outputItems(0.05,<tconstruct:shard>.withTag({Material: "platinum_plustic"})*6)
-    .outputItems(0.01,<tconstruct:shard>.withTag({Material: "platinum_plustic"})*4)
+    .outputItems(1,<tconstruct:shard>.withTag({Material: "platinum_plustic"})*2)
+    .outputItems(0.9,<tconstruct:shard>.withTag({Material: "platinum_plustic"})*2)
+    .outputItems(0.8,<tconstruct:shard>.withTag({Material: "platinum_plustic"})*2)
+    .outputItems(0.7,<tconstruct:shard>.withTag({Material: "platinum_plustic"})*2)
+    .outputItems(0.6,<tconstruct:shard>.withTag({Material: "platinum_plustic"})*1)
+    .outputItems(0.5,<tconstruct:shard>.withTag({Material: "platinum_plustic"})*1)
+    .outputItems(0.4,<tconstruct:shard>.withTag({Material: "platinum_plustic"})*1)
+    .outputItems(0.3,<tconstruct:shard>.withTag({Material: "platinum_plustic"})*1)
+    .outputItems(0.2,<tconstruct:shard>.withTag({Material: "platinum_plustic"})*1)
     .inputFE(200000)
     .perTick(true)
-    .buildAndRegister();    
+    .buildAndRegister();   
+
+lc.recipeMap.start()
+    .duration(200)
+    .inputItems(<contenttweaker:fda_mercurydust>*32) 
+    .outputItems(<mekores:mekanismore:119>)
+    .outputItems(<ic2:dust:15>*29)
+    .outputItems(<galacticraftcore:ic2compat:7>)
+    .outputItems(<mekores:mekanismore:109>)
+    .inputFE(200000)
+    .buildAndRegister();  

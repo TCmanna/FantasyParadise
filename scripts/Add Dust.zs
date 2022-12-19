@@ -59,3 +59,9 @@ FDAdust9.maxDamage = -1;
 FDAdust9.maxStackSize = 64;
 FDAdust9.creativeTab = <creativetab:FPMaterials>;
 FDAdust9.register();
+
+//----------//
+//水星岩粉
+val FDAMercuryDust as Item = VanillaFactory.createItem('fda_mercurydust');
+FDAMercuryDust.creativeTab = <creativetab:FPMaterials>;
+FDAMercuryDust.register();

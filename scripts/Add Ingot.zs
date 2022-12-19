@@ -198,3 +198,9 @@ FDAplate2.maxDamage = -1;
 FDAplate2.maxStackSize = 64;
 FDAplate2.creativeTab = <creativetab:FPMaterials>;
 FDAplate2.register();
+
+val FDAplate3 as Item = VanillaFactory.createItem('FDAplate_3');
+FDAplate3.maxDamage = -1;
+FDAplate3.maxStackSize = 64;
+FDAplate3.creativeTab = <creativetab:FPMaterials>;
+FDAplate3.register();

@@ -25,6 +25,12 @@ ic.recipeMap.start()
     .outputItems(<galacticraftplanets:item_basic_asteroids:5>)
     .buildAndRegister();
 
+ic.recipeMap.start()
+    .duration(10)
+    .inputItems(<contenttweaker:fdaingot_4>, <ic2:te:1>*3)
+    .outputItems(<extraplanets:tier4_items:3>)
+    .buildAndRegister();
+
 //---gc Heavy plate---
 //镁
 ic.recipeMap.start()
@@ -77,7 +83,7 @@ ic.recipeMap.start()
 //钨
 ic.recipeMap.start()
     .duration(10)
-    .inputItems(<ore:ingotTungsten>*3, <ic2:te:1>*2)
+    .inputItems(<contenttweaker:fdaplate_3>*3, <ic2:te:1>*2)
     .outputItems(<extraplanets:tier9_items:4>)
     .buildAndRegister(); 
 //铜

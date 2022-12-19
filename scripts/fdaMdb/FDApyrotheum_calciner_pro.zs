@@ -60,5 +60,13 @@ pcp.recipeMap.start()
     .inputItems(<ore:dustPlatinum>*4)
     .inputFluids(<liquid:pyrotheum>*2000)
     .inputFE(800000)
-    .outputItems(<thermalfoundation:material:134>)
+    .outputItems(<thermalfoundation:material:134>, <mekores:mekanismore:16>*3)
     .buildAndRegister(); 
+
+pcp.recipeMap.start()
+    .duration(300)
+    .inputItems(<mekores:mekanismore:109>)
+    .inputFluids(<liquid:pyrotheum>*200)
+    .inputFE(1500000)
+    .outputItems(<extraplanets:tier9_items:5>)
+    .buildAndRegister();

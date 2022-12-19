@@ -47,3 +47,21 @@ EmeraldBorderedCobblestone.toolLevel = 3;
 EmeraldBorderedCobblestone.blockSoundType = <soundtype:stone>;
 EmeraldBorderedCobblestone.creativeTab = <creativetab:FantasyParadise>;
 EmeraldBorderedCobblestone.register();
+
+var HighHeatFusionMachineCasing as Block = VanillaFactory.createBlock("high_heat_fusion_machinecasing", <blockmaterial:iron>);
+HighHeatFusionMachineCasing.blockHardness = 35.0;
+HighHeatFusionMachineCasing.blockResistance = 100.0;
+HighHeatFusionMachineCasing.toolClass = "pickaxe";
+HighHeatFusionMachineCasing.toolLevel = 4;
+HighHeatFusionMachineCasing.creativeTab = <creativetab:FantasyParadise>;
+HighHeatFusionMachineCasing.entitySpawnable = false;
+HighHeatFusionMachineCasing.register();
+
+var HighHeatFusionMachineBlock as Block = VanillaFactory.createBlock("high_heat_fusion_machineblock", <blockmaterial:iron>);
+HighHeatFusionMachineBlock.blockHardness = 35.0;
+HighHeatFusionMachineBlock.blockResistance = 100.0;
+HighHeatFusionMachineBlock.toolClass = "pickaxe";
+HighHeatFusionMachineBlock.toolLevel = 4;
+HighHeatFusionMachineBlock.creativeTab = <creativetab:FantasyParadise>;
+HighHeatFusionMachineBlock.entitySpawnable = false;
+HighHeatFusionMachineBlock.register();
