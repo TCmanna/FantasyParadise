@@ -10,12 +10,14 @@
 <contenttweaker:fdaitem_10>.displayName = "集结符文";
 <contenttweaker:fdaitem_11>.displayName = "泰拉符文";
 <contenttweaker:fdaitem_12>.displayName = "§6始源莲华";
+<contenttweaker:fdaitem_13>.displayName = "蕴魔热爆核心";
 
 
 
 <contenttweaker:fdaplate_1>.displayName = "钛板";
 <contenttweaker:fdaplate_2>.displayName = "硅板";
 <contenttweaker:fdaplate_3>.displayName = "钨板";
+<contenttweaker:fdaplate_4>.displayName = "融合星体板";
 
 
 <contenttweaker:ae2add_1>.displayName = "强化逻辑处理器";
@@ -42,6 +44,8 @@
 <contenttweaker:fdaingot_13>.displayName = "硅锭";
 <contenttweaker:fdaingot_14>.displayName = "热铱锭";
 <contenttweaker:fdaingot_15>.displayName = "热锇锭";
+<contenttweaker:fdaingot_16>.displayName = "热融合星体锭";
+<contenttweaker:fdaingot_17>.displayName = "极寒超导融合星体锭";
 
 <contenttweaker:fdadust_1>.displayName = "二氧化铱粉";
 <contenttweaker:fdadust_2>.displayName = "氯化铱粉";
@@ -52,5 +56,7 @@
 <contenttweaker:fdadust_7>.displayName = "泰拉钢粉";
 <contenttweaker:fdadust_8>.displayName = "铱锇合金粉";
 <contenttweaker:fdadust_9>.displayName = "奥利哈刚粉";
+<contenttweaker:fdadust_10>.displayName = "黯淡融合星体粉";
+<contenttweaker:fdadust_11>.displayName = "闪烁融合星体粉";
 
 <contenttweaker:fda_mercurydust>.displayName = "水星尘埃";

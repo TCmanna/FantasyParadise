@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ic2:items/cable/glass_cable",
+	"layer1": "contenttweaker:items/craftCable"
+  }
+}

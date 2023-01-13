@@ -43,7 +43,7 @@ mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotSteel>, 
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource:2>, <ore:dustDiamond>, 60000);
 mods.botania.ManaInfusion.addInfusion(<botania:storage>, <ore:blockSteel>, 360000);
 
-
+mods.botania.Apothecary.addRecipe(<contenttweaker:fdaitem_13>, [<botania:specialflower>.withTag({type: "entropinnyum"}), <ic2:te:1>, <botania:specialflower>.withTag({type: "entropinnyum"}), <ic2:te:1>, <botania:specialflower>.withTag({type: "entropinnyum"}), <ic2:te:1>, <botania:specialflower>.withTag({type: "entropinnyum"}), <ic2:te:1>]);
 mods.botania.Apothecary.addRecipe(<contenttweaker:fdaitem_5>, [<botania:petal>, <botania:petal:1>, <botania:petal:2>, <botania:petal:3>, <botania:petal:4>, <botania:petal:5>, <botania:petal:6>, <botania:petal:7>, <botania:petal:8>, <botania:petal:9>, <botania:petal:10>, <botania:petal:11>, <botania:petal:12>, <botania:petal:13>, <botania:petal:14>, <botania:petal:15>]);
 mods.botania.Apothecary.addRecipe("puredaisy", [<ore:petalWhite>, <ore:petalWhite>, <ore:petalWhite>, <ore:petalWhite> ,<ore:petalWhite>,<ore:petalWhite>,<ore:petalWhite>,<ore:petalWhite>]);
 mods.botania.Apothecary.addRecipe("endoflame", [<ore:petalBrown>, <ore:petalBrown>, <ore:petalBrown>, <ore:petalBrown> ,<ore:petalRed>,<ore:petalRed>,<ore:petalLightGray>,<ore:petalLightGray>,<ic2:te:3>]);

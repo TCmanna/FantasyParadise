@@ -1,5 +1,5 @@
 {
-  "consumeCatalyst": false,
+  "version": 2,
   "location": "fdamb:capacitor_create_mechine",
   "traits": {
     "item": [
@@ -69,23 +69,45 @@
     ],
     "background": "fdamb:textures/gui/capacitor_create_mechine.png"
   },
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "state": {
-      "id": "immersiveengineering:metal_device0",
-      "meta": 0
-    },
-    "type": "blockstate"
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "FantasyParadise"
   },
-  "formedRenderer": {
-    "state": {
-      "id": "mekanism:basicblock",
-      "meta": 7
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "immersiveengineering:metal_device0",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
     },
-    "type": "blockstate"
+    "idle": {
+      "renderer": {
+        "state": {
+          "id": "mekanism:basicblock",
+          "meta": 7
+        },
+        "type": "blockstate"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
   },
-  "isOpaqueCube": true,
+  "recipeMap": "capacitor_create_mechine",
   "basePattern": {
     "structureDir": [
       "FRONT",
@@ -186,6 +208,5 @@
         "C"
       ]
     }
-  },
-  "recipeMap": "capacitor_create_mechine"
+  }
 }

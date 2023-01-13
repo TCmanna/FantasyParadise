@@ -1,31 +1,49 @@
 tile.fdamb.capacitor_create_mechine.name=电容构建站
-tile.fdamb.craftcore.name=测试核心
 tile.fdamb.crystal_revitalizer.name=水晶焕活器
 tile.fdamb.large_centrifuge.name=大型离心机
 tile.fdamb.implosion_compressor.name=聚爆压缩机
 tile.fdamb.refinery_mixer.name=固定混合车间
 tile.fdamb.large_electrolyzer.name=大型电解机
 tile.fdamb.gaia_mana_liquefaction.name=盖亚魔力液化器
+tile.fdamb.gaia_manafaction.name=盖亚魔力魔化器
+tile.fdamb.industrial_mana_explosive.name=工业爆燃魔导器
+tile.fdamb.cryo_freezer.name=凛冰急冻器
 
 
 capacitor_create_mechine.name=电容构建站
-craftcore.name=测试核心
 crystal_revitalizer.name=水晶焕活器
 large_centrifuge.name=大型离心机
 implosion_compressor.name=聚爆压缩机
 refinery_mixer.name=固定混合车间
 large_electrolyzer.name=大型电解机
 gaia_mana_liquefaction.name=盖亚魔力液化器
+gaia_manafaction.name=盖亚魔力魔化器
+industrial_mana_explosive.name=工业爆燃魔导器
+cryo_freezer.name=凛冰急冻器
 
 
 multiblocked.recipe_map.capacitor_create_mechine=电容构建站
-multiblocked.recipe_map.exbotingot=测试核心
 multiblocked.recipe_map.crystal_revitalizer=水晶焕活器
 multiblocked.recipe_map.large_centrifuge=大型离心机
 multiblocked.recipe_map.implosion_compressor=聚爆压缩机
 multiblocked.recipe_map.refinery_mixer=固定混合车间
 multiblocked.recipe_map.large_electrolyzer=大型电解机
 multiblocked.recipe_map.gaia_mana_liquefaction=盖亚魔力液化器
+multiblocked.recipe_map.gaia_manafaction=盖亚魔力魔化器
+multiblocked.recipe_map.industrial_mana_explosive=工业爆燃魔导器
+multiblocked.recipe_map.cryo_freezer=凛冰急冻器
+
+
+fdamb.capacitor_create_mechine.description=电容构建站
+fdamb.crystal_revitalizer.description=水晶焕活器
+fdamb.large_centrifuge.description=大型离心机
+fdamb.implosion_compressor.description=聚爆压缩机
+fdamb.refinery_mixer.description=固定混合车间
+fdamb.large_electrolyzer.description=大型电解机
+fdamb.gaia_mana_liquefaction.description=盖亚魔力液化器
+fdamb.gaia_manafaction.description=盖亚魔力魔化器
+fdamb.industrial_mana_explosive.description=工业爆燃魔导器
+fdamb.cryo_freezer.description=凛冰急冻器
 
 
 tile.fdamb.rf_input.name=RF能源仓
@@ -44,3 +62,5 @@ pyrotheum_calciner.name=筑基炽焱煅烧炉
 pyrotheum_calciner_pro.name=大乘炽焱煅烧炉
 multiblocked.recipe_map.pyrotheum_calciner=筑基炽焱煅烧炉
 multiblocked.recipe_map.pyrotheum_calciner_pro=大乘炽焱煅烧炉
+fdamb.pyrotheum_calciner.description=筑基炽焱煅烧炉
+fdamb.pyrotheum_calciner_pro.description=大乘炽焱煅烧炉

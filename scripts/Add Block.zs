@@ -65,3 +65,9 @@ HighHeatFusionMachineBlock.toolLevel = 4;
 HighHeatFusionMachineBlock.creativeTab = <creativetab:FantasyParadise>;
 HighHeatFusionMachineBlock.entitySpawnable = false;
 HighHeatFusionMachineBlock.register();
+
+var FPDore1 as Block = VanillaFactory.createBlock("fusion_astral_ore", <blockmaterial:rock>);
+FPDore1.toolClass = "pickaxe";
+FPDore1.toolLevel = 3;
+FPDore1.creativeTab = <creativetab:FantasyParadise>;
+FPDore1.register();

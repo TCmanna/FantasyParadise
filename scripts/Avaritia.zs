@@ -63,3 +63,14 @@ mods.avaritia.ExtremeCrafting.addShaped("Quantum Entangloporter",<mekanism:machi
 [null,<ore:blockRefinedObsidian>,<contenttweaker:ae2add_7>,<contenttweaker:ae2add_7>,<mekanism:controlcircuit:3>,<contenttweaker:ae2add_7>,<contenttweaker:ae2add_7>,<ore:blockRefinedObsidian>,null],
 [null,<ore:blockRefinedObsidian>,<ore:blockRefinedObsidian>,<ic2:resource:13>,<mekanism:basicblock:8>,<ic2:resource:13>,<ore:blockRefinedObsidian>,<ore:blockRefinedObsidian>,null],
 [null,null,null,null,null,null,null,null,null]]);
+
+mods.avaritia.ExtremeCrafting.addShaped("Industrial Manaexplosive",<fdamb:industrial_mana_explosive>,
+[[null,null,null,null,null,null,null,null,null],
+[null,<ic2:glass>,<ic2:glass>,<ic2:glass>,<ic2:glass>,<ic2:glass>,<ic2:glass>,<ic2:glass>,null],
+[null,<ic2:glass>,<botania:spreader:3>,<minecraft:tnt>,<minecraft:tnt>,<minecraft:tnt>,<botania:spreader:3>,<ic2:glass>,null],
+[null,<ic2:glass>,<minecraft:tnt>,<contenttweaker:fdaitem_9>,<contenttweaker:fdaitem_12>,<contenttweaker:fdaitem_9>,<minecraft:tnt>,<ic2:glass>,null],
+[null,<ic2:glass>,<minecraft:tnt>,<contenttweaker:fdaitem_12>,<contenttweaker:fdaitem_13>,<contenttweaker:fdaitem_12>,<minecraft:tnt>,<ic2:glass>,null],
+[null,<ic2:glass>,<minecraft:tnt>,<contenttweaker:fdaitem_9>,<contenttweaker:fdaitem_12>,<contenttweaker:fdaitem_9>,<minecraft:tnt>,<ic2:glass>,null],
+[null,<ic2:glass>,<botania:spreader:3>,<minecraft:tnt>,<minecraft:tnt>,<minecraft:tnt>,<botania:spreader:3>,<ic2:glass>,null],
+[null,<ic2:glass>,<ic2:glass>,<ic2:glass>,<ic2:glass>,<ic2:glass>,<ic2:glass>,<ic2:glass>,null],
+[null,null,null,null,null,null,null,null,null]]);

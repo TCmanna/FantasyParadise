@@ -25,3 +25,4 @@ mods.mekanism.separator.addRecipe(<liquid:fdanickel_2>*1000, 5000, <gas:nickel>*
 //粉碎
 mods.mekanism.crusher.addRecipe(<minecraft:flint_and_steel>, <enderio:item_material:20>*16);
 mods.mekanism.crusher.addRecipe(<ore:blockMercuryStone>, <contenttweaker:fda_mercurydust>);
+mods.mekanism.crusher.addRecipe(<contenttweaker:fusion_astral_ore>, <contenttweaker:fdadust_10>);

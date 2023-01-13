@@ -69,3 +69,10 @@ pc.recipeMap.start()
     .inputFE(1000000)
     .outputItems(<extraplanets:tier9_items:5>)
     .buildAndRegister();  
+
+pc.recipeMap.start()
+    .duration(800)
+    .inputItems(<galacticraftplanets:item_basic_asteroids:9>)
+    .inputFE(819200)
+    .outputItems(<contenttweaker:fdaingot_12>)
+    .buildAndRegister();  

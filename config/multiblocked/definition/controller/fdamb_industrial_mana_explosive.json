@@ -1,0 +1,238 @@
+{
+  "version": 2,
+  "location": "fdamb:industrial_mana_explosive",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "FantasyParadise"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "fdamb:blocks/industrial_mana_explosive_models",
+        "type": "imodel"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "modelLocation": "fdamb:blocks/industrial_mana_explosive_models_f",
+        "type": "imodel"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "industrial_mana_explosive",
+  "catalyst": "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"minecraft:flint_and_steel\",Count:1b,Damage:0s}",
+  "consumeCatalyst": "NOT_CONSUMED",
+  "noNeedController": false,
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "AB@BA",
+        "B   B",
+        "B   B",
+        "B   B",
+        "ABBBA"
+      ],
+      [
+        "B   B",
+        " CDC ",
+        " E E ",
+        " CFC ",
+        "B   B"
+      ],
+      [
+        "B   B",
+        " DGD ",
+        "  H  ",
+        " FIF ",
+        "B   B"
+      ],
+      [
+        "B   B",
+        " CDC ",
+        " E E ",
+        " CFC ",
+        "B   B"
+      ],
+      [
+        "ABBBA",
+        "B   B",
+        "B   B",
+        "B   B",
+        "ABBBA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "fdamb:industrial_mana_explosive",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "ic2:glass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 8
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "extrabotany:blockshadowium",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "ic2:resource",
+            "meta": 11
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "extrabotany:blockphotonium",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "botania:storage",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "extrabotany:manabarrel",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "fdamb:input_bus",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

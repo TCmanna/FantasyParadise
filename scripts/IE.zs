@@ -29,7 +29,7 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:fdaingot_15>, <
 mods.immersiveengineering.BlastFurnace.addFuel(<minecraft:coal>,300);
 mods.immersiveengineering.BlastFurnace.addFuel(<minecraft:coal_block>,3000);
 
-mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:fdaingot_12>, <galacticraftplanets:item_basic_asteroids:9>, null, 200, 8192, null, "FDATweaker");
+mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:fdaingot_12>, <galacticraftplanets:item_basic_asteroids:9>, null, 200, 2048, null, "FDATweaker");
 mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:134>, <thermalfoundation:material:70>*12, <mekores:mekanismore:16>*10, 300, 12000, null, "FDATweaker");
 mods.immersiveengineering.ArcFurnace.addRecipe(<plustic:osmiridiumingot>, <plustic:osmiridiumnugget>*9, null, 200, 32768, null, "FDATweaker");
 

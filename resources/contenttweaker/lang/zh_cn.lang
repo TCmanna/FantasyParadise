@@ -22,6 +22,19 @@ item.contenttweaker.WarLords_item_11.name=§6§lWarLords阿伯登重锤
 item.contenttweaker.WarLords_item_12.name=§6§lWarLords德雷克战斧
 item.contenttweaker._iL_Prismontis.name=§b§lPrismontis§b§l§kx
 
+item.contenttweaker.copper_cable.name=铜质导线[D]
+item.contenttweaker.insuironlated_copper_cable.name=绝缘铜质导线[D]
+item.contenttweaker.gold_cable.name=金质导线[D]
+item.contenttweaker.insulated_gold_cable.name=绝缘金质导线[D]
+item.contenttweaker.dou_insulated_gold_cable.name=2x绝缘金质导线[D]
+item.contenttweaker.iron_cable.name=高压导线[D]
+item.contenttweaker.insulated_iron_cable.name=绝缘高压导线[D]
+item.contenttweaker.dou_insulated_iron_cable.name=2x绝缘高压导线[D]
+item.contenttweaker.tro_insulated_iron_cable.name=3x绝缘高压导线[D]
+item.contenttweaker.tin_cable.name=锡质导线[D]
+item.contenttweaker.insulated_tin_cable.name=绝缘锡质导线[D]
+item.contenttweaker.glass_cable.name=玻璃纤维导线[D]
+
 itemGroup.FantasyParadise=幻梦神域
 itemGroup.FPMaterials=幻梦神域材料
 itemGroup.FPWeapons=幻梦神域武器
@@ -33,4 +46,6 @@ tile.contenttweaker.diamond_bordered_cobblestone.name=钻石边框圆石
 tile.contenttweaker.emerald_bordered_cobblestone.name=绿宝石边框圆石
 tile.contenttweaker.high_heat_fusion_machinecasing.name=高热容机械外壳
 tile.contenttweaker.high_heat_fusion_machineblock.name=高热容机械方块
+
+tile.contenttweaker.fusion_astral_ore.name=融合星体矿石
 

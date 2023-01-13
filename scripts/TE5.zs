@@ -66,12 +66,14 @@ mods.thermalexpansion.Compactor.addPressRecipe(<contenttweaker:fdaplate_1>, <gal
 mods.thermalexpansion.Compactor.addPressRecipe(<contenttweaker:fdaplate_2>, <contenttweaker:fdaingot_13>, 4000);
 mods.thermalexpansion.Compactor.addPressRecipe(<contenttweaker:fdaplate_3>, <extraplanets:tier9_items:5>, 4000);
 //流体精炼
-mods.thermalexpansion.Refinery.addRecipe(<liquid:fdanickel_2>*3000, <mekores:mekanismore:15>%95 ,<liquid:fdanickel_1>*4000, 400000);
-mods.thermalexpansion.Refinery.addRecipe(<liquid:ic2distilled_water>*1000, <contenttweaker:fdadust_2>,<liquid:fdairidium_2>*1000, 400000);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:fdanickel_2>*3000, <mekores:mekanismore:15>%95 ,<liquid:fdanickel_1>*4000, 300000);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:ic2distilled_water>*1000, <contenttweaker:fdadust_2>,<liquid:fdairidium_2>*1000, 300000);
 //熔岩炉
 mods.thermalexpansion.Crucible.addRecipe(<liquid:moltentitanium>*144, <galacticraftplanets:item_basic_asteroids>, 4000);
 //离心机
 mods.thermalexpansion.Centrifuge.addRecipe([<mekores:mekanismore:119>%8, <ic2:dust:15>%81, <galacticraftcore:ic2compat:7>%11, <mekores:mekanismore:109>%4], <contenttweaker:fda_mercurydust>*6, null, 80000);
+mods.thermalexpansion.Centrifuge.addRecipe([<thermalfoundation:material:71>, <mekanism:crystal:2>, <mekanism:crystal:2>%60], <contenttweaker:fdadust_8>*4, null, 80000);
+mods.thermalexpansion.Centrifuge.addRecipe([<tconstruct:shard>.withTag({Material: "platinum_plustic"})%70, <tconstruct:shard>.withTag({Material: "platinum_plustic"})%10, <tconstruct:shard>.withTag({Material: "platinum_plustic"})%5, <tconstruct:shard>.withTag({Material: "platinum_plustic"})%1], <mekores:mekanismore:16>, null, 80000);
 
 //-------------heavy plating-----------//
 recipes.addShaped(<contenttweaker:fdaingot_1>, [[<galacticraftcore:basic_item:9>, <galacticraftcore:basic_item:8>, <galacticraftcore:basic_item:10>],[<galacticraftcore:basic_item:9>, <galacticraftcore:basic_item:8>, <galacticraftcore:basic_item:10>], [null, null, null]]);

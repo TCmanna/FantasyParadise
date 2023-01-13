@@ -76,6 +76,12 @@ FDAitem12.rarity = "EPIC";
 FDAitem12.creativeTab = <creativetab:FantasyParadise>;
 FDAitem12.register();
 
+val FDAitem13 as Item = VanillaFactory.createItem('FDAitem_13');
+FDAitem13.maxDamage = -1;
+FDAitem13.rarity = "EPIC";
+FDAitem13.creativeTab = <creativetab:FantasyParadise>;
+FDAitem13.register();
+
 
 
 val FDAingot1 as Item = VanillaFactory.createItem('FDAingot_1');
@@ -187,6 +193,14 @@ FDAingot15.maxStackSize = 64;
 FDAingot15.creativeTab = <creativetab:FPMaterials>;
 FDAingot15.register();
 
+val FDAingot16 as Item = VanillaFactory.createItem('FDAingot_16');
+FDAingot16.creativeTab = <creativetab:FPMaterials>;
+FDAingot16.register();
+
+val FDAingot17 as Item = VanillaFactory.createItem('FDAingot_17');
+FDAingot17.creativeTab = <creativetab:FPMaterials>;
+FDAingot17.register();
+
 val FDAplate1 as Item = VanillaFactory.createItem('FDAplate_1');
 FDAplate1.maxDamage = -1;
 FDAplate1.maxStackSize = 64;
@@ -204,3 +218,7 @@ FDAplate3.maxDamage = -1;
 FDAplate3.maxStackSize = 64;
 FDAplate3.creativeTab = <creativetab:FPMaterials>;
 FDAplate3.register();
+
+val FDAplate4 as Item = VanillaFactory.createItem('FDAplate_4');
+FDAplate4.creativeTab = <creativetab:FPMaterials>;
+FDAplate4.register();

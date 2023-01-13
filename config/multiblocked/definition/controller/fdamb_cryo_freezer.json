@@ -1,0 +1,336 @@
+{
+  "version": 2,
+  "location": "fdamb:cryo_freezer",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "fdamb:blocks/test",
+        "type": "imodel"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "cryo_freezer",
+  "catalyst": "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"thermalfoundation:material\",Count:1b,Damage:1025s}",
+  "consumeCatalyst": "NOT_CONSUMED",
+  "noNeedController": false,
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "         ",
+        " ABBBBBA ",
+        " C     C ",
+        " ABBBBBA ",
+        "         "
+      ],
+      [
+        " CDDDDDC ",
+        "EEFGGGFEE",
+        "EEHI@IHEE",
+        "EEFJJJFEE",
+        " CDDDDDC "
+      ],
+      [
+        " C     C ",
+        "EEHKKKHEE",
+        "EE     EE",
+        "EEOKKKNEE",
+        " C     C "
+      ],
+      [
+        " CDDDDDC ",
+        "EEFLLLFEE",
+        "EEHIIIHEE",
+        "EEFMMMFEE",
+        " CDDDDDC "
+      ],
+      [
+        "         ",
+        " ABBBBBA ",
+        " C     C ",
+        " ABBBBBA ",
+        "         "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "fdamb:cryo_freezer",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "thermaldynamics:duct_16",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "minecraft:iron_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"      },
+      "D": {
+        "states": [
+          {
+            "id": "thermaldynamics:duct_0",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 7
+          }
+        ],
+        "type": "states"      },
+      "F": {
+        "states": [
+          {
+            "id": "fdamb:rf_input_pro",
+            "meta": 0
+          }
+        ],
+        "type": "states"      },
+      "G": {
+        "states": [
+          {
+            "id": "botania:quartzstairsmana",
+            "meta": 6
+          },
+          {
+            "id": "botania:quartzstairsmana",
+            "meta": 4
+          },
+          {
+            "id": "botania:quartzstairsmana",
+            "meta": 5
+          },
+          {
+            "id": "botania:quartzstairsmana",
+            "meta": 7
+          }
+        ],
+        "type": "states"      },
+      "H": {
+        "states": [
+          {
+            "id": "mekanismgenerators:generator",
+            "meta": 13
+          }
+        ],
+        "type": "states"      },
+      "I": {
+        "states": [
+          {
+            "id": "contenttweaker:high_heat_fusion_machinecasing",
+            "meta": 0
+          }
+        ],
+        "type": "states"      },
+      "J": {
+        "states": [
+          {
+            "id": "botania:quartzstairsmana",
+            "meta": 2
+          },
+          {
+            "id": "botania:quartzstairsmana",
+            "meta": 0
+          },
+          {
+            "id": "botania:quartzstairsmana",
+            "meta": 1
+          },
+          {
+            "id": "botania:quartzstairsmana",
+            "meta": 3
+          }
+        ],
+        "type": "states"      },
+      "K": {
+        "states": [
+          {
+            "id": "thermalfoundation:storage",
+            "meta": 8
+          }
+        ],
+        "type": "states"      },
+      "L": {
+        "states": [
+          {
+            "id": "botania:quartzstairsmana",
+            "meta": 7
+          },
+          {
+            "id": "botania:quartzstairsmana",
+            "meta": 4
+          },
+          {
+            "id": "botania:quartzstairsmana",
+            "meta": 5
+          },
+          {
+            "id": "botania:quartzstairsmana",
+            "meta": 6
+          }
+        ],
+        "type": "states"      },
+      "any": {
+        "type": "any"
+      },
+      "M": {
+        "states": [
+          {
+            "id": "botania:quartzstairsmana",
+            "meta": 3
+          },
+          {
+            "id": "botania:quartzstairsmana",
+            "meta": 0
+          },
+          {
+            "id": "botania:quartzstairsmana",
+            "meta": 1
+          },
+          {
+            "id": "botania:quartzstairsmana",
+            "meta": 2
+          }
+        ],
+        "type": "states"      },
+      "N": {
+        "states": [
+          {
+            "id": "fdamb:output_bus",
+            "meta": 0
+          }
+        ],
+        "type": "states"      },
+      "O": {
+        "states": [
+          {
+            "id": "fdamb:input_bus",
+            "meta": 0
+          }
+        ],
+        "type": "states"      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "M"
+      ],
+      "N": [
+        "N"
+      ],
+      "O": [
+        "O"
+      ]
+    }
+  }
+}

@@ -7,10 +7,20 @@ import mods.multiblocked.recipe.RecipeMap;
 var definition as ComponentDefinition = MBDRegistry.getDefinition("fdamb:refinery_mixer");
 var rm = definition as ControllerDefinition;
 rm.recipeMap.start()
+    .duration(40)
+    .inputFluids(<liquid:sulphuricacid>*1000)
+    .inputItems(<ore:oreNickel>)
+    .inputFE(60000)
+    .outputFluids(<liquid:fdanickel_1>*2000)
+    .buildAndRegister();
+
+rm.recipeMap.start()
     .duration(400)
     .inputFluids(<liquid:fdanickel_1>*4000)
-    .inputFE(800000)
-    .outputItems(0.75,<mekores:mekanismore:15>)
+    .inputFE(400000)
+    .outputItems(<mekores:mekanismore:15>)
+    .outputItems(0.75, <mekores:mekanismore:15>)
+    .outputItems(0.25, <mekores:mekanismore:15>)
     .outputFluids(<liquid:fdanickel_2>*3000)
     .buildAndRegister();
 
@@ -38,7 +48,7 @@ rm.recipeMap.start()
     .buildAndRegister();
 
 rm.recipeMap.start()
-    .duration(1600)
+    .duration(1000)
     .inputFluids(<liquid:sulphuricacid>*1000)
     .inputItems(<mekanism:dust:2>)
     .inputFE(2200000)

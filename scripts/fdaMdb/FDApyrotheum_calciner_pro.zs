@@ -70,3 +70,11 @@ pcp.recipeMap.start()
     .inputFE(1500000)
     .outputItems(<extraplanets:tier9_items:5>)
     .buildAndRegister();
+
+pcp.recipeMap.start()
+    .duration(600)
+    .inputItems(<contenttweaker:fdadust_11>)
+    .inputFluids(<liquid:pyrotheum>*1000)
+    .inputFE(20000000)
+    .outputItems(<contenttweaker:fdaingot_16>)
+    .buildAndRegister();

@@ -1,0 +1,60 @@
+{
+	"dependencies": "contenttweaker",
+	"populate": {
+		"fusion_astral": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "contenttweaker:fusion_astral_ore"
+				},
+				"material": [
+                    "extraplanets:io",
+                    "extraplanets:europa",
+                    "extraplanets:ganymede",
+                    "extraplanets:callisto"
+                ],
+				"cluster-size": 6
+			},
+			"cluster-count": 8,
+			"min-height": 20,
+			"max-height": 60,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1500,
+                    -1501,
+                    -1506,
+                    -1505
+				]
+			}
+		},
+		"Ilmenite": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "galacticraftplanets:asteroids_block",
+					"properties": {
+                        "basictypeasteroids": "ore_ilmenite_asteroids"
+                    }
+				},
+				"material": "extraplanets:deimos",
+				"cluster-size": 10
+			},
+			"cluster-count": 8,
+			"min-height": 10,
+			"max-height": 50,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1503
+				]
+			}
+		}
+    }
+}
