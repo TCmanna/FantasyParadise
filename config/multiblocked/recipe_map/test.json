@@ -1,0 +1,37 @@
+{
+  "name": "test",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "6d7fc124-0899-41a2-a742-7af509a93ff5",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"minecraft:stone\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"minecraft:stone\",Count:1b,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

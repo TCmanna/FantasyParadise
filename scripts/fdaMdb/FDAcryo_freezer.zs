@@ -34,6 +34,6 @@ cr.recipeMap.start()
     .duration(600)
     .inputItems(<contenttweaker:fdaingot_16>)
     .inputFluids(<liquid:cryotheum>*1000)
-    .outputItems(<contenttweaker:FDAingot_17>)
+    .outputItems(<contenttweaker:fdaingot_17>)
     .inputFE(800000)
     .buildAndRegister();

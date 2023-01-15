@@ -1,5 +1,5 @@
 {
-  "canShared": true,
+  "version": 2,
   "location": "fdamb:input_bus",
   "traits": {
     "background": "fdamb:textures/gui/inputbus.png",
@@ -7,6 +7,7 @@
       {
         "cIO": 0,
         "gIO": 2,
+        "mIO": 0,
         "x": 61,
         "y": 57,
         "autoIO": false
@@ -14,6 +15,7 @@
       {
         "cIO": 0,
         "gIO": 2,
+        "mIO": 0,
         "x": 79,
         "y": 57,
         "autoIO": false
@@ -21,6 +23,7 @@
       {
         "cIO": 0,
         "gIO": 2,
+        "mIO": 0,
         "x": 97,
         "y": 57,
         "autoIO": false
@@ -28,6 +31,7 @@
       {
         "cIO": 0,
         "gIO": 2,
+        "mIO": 0,
         "x": 61,
         "y": 75,
         "autoIO": false
@@ -35,6 +39,7 @@
       {
         "cIO": 0,
         "gIO": 2,
+        "mIO": 0,
         "x": 79,
         "y": 75,
         "autoIO": false
@@ -42,6 +47,7 @@
       {
         "cIO": 0,
         "gIO": 2,
+        "mIO": 0,
         "x": 97,
         "y": 75,
         "autoIO": false
@@ -49,6 +55,7 @@
       {
         "cIO": 0,
         "gIO": 2,
+        "mIO": 0,
         "x": 61,
         "y": 93,
         "autoIO": false
@@ -56,6 +63,7 @@
       {
         "cIO": 0,
         "gIO": 2,
+        "mIO": 0,
         "x": 79,
         "y": 93,
         "autoIO": false
@@ -63,18 +71,41 @@
       {
         "cIO": 0,
         "gIO": 2,
+        "mIO": 0,
         "x": 97,
         "y": 93,
         "autoIO": false
       }
     ]
   },
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "baseTexture": "mekanismgenerators:blocks/reactor_port",
-    "frontTexture": "mekanismgenerators:blocks/reactor_port",
-    "type": "gregtech"
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
   },
-  "isOpaqueCube": true
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "mekanismgenerators:blocks/reactor_port",
+        "frontTexture": "mekanismgenerators:blocks/reactor_port",
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "canShared": true
 }

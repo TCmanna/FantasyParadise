@@ -55,6 +55,7 @@ tile.fdamb.calciner_machine_hull.name=煅烧炉机器外壳
 tile.fdamb.calciner_machine_casing_pro.name=进阶煅烧炉机械方块
 tile.fdamb.calciner_fluidinput.name=煅烧炉流体输入仓
 tile.fdamb.calaciner_fixed.name=煅烧炉高级固定器
+tile.fdamb.cryo_machine_casing.name=凛冰导流机械外壳
 
 tile.fdamb.pyrotheum_calciner.name=筑基炽焱煅烧炉
 tile.fdamb.pyrotheum_calciner_pro.name=大乘炽焱煅烧炉

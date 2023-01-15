@@ -12,11 +12,11 @@ mods.avaritia.ExtremeCrafting.addShaped("Primordial Flower",<contenttweaker:fdai
 mods.avaritia.ExtremeCrafting.addShaped("Draconic Core",<draconicevolution:draconic_core>*2,
 [[null,null,null,null,null,null,null,null,null],
 [null,<draconicevolution:draconium_ingot>,null,null,<thermalfoundation:material:134>,null,null,<draconicevolution:draconium_ingot>,null],
-[null,null,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,<thermalfoundation:material:132>,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,null,null],
-[null,null,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,<galacticraftplanets:item_basic_asteroids>,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,null,null],
+[null,null,<draconicevolution:draconium_ingot>,<contenttweaker:fdaplate_3>,<thermalfoundation:material:132>,<contenttweaker:fdaplate_3>,<draconicevolution:draconium_ingot>,null,null],
+[null,null,<contenttweaker:fdaplate_3>,<contenttweaker:fdaingot_17>,<galacticraftplanets:item_basic_asteroids>,<contenttweaker:fdaingot_17>,<contenttweaker:fdaplate_3>,null,null],
 [null,<thermalfoundation:material:134>,<thermalfoundation:material:132>,<galacticraftplanets:item_basic_asteroids>,<advanced_solar_panels:crafting:9>,<galacticraftplanets:item_basic_asteroids>,<thermalfoundation:material:132>,<thermalfoundation:material:134>,null],
-[null,null,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,<galacticraftplanets:item_basic_asteroids>,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,null,null],
-[null,null,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,<thermalfoundation:material:132>,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,null,null],
+[null,null,<contenttweaker:fdaplate_3>,<contenttweaker:fdaingot_17>,<galacticraftplanets:item_basic_asteroids>,<contenttweaker:fdaingot_17>,<contenttweaker:fdaplate_3>,null,null],
+[null,null,<draconicevolution:draconium_ingot>,<contenttweaker:fdaplate_3>,<thermalfoundation:material:132>,<contenttweaker:fdaplate_3>,<draconicevolution:draconium_ingot>,null,null],
 [null,<draconicevolution:draconium_ingot>,null,null,<thermalfoundation:material:134>,null,null,<draconicevolution:draconium_ingot>,null],
 [null,null,null,null,null,null,null,null,null]]);
 

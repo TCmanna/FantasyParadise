@@ -48,3 +48,12 @@ lc.recipeMap.start()
     .outputItems(<mekores:mekanismore:109>)
     .inputFE(200000)
     .buildAndRegister();  
+
+lc.recipeMap.start()
+    .duration(200)
+    .inputItems(<ic2:dust:30>*16) 
+    .outputItems(<thermalfoundation:material:771>*8)
+    .outputItems(<ic2:misc_resource>*4)
+    .inputFE(200000)
+    .buildAndRegister();  
+    

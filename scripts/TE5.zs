@@ -74,6 +74,7 @@ mods.thermalexpansion.Crucible.addRecipe(<liquid:moltentitanium>*144, <galacticr
 mods.thermalexpansion.Centrifuge.addRecipe([<mekores:mekanismore:119>%8, <ic2:dust:15>%81, <galacticraftcore:ic2compat:7>%11, <mekores:mekanismore:109>%4], <contenttweaker:fda_mercurydust>*6, null, 80000);
 mods.thermalexpansion.Centrifuge.addRecipe([<thermalfoundation:material:71>, <mekanism:crystal:2>, <mekanism:crystal:2>%60], <contenttweaker:fdadust_8>*4, null, 80000);
 mods.thermalexpansion.Centrifuge.addRecipe([<tconstruct:shard>.withTag({Material: "platinum_plustic"})%70, <tconstruct:shard>.withTag({Material: "platinum_plustic"})%10, <tconstruct:shard>.withTag({Material: "platinum_plustic"})%5, <tconstruct:shard>.withTag({Material: "platinum_plustic"})%1], <mekores:mekanismore:16>, null, 80000);
+mods.thermalexpansion.Centrifuge.addRecipe([<thermalfoundation:material:771>, <ic2:dust:8>%81, <ic2:dust:14>%50, <galacticraftcore:ic2compat:7>%5], <ic2:misc_resource>*8, null, 80000);
 
 //-------------heavy plating-----------//
 recipes.addShaped(<contenttweaker:fdaingot_1>, [[<galacticraftcore:basic_item:9>, <galacticraftcore:basic_item:8>, <galacticraftcore:basic_item:10>],[<galacticraftcore:basic_item:9>, <galacticraftcore:basic_item:8>, <galacticraftcore:basic_item:10>], [null, null, null]]);

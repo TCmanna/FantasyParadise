@@ -5,7 +5,7 @@
   "properties": {
     "rotationState": "ALL",
     "showInJei": true,
-    "isOpaque": false,
+    "isOpaque": true,
     "hasCollision": true,
     "destroyTime": 1.5,
     "explosionResistance": 10.0,
@@ -16,14 +16,23 @@
   "status": {
     "unformed": {
       "renderer": {
-        "modelLocation": "fdamb:blocks/test",
-        "type": "imodel"
+        "baseTexture": "fdamb:blocks/freezer/cryo_freezer",
+        "frontTexture": "fdamb:blocks/freezer/cryo_freezer_face",
+        "leftTexture": "fdamb:blocks/freezer/cryo_freezer_LR",
+        "rightTexture": "fdamb:blocks/freezer/cryo_freezer_LR",
+        "backTexture": "fdamb:blocks/freezer/cryo_freezer_face",
+        "type": "gregtech"
       }
     },
     "idle": {
       "parent": "unformed"
     },
     "working": {
+      "renderer": {
+        "baseTexture": "fdamb:blocks/freezer/cryo_freezer",
+        "frontTexture": "fdamb:blocks/freezer/cryo_freezer_face_R",
+        "type": "gregtech"
+      },
       "parent": "idle"
     },
     "suspend": {
@@ -129,7 +138,8 @@
             "meta": 0
           }
         ],
-        "type": "states"      },
+        "type": "states"
+      },
       "D": {
         "states": [
           {
@@ -146,7 +156,8 @@
             "meta": 7
           }
         ],
-        "type": "states"      },
+        "type": "states"
+      },
       "F": {
         "states": [
           {
@@ -154,7 +165,8 @@
             "meta": 0
           }
         ],
-        "type": "states"      },
+        "type": "states"
+      },
       "G": {
         "states": [
           {
@@ -174,7 +186,8 @@
             "meta": 7
           }
         ],
-        "type": "states"      },
+        "type": "states"
+      },
       "H": {
         "states": [
           {
@@ -182,15 +195,17 @@
             "meta": 13
           }
         ],
-        "type": "states"      },
+        "type": "states"
+      },
       "I": {
         "states": [
           {
-            "id": "contenttweaker:high_heat_fusion_machinecasing",
+            "id": "fdamb:cryo_machine_casing",
             "meta": 0
           }
         ],
-        "type": "states"      },
+        "type": "states"
+      },
       "J": {
         "states": [
           {
@@ -210,7 +225,8 @@
             "meta": 3
           }
         ],
-        "type": "states"      },
+        "type": "states"
+      },
       "K": {
         "states": [
           {
@@ -218,7 +234,8 @@
             "meta": 8
           }
         ],
-        "type": "states"      },
+        "type": "states"
+      },
       "L": {
         "states": [
           {
@@ -238,7 +255,8 @@
             "meta": 6
           }
         ],
-        "type": "states"      },
+        "type": "states"
+      },
       "any": {
         "type": "any"
       },
@@ -261,7 +279,8 @@
             "meta": 2
           }
         ],
-        "type": "states"      },
+        "type": "states"
+      },
       "N": {
         "states": [
           {
@@ -269,7 +288,8 @@
             "meta": 0
           }
         ],
-        "type": "states"      },
+        "type": "states"
+      },
       "O": {
         "states": [
           {
@@ -277,7 +297,8 @@
             "meta": 0
           }
         ],
-        "type": "states"      }
+        "type": "states"
+      }
     },
     "symbolMap": {
       "@": [

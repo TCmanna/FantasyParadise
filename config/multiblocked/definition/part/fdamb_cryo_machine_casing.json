@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "location": "fdamb:cryo_machine_casing",
+  "traits": {},
+  "properties": {
+    "rotationState": "NON_Y_AXIS",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "fdamb:blocks/freezer/cryo_freezer",
+        "frontTexture": "fdamb:blocks/freezer/cryo_freezer_LR",
+        "leftTexture": "fdamb:blocks/freezer/cryo_freezer_LR",
+        "rightTexture": "fdamb:blocks/freezer/cryo_freezer_LR",
+        "backTexture": "fdamb:blocks/freezer/cryo_freezer_LR",
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "baseTexture": "fdamb:blocks/freezer/cryo_freezer",
+        "frontTexture": "fdamb:blocks/freezer/cryo_freezer_LR_R",
+        "leftTexture": "fdamb:blocks/freezer/cryo_freezer_LR_R",
+        "rightTexture": "fdamb:blocks/freezer/cryo_freezer_LR_R",
+        "backTexture": "fdamb:blocks/freezer/cryo_freezer_LR_R",
+        "type": "gregtech"
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "canShared": true
+}

@@ -17,7 +17,7 @@
 <contenttweaker:fdaplate_1>.displayName = "钛板";
 <contenttweaker:fdaplate_2>.displayName = "硅板";
 <contenttweaker:fdaplate_3>.displayName = "钨板";
-<contenttweaker:fdaplate_4>.displayName = "融合星体板";
+<contenttweaker:fdaplate_4>.displayName = "致密融合星体板";
 
 
 <contenttweaker:ae2add_1>.displayName = "强化逻辑处理器";

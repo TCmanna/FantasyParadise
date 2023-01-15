@@ -56,3 +56,4 @@ config/ctm.cfg
 config/InvTweaks.cfg
 config/InvTweaksRules.txt
 config/InvTweaksTree.txt
+config/vanillafix/config_version

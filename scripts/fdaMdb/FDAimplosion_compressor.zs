@@ -160,3 +160,11 @@ ic.recipeMap.start()
     .inputItems(<contenttweaker:fdaingot_11>, <ic2:te:1>*2)
     .outputItems(<ic2:crafting:4>)
     .buildAndRegister(); 
+
+//其他
+//融合星体板
+ic.recipeMap.start()
+    .duration(100)
+    .inputItems(<contenttweaker:fdaingot_17>*3, <ic2:te:1>*2)
+    .outputItems(<contenttweaker:fdaplate_4>)
+    .buildAndRegister(); 

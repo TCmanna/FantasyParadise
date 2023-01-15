@@ -26,7 +26,7 @@ pcp.recipeMap.start()
 pcp.recipeMap.start()
     .duration(200)
     .inputItems(<draconicevolution:draconium_dust>,<thermalfoundation:material:134>)
-    .inputFluids(<liquid:pyrotheum>*1000,<liquid:fluidedmana>*4000)
+    .inputFluids(<liquid:pyrotheum>*1000,<liquid:fluidedmana>*1000)
     .inputFE(20000000)
     .outputItems(<draconicevolution:draconium_ingot>)
     .buildAndRegister();

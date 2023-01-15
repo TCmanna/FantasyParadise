@@ -1,6 +1,14 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<minecraft:end_crystal>);
+recipes.remove(<mekanism:tierinstaller:3>);
+recipes.remove(<mekanism:tierinstaller:2>);
+recipes.remove(<mekanism:tierinstaller:1>);
+recipes.remove(<mekanism:tierinstaller>);
+recipes.remove(<mekanism:energycube>);
+recipes.remove(<botania:spawnermover>);
+recipes.remove(<draconicevolution:draconic_spawner>);
 recipes.remove(<enderio:block_powered_spawner>);
 recipes.remove(<ic2:te:39>);
 recipes.remove(<gravisuite:crafting:1>);
@@ -396,7 +404,15 @@ recipes.remove(<ic2:te:88>);
 recipes.remove(<ic2:te:89>);
 //Don't touch me!
 //#Add
-recipes.addShaped(<enderio:block_powered_spawner>, [[<enderio:item_material:55>, <ore:skullZombieFrankenstein>, <enderio:item_material:55>],[<ore:circuitAdvanced>, <mekanism:basicblock:8>, <ore:circuitAdvanced>], [<enderio:item_material:55>, <ore:skullZombieFrankenstein>, <enderio:item_material:55>]]);
+recipes.addShaped(<minecraft:end_crystal>, [[<botania:manaresource:5>, <contenttweaker:fdadust_7>, <botania:manaresource:5>],[<advanced_solar_panels:crafting:6>, <minecraft:nether_star>, <advanced_solar_panels:crafting:6>], [<botania:manaresource:5>, <contenttweaker:fdadust_7>, <botania:manaresource:5>]]);
+recipes.addShaped(<mekanism:energycube>, [[<mekanism:energytablet>.anyDamage(), <mekanism:basicblock:8>, <mekanism:energytablet>.anyDamage()],[<mekanism:basicblock:8>, <thermalexpansion:cell>, <mekanism:basicblock:8>], [<mekanism:energytablet>.anyDamage(), <mekanism:basicblock:8>, <mekanism:energytablet>.anyDamage()]]);
+recipes.addShaped(<thermalexpansion:cell>, [[<thermaldynamics:duct_0:1>, <enderio:block_cap_bank:3>, <thermaldynamics:duct_0:1>],[<enderio:block_cap_bank:3>, <ic2:lapotron_crystal:*>, <enderio:block_cap_bank:3>], [<thermaldynamics:duct_0:1>, <enderio:block_cap_bank:3>, <thermaldynamics:duct_0:1>]]);
+recipes.addShaped(<fdamb:cryo_machine_casing>, [[<ore:itemInsulatedGlassCable>, <ore:circuitAdvanced>, <ore:itemInsulatedGlassCable>],[<ore:dustCryotheum>, <contenttweaker:high_heat_fusion_machinecasing>, <ore:dustCryotheum>], [null, null, null]]);
+recipes.addShaped(<fdamb:cryo_freezer>, [[<thermaldynamics:duct_0:5>, <galacticraftcore:view_screen>, <thermaldynamics:duct_0:5>],[<ore:dustCryotheum>, <contenttweaker:high_heat_fusion_machineblock>, <ore:dustCryotheum>], [<thermaldynamics:duct_16:6>, <thermalexpansion:machine:8>, <thermaldynamics:duct_16:6>]]);
+recipes.addShaped(<botania:spawnermover>, [[<botania:manaresource:14>, <contenttweaker:fdadust_11>, <botania:manaresource:14>],[<contenttweaker:fdadust_11>, <extrabotany:material:1>, <contenttweaker:fdadust_11>], [<botania:manaresource:14>, <contenttweaker:fdadust_11>, <botania:manaresource:14>]]);
+recipes.addShaped(<mekanism:controlcircuit:2>, [[<contenttweaker:fdaitem_2>, <contenttweaker:fdaplate_4>, <contenttweaker:fdaitem_2>],[<mekanism:reinforcedalloy>, <mekanism:reinforcedalloy>, <mekanism:reinforcedalloy>], [<contenttweaker:fdaitem_2>, <contenttweaker:fdaplate_4>, <contenttweaker:fdaitem_2>]]);
+recipes.addShaped(<mekanism:controlcircuit:1>, [[<contenttweaker:fdaitem_1>, <contenttweaker:fdaplate_4>, <contenttweaker:fdaitem_1>],[<mekanism:enrichedalloy>, <mekanism:enrichedalloy>, <mekanism:enrichedalloy>], [<contenttweaker:fdaitem_1>, <contenttweaker:fdaplate_4>, <contenttweaker:fdaitem_1>]]);
+recipes.addShaped(<enderio:block_powered_spawner>, [[<enderio:item_material:55>, <ore:skullZombieFrankenstein>, <enderio:item_material:55>],[<ore:circuitUltimate>, <mekanism:basicblock:8>, <ore:circuitUltimate>], [<enderio:item_material:55>, <ore:skullZombieFrankenstein>, <enderio:item_material:55>]]);
 recipes.addShaped(<multiblocked:fluid_input>, [[null, null, null],[<ore:circuitBasic>, <ic2:resource:12>, <mekanism:machineblock2:11>], [null, null, null]]);
 recipes.addShaped(<ic2:te:39>, [[<ore:circuitAdvanced>, <ic2:frequency_transmitter>, <ore:circuitAdvanced>],[<ore:itemInsulatedGlassCable>, <ic2:resource:13>, <ore:itemInsulatedGlassCable>], [<ore:circuitAdvanced>, <ic2:crafting:19>, <ore:circuitAdvanced>]]);
 recipes.addShaped(<gravisuite:crafting:1> * 3, [[<gravisuite:crafting>, <gravisuite:crafting>, <gravisuite:crafting>],[<ore:itemInsulatedGlassCable>, <ore:itemInsulatedGoldCableDou>, <ore:itemInsulatedGlassCable>], [<gravisuite:crafting>, <gravisuite:crafting>, <gravisuite:crafting>]]);

@@ -71,7 +71,7 @@ pc.recipeMap.start()
     .buildAndRegister();  
 
 pc.recipeMap.start()
-    .duration(800)
+    .duration(150)
     .inputItems(<galacticraftplanets:item_basic_asteroids:9>)
     .inputFE(819200)
     .outputItems(<contenttweaker:fdaingot_12>)
