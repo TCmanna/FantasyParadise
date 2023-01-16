@@ -48,7 +48,7 @@ mods.avaritia.ExtremeCrafting.addShaped("Pyrotheum Calciner Pro",<fdamb:pyrotheu
 [null,null,<ic2:crafting:4>,<ic2:crafting:4>,<ore:alloyUltimate>,<ic2:crafting:4>,<ic2:crafting:4>,null,null],
 [null,null,<ic2:crafting:4>,<fdamb:calciner_machine_casing_pro>,<ic2:nuclear:7>,<fdamb:calciner_machine_casing_pro>,<ic2:crafting:4>,null,null],
 [null,null,<ore:alloyUltimate>,<gravisuite:crafting>,<fdamb:pyrotheum_calciner>,<gravisuite:crafting>,<ore:alloyUltimate>,null,null],
-[null,null,<ic2:crafting:4>,<fdamb:calciner_machine_casing_pro>,<mekanism:energycube>.withTag({tier: 3}),<fdamb:calciner_machine_casing_pro>,<ic2:crafting:4>,null,null],
+[null,null,<ic2:crafting:4>,<fdamb:calciner_machine_casing_pro>,<mekanism:energycube>.withTag({tier: 2}),<fdamb:calciner_machine_casing_pro>,<ic2:crafting:4>,null,null],
 [null,null,<ic2:crafting:4>,<ic2:crafting:4>,<ore:alloyUltimate>,<ic2:crafting:4>,<ic2:crafting:4>,null,null],
 [null,null,null,null,null,null,null,null,null],
 [null,null,null,null,null,null,null,null,null]]);
