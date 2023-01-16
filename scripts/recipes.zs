@@ -406,6 +406,18 @@ recipes.remove(<ic2:te:88>);
 recipes.remove(<ic2:te:89>);
 //Don't touch me!
 //#Add
+recipes.addShapeless(<contenttweaker:glass_cable>, [<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})]);
+recipes.addShapeless(<contenttweaker:insulated_tin_cable>, [<ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte})]);
+recipes.addShapeless(<contenttweaker:tin_cable>, [<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte})]);
+recipes.addShapeless(<contenttweaker:tro_insulated_iron_cable>, [<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte})]);
+recipes.addShapeless(<contenttweaker:dou_insulated_iron_cable>, [<ic2:cable:3>.withTag({type: 3 as byte, insulation: 2 as byte})]);
+recipes.addShapeless(<contenttweaker:insulated_iron_cable>, [<ic2:cable:3>.withTag({type: 3 as byte, insulation: 1 as byte})]);
+recipes.addShapeless(<contenttweaker:iron_cable>, [<ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte})]);
+recipes.addShapeless(<contenttweaker:dou_insulated_gold_cable>, [<ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte})]);
+recipes.addShapeless(<contenttweaker:insulated_gold_cable>, [<ic2:cable:2>.withTag({type: 2 as byte, insulation: 1 as byte})]);
+recipes.addShapeless(<contenttweaker:gold_cable>, [<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})]);
+recipes.addShapeless(<contenttweaker:insuironlated_copper_cable>, [<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})]);
+recipes.addShapeless(<contenttweaker:copper_cable>, [<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})]);
 recipes.addShaped(<mekanism:energycube>.withTag({tier: 3}), [[<mekanism:atomicalloy>, <ic2:charging_lapotron_crystal:*>, <mekanism:atomicalloy>],[<contenttweaker:fdaplate_4>, <mekanism:energycube>.withTag({tier: 2}), <contenttweaker:fdaplate_4>], [<mekanism:atomicalloy>, <ic2:charging_lapotron_crystal:*>, <mekanism:atomicalloy>]]);
 recipes.addShaped(<mekanism:energycube>.withTag({tier: 2}), [[<mekanism:reinforcedalloy>, <ic2:charging_energy_crystal:*>, <mekanism:reinforcedalloy>],[<contenttweaker:fdaplate_3>, <mekanism:energycube>.withTag({tier: 1}), <contenttweaker:fdaplate_3>], [<mekanism:reinforcedalloy>, <ic2:charging_energy_crystal:*>, <mekanism:reinforcedalloy>]]);
 recipes.addShaped(<minecraft:end_crystal>, [[<botania:manaresource:5>, <contenttweaker:fdadust_7>, <botania:manaresource:5>],[<advanced_solar_panels:crafting:6>, <minecraft:nether_star>, <advanced_solar_panels:crafting:6>], [<botania:manaresource:5>, <contenttweaker:fdadust_7>, <botania:manaresource:5>]]);
