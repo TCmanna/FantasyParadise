@@ -1,12 +1,14 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<mekanism:energycube>.withTag({tier: 3}));
+recipes.remove(<mekanism:energycube>.withTag({tier: 2}));
 recipes.remove(<minecraft:end_crystal>);
 recipes.remove(<mekanism:tierinstaller:3>);
 recipes.remove(<mekanism:tierinstaller:2>);
 recipes.remove(<mekanism:tierinstaller:1>);
 recipes.remove(<mekanism:tierinstaller>);
-recipes.remove(<mekanism:energycube>);
+recipes.remove(<mekanism:energycube>.withTag({tier: 0}));
 recipes.remove(<botania:spawnermover>);
 recipes.remove(<draconicevolution:draconic_spawner>);
 recipes.remove(<enderio:block_powered_spawner>);
@@ -404,8 +406,10 @@ recipes.remove(<ic2:te:88>);
 recipes.remove(<ic2:te:89>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<mekanism:energycube>.withTag({tier: 3}), [[<mekanism:atomicalloy>, <ic2:charging_lapotron_crystal:*>, <mekanism:atomicalloy>],[<contenttweaker:fdaplate_4>, <mekanism:energycube>.withTag({tier: 2}), <contenttweaker:fdaplate_4>], [<mekanism:atomicalloy>, <ic2:charging_lapotron_crystal:*>, <mekanism:atomicalloy>]]);
+recipes.addShaped(<mekanism:energycube>.withTag({tier: 2}), [[<mekanism:reinforcedalloy>, <ic2:charging_energy_crystal:*>, <mekanism:reinforcedalloy>],[<contenttweaker:fdaplate_3>, <mekanism:energycube>.withTag({tier: 1}), <contenttweaker:fdaplate_3>], [<mekanism:reinforcedalloy>, <ic2:charging_energy_crystal:*>, <mekanism:reinforcedalloy>]]);
 recipes.addShaped(<minecraft:end_crystal>, [[<botania:manaresource:5>, <contenttweaker:fdadust_7>, <botania:manaresource:5>],[<advanced_solar_panels:crafting:6>, <minecraft:nether_star>, <advanced_solar_panels:crafting:6>], [<botania:manaresource:5>, <contenttweaker:fdadust_7>, <botania:manaresource:5>]]);
-recipes.addShaped(<mekanism:energycube>, [[<mekanism:energytablet>.anyDamage(), <mekanism:basicblock:8>, <mekanism:energytablet>.anyDamage()],[<mekanism:basicblock:8>, <thermalexpansion:cell>, <mekanism:basicblock:8>], [<mekanism:energytablet>.anyDamage(), <mekanism:basicblock:8>, <mekanism:energytablet>.anyDamage()]]);
+recipes.addShaped(<mekanism:energycube>.withTag({tier: 0}), [[<mekanism:energytablet>.anyDamage(), <mekanism:basicblock:8>, <mekanism:energytablet>.anyDamage()],[<mekanism:basicblock:8>, <thermalexpansion:cell>, <mekanism:basicblock:8>], [<mekanism:energytablet>.anyDamage(), <mekanism:basicblock:8>, <mekanism:energytablet>.anyDamage()]]);
 recipes.addShaped(<thermalexpansion:cell>, [[<thermaldynamics:duct_0:1>, <enderio:block_cap_bank:3>, <thermaldynamics:duct_0:1>],[<enderio:block_cap_bank:3>, <ic2:lapotron_crystal:*>, <enderio:block_cap_bank:3>], [<thermaldynamics:duct_0:1>, <enderio:block_cap_bank:3>, <thermaldynamics:duct_0:1>]]);
 recipes.addShaped(<fdamb:cryo_machine_casing>, [[<ore:itemInsulatedGlassCable>, <ore:circuitAdvanced>, <ore:itemInsulatedGlassCable>],[<ore:dustCryotheum>, <contenttweaker:high_heat_fusion_machinecasing>, <ore:dustCryotheum>], [null, null, null]]);
 recipes.addShaped(<fdamb:cryo_freezer>, [[<thermaldynamics:duct_0:5>, <galacticraftcore:view_screen>, <thermaldynamics:duct_0:5>],[<ore:dustCryotheum>, <contenttweaker:high_heat_fusion_machineblock>, <ore:dustCryotheum>], [<thermaldynamics:duct_16:6>, <thermalexpansion:machine:8>, <thermaldynamics:duct_16:6>]]);

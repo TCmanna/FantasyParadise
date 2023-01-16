@@ -182,7 +182,7 @@
 			}
 		},
 		"aluminum": {
-			"enabled": "ture",
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
