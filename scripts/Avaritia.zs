@@ -1,3 +1,7 @@
+mods.avaritia.ExtremeCrafting.remove(<avaritia:endest_pearl>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:ultimate_stew>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:cosmic_meatballs>);
+
 mods.avaritia.ExtremeCrafting.addShaped("Primordial Flower",<contenttweaker:fdaitem_12>,
 [[null,null,null,<botania:petal:8>,<botania:petal>,null,<botania:petal:11>,null,null],
 [<botania:petal:1>,<botania:petal:4>,<botania:petal:5>,<botania:petal>,<botania:petal>,<botania:petal:15>,<botania:petal:11>,<botania:petal:2>,null],

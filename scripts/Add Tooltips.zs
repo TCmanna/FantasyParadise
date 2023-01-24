@@ -6,7 +6,7 @@ import crafttweaker.item.IItemStack;
 <fdamb:industrial_mana_explosive>.addTooltip("§6使用打火石 右击以§a激活");
 <fdamb:cryo_freezer>.addTooltip("§6使用凛冰粉 右击以§a激活");
 
-<ic2:cable:0>.addTooltip("§用于§f放置");
+<ic2:cable:0>.addTooltip("用于§f放置");
 <ic2:cable:1>.addTooltip("用于§f放置");
 <ic2:cable:2>.addTooltip("用于§f放置");
 <ic2:cable:3>.addTooltip("用于§f放置");
