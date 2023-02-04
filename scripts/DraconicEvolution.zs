@@ -34,10 +34,10 @@ FusionCrafting.add(<draconicevolution:wyvern_sword>, <botania:terrasword>, Fusio
                                    [<tconstruct:sword_blade>.withTag({Material: "vibranium"}),<galacticraftplanets:titanium_sword>,<enderio:item_end_steel_sword>,
 								   <draconicevolution:wyvern_energy_core>,<draconicevolution:wyvern_core>,<draconicevolution:wyvern_core>]);
 
-FusionCrafting.add(<draconicevolution:draconium_capacitor>, <thermalexpansion:capacitor:4>.withTag({Energy: 0}), FusionCrafting.WYVERN, 60000004,
+FusionCrafting.add(<draconicevolution:draconium_capacitor>, <thermalexpansion:capacitor:4>, FusionCrafting.WYVERN, 60000004,
                                    [<draconicevolution:wyvern_energy_core>,<draconicevolution:wyvern_energy_core>,<draconicevolution:wyvern_energy_core>,
 								   <draconicevolution:wyvern_energy_core>,<draconicevolution:wyvern_core>,<draconicevolution:wyvern_core>,
-								   <thermalexpansion:capacitor:4>.withTag({Energy: 0}),<thermalexpansion:capacitor:4>.withTag({Energy: 0})]);
+								   <thermalexpansion:capacitor:4>,<thermalexpansion:capacitor:4>]);
 
 FusionCrafting.add(<draconicevolution:wyvern_helm>, <botania:terrasteelhelm>, FusionCrafting.WYVERN, 20000004,
                                    [<ore:QuantumHelmet>,<galacticraftplanets:titanium_helmet>,<enderio:item_end_steel_helmet>,
