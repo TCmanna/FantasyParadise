@@ -60,3 +60,7 @@
 <contenttweaker:fdadust_11>.displayName = "闪烁融合星体粉";
 
 <contenttweaker:fda_mercurydust>.displayName = "水星尘埃";
+<contenttweaker:crystal_astral>.displayName = "星体晶体";
+<contenttweaker:shard_astral>.displayName = "星体碎片";
+<contenttweaker:clump_astral>.displayName = "星体碎块";
+<contenttweaker:dirty_astral>.displayName = "含杂星体粉";

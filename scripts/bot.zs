@@ -39,6 +39,7 @@ mods.botania.Orechid.removeOre(<ore:oreMithril>);
 
 mods.botania.ManaInfusion.addInfusion(<extrabotany:nightmarefuel>, <ore:blockCharcoal>, 40000);
 mods.botania.ManaInfusion.addInfusion(<extrabotany:nightmarefuel>, <ore:blockCoal>, 40000);
+mods.botania.ManaInfusion.addInfusion(<extrabotany:spiritfuel>, <advanced_solar_panels:crafting:1>, 40000);
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotSteel>, 40000);
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource:2>, <ore:dustDiamond>, 60000);
 mods.botania.ManaInfusion.addInfusion(<botania:storage>, <ore:blockSteel>, 360000);

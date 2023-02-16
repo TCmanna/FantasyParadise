@@ -73,3 +73,8 @@ FDAdust11.register();
 val FDAMercuryDust as Item = VanillaFactory.createItem('fda_mercurydust');
 FDAMercuryDust.creativeTab = <creativetab:FPMaterials>;
 FDAMercuryDust.register();
+
+VanillaFactory.createItem('crystal_astral').register();
+VanillaFactory.createItem('shard_astral').register();
+VanillaFactory.createItem('clump_astral').register();
+VanillaFactory.createItem('dirty_astral').register();

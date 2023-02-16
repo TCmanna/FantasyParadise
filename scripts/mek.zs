@@ -25,4 +25,10 @@ mods.mekanism.separator.addRecipe(<liquid:fdanickel_2>*1000, 5000, <gas:nickel>*
 //粉碎
 mods.mekanism.crusher.addRecipe(<minecraft:flint_and_steel>, <enderio:item_material:20>*16);
 mods.mekanism.crusher.addRecipe(<ore:blockMercuryStone>, <contenttweaker:fda_mercurydust>);
-mods.mekanism.crusher.addRecipe(<contenttweaker:fusion_astral_ore>, <contenttweaker:fdadust_10>);
+
+//五倍化套装
+mods.mekanism.crusher.addRecipe(<contenttweaker:fusion_astral_ore>, <contenttweaker:crystal_astral>);
+mods.mekanism.chemical.injection.addRecipe(<contenttweaker:crystal_astral>, <gas:hydrogenChloride>, <contenttweaker:shard_astral>);
+mods.mekanism.purification.addRecipe(<contenttweaker:shard_astral>, <gas:oxygen>, <contenttweaker:clump_astral>);
+mods.mekanism.crusher.addRecipe(<contenttweaker:clump_astral>, <contenttweaker:dirty_astral>);
+mods.mekanism.enrichment.addRecipe(<contenttweaker:dirty_astral>, <contenttweaker:fdadust_10>);

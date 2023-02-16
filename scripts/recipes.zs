@@ -1,6 +1,21 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<draconicevolution:energy_storage_core>);
+recipes.remove(<conarm:travel_belt_base>);
+recipes.remove(<conarm:travel_potion>);
+recipes.remove(<conarm:travel_belt>);
+recipes.remove(<forestry:mailbox>);
+recipes.remove(<forestry:letters>);
+recipes.remove(<mekanismgenerators:generator:10>);
+recipes.remove(<mekanismgenerators:generator:11>);
+recipes.remove(<mekanismgenerators:generator:12>);
+recipes.remove(<draconicevolution:draconic_energy_core>);
+recipes.remove(<draconicevolution:draconium_capacitor:1>);
+recipes.remove(<galacticraftcore:enclosed:15>);
+recipes.remove(<galacticraftcore:enclosed:14>);
+recipes.remove(<galacticraftcore:aluminum_wire:1>);
+recipes.remove(<galacticraftcore:aluminum_wire>);
 recipes.remove(<mekanism:energycube>.withTag({tier: 3}));
 recipes.remove(<mekanism:energycube>.withTag({tier: 2}));
 recipes.remove(<minecraft:end_crystal>);
@@ -406,6 +421,9 @@ recipes.remove(<ic2:te:88>);
 recipes.remove(<ic2:te:89>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<mekanismgenerators:generator:12>, [[<thermalfoundation:material:327>, <immersiveengineering:metal_decoration0:7>, <thermalfoundation:material:327>],[<immersiveengineering:metal_decoration0:7>, <mekanismgenerators:generator:10>, <immersiveengineering:metal_decoration0:7>], [<thermalfoundation:material:327>, <immersiveengineering:metal_decoration0:7>, <thermalfoundation:material:327>]]);
+recipes.addShaped(<mekanismgenerators:generator:11> * 2, [[<ore:circuitAdvanced>, <mekanismgenerators:generator:10>, <ore:circuitAdvanced>],[<mekanismgenerators:generator:10>, <appliedenergistics2:material:56>, <mekanismgenerators:generator:10>], [<ore:circuitAdvanced>, <mekanismgenerators:generator:10>, <ore:circuitAdvanced>]]);
+recipes.addShaped(<mekanismgenerators:generator:10> * 2, [[<thermalfoundation:material:352>, <mekanism:ingot:1>, <thermalfoundation:material:352>],[<mekanism:ingot:1>, <fdamb:calciner_machine_hull>, <mekanism:ingot:1>], [<thermalfoundation:material:352>, <mekanism:ingot:1>, <thermalfoundation:material:352>]]);
 recipes.addShapeless(<contenttweaker:glass_cable>, [<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})]);
 recipes.addShapeless(<contenttweaker:insulated_tin_cable>, [<ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte})]);
 recipes.addShapeless(<contenttweaker:tin_cable>, [<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte})]);
@@ -591,7 +609,6 @@ recipes.addShapeless(<ic2:dust:22> * 9, [<ore:dustLapis>]);
 recipes.addShaped(<botania:manaresource:22>, [[null, <botania:manaresource:16>, null],[<botania:manaresource:16>, <botania:manaresource:23>, <botania:manaresource:16>], [null, <botania:manaresource:16>, null]]);
 recipes.addShaped(<extrabotany:material:7> * 2, [[<extrabotany:material:8>, <botania:manaresource:22>, <extrabotany:material:8>],[<botania:manaresource:22>, <botania:manaresource:14>, <botania:manaresource:22>], [<extrabotany:material:5>, <botania:manaresource:22>, <extrabotany:material:5>]]);
 recipes.addShaped(<thermalexpansion:machine:12>, [[<ic2:plate:13>, <minecraft:brewing_stand>, <ic2:plate:14>],[<extracells:certustank>, <mekanism:basicblock:8>, <extracells:certustank>], [<ic2:plate:17>, <thermalfoundation:material:514>, <ic2:plate:10>]]);
-recipes.addShaped(<mekanismgenerators:reactor>, [[<mekanism:controlcircuit:3>, <contenttweaker:ae2add_7>, <mekanism:controlcircuit:3>],[<mekanismgenerators:reactor:2>, <draconicevolution:reactor_core>, <mekanismgenerators:reactor:2>], [<mekanism:controlcircuit:3>, <contenttweaker:fdaitem_3>, <mekanism:controlcircuit:3>]]);
 recipes.addShaped(<mekanism:machineblock2:4>, [[<ore:plateSteel>, <thermalexpansion:tank>, <ore:plateSteel>],[<extracells:certustank>, <mekanism:basicblock:8>, <extracells:certustank>], [<ore:plateSteel>, <ic2:te:76>, <ore:plateSteel>]]);
 recipes.addShaped(<ic2:te:76>, [[<ore:itemInsulatedIronCableTro>, <ore:circuitAdvanced>, <ore:itemInsulatedIronCableTro>],[<ic2:te:81>, <ic2:resource:13>, <ic2:te:81>], [<ore:itemInsulatedIronCableTro>, <ore:circuitAdvanced>, <ore:itemInsulatedIronCableTro>]]);
 recipes.addShaped(<enderio:item_basic_item_filter>, [[null, <minecraft:hopper>, null],[<extraplanets:tools:3>, <ore:circuitBasic>, <extraplanets:tools:3>], [null, <extraplanets:tools:3>, null]]);
@@ -729,7 +746,6 @@ recipes.addShaped(<thermalexpansion:dynamo>, [[<ic2:te:3>, <thermalfoundation:ma
 recipes.addShaped(<thermalfoundation:material:515>, [[<minecraft:redstone>, <ic2:crafting:5>, <ore:ingotElectrum>],[<ic2:crafting:5>, <galacticraftcore:steel_pole>, <ic2:crafting:5>], [<ore:ingotElectrum>, <ic2:crafting:5>, <minecraft:redstone>]]);
 recipes.addShaped(<thermalfoundation:material:514>, [[<minecraft:redstone>, <ic2:crafting:5>, <ore:ingotSilver>],[<ic2:crafting:5>, <galacticraftcore:steel_pole>, <ic2:crafting:5>], [<ore:ingotSilver>, <ic2:crafting:5>, <minecraft:redstone>]]);
 recipes.addShaped(<thermalfoundation:material:515>, [[<minecraft:redstone>, <ic2:crafting:5>, <thermalfoundation:material:161>],[<ic2:crafting:5>, <galacticraftcore:steel_pole>, <ic2:crafting:5>], [<thermalfoundation:material:161>, <ic2:crafting:5>, <minecraft:redstone>]]);
-recipes.addShaped(<thermalexpansion:cell>, [[<minecraft:redstone_block>, <enderio:item_redstone_conduit>, <minecraft:redstone_block>],[<enderio:item_redstone_conduit>, <thermalexpansion:frame:128>, <enderio:item_redstone_conduit>], [<minecraft:redstone_block>, <thermalfoundation:material:515>, <minecraft:redstone_block>]]);
 recipes.addShaped(<galacticraftcore:rocket_workbench>, [[<galacticraftcore:basic_item:9>, <thermalexpansion:machine:11>, <galacticraftcore:basic_item:9>],[<enderio:item_material:73>, <galacticraftcore:basic_item:14>, <enderio:item_material:13>], [<galacticraftcore:basic_item:9>, <thermalexpansion:cell:*>, <galacticraftcore:basic_item:9>]]);
 recipes.addShaped(<mekanism:controlcircuit:3>, [[<contenttweaker:fdaitem_3>, <mekanism:controlcircuit:2>, <contenttweaker:fdaitem_3>],[<mekanism:atomicalloy>, <mekanism:atomicalloy>, <mekanism:atomicalloy>], [<contenttweaker:fdaitem_3>, <mekanism:controlcircuit:2>, <contenttweaker:fdaitem_3>]]);
 recipes.addShaped(<mekanism:controlcircuit:2>, [[<contenttweaker:fdaitem_2>, <ore:circuitAdvanced>, <contenttweaker:fdaitem_2>],[<mekanism:reinforcedalloy>, <mekanism:reinforcedalloy>, <mekanism:reinforcedalloy>], [<contenttweaker:fdaitem_2>, <ore:circuitAdvanced>, <contenttweaker:fdaitem_2>]]);
@@ -795,6 +811,4 @@ recipes.addShaped(<ic2:te:63>, [[<ic2:resource:11>, <advanced_solar_panels:craft
 recipes.addShaped(<ic2:te:27>, [[<ic2:fluid_cell>, <ic2:casing:3>, <ic2:fluid_cell>],[<ic2:fluid_cell>, <ic2:resource:13>, <ic2:fluid_cell>], [<ic2:casing:3>, <ore:circuitAdvanced>, <ic2:casing:3>]]);
 recipes.addShaped(<ic2:nuclear:8>, [[<ore:plateDenseIron>, <ic2:nuclear>, <ore:plateDenseIron>],[<ore:plateDenseIron>, <ic2:nuclear>, <ore:plateDenseIron>], [<ore:plateDenseIron>, <ic2:nuclear>, <ore:plateDenseIron>]]);
 recipes.addShaped(<advanced_solar_panels:crafting:3>, [[<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dustGlowstone>],[<ore:dustGlowstone>, <ic2:nuclear:8>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dustGlowstone>]]);
-recipes.addShaped(<ic2:te:61>, [[<ic2:forge_hammer>.onlyDamageBetween(1, 0), <ic2:crafting:4>, <ic2:crafting:4>],[<ic2:cutter>.onlyDamageBetween(1, 0), <ic2:te:92>, <ic2:misc_resource:3>], [<ic2:wrench>.onlyDamageBetween(1, 0), <ic2:crafting:4>, <ic2:crafting:4>]]);
-recipes.addShaped(<ic2:te:92>, [[<draconicevolution:draconium_block>, <thermalfoundation:material:263>, <enderio:block_alloy:2>],[<ic2:nuclear:10>, <ic2:charging_lapotron_crystal:26>.anyDamage(), <ic2:nuclear:8>], [<mekanism:controlcircuit:3>, <mekanism:basicblock:8>, <mekanism:controlcircuit:3>]]);
 //File End

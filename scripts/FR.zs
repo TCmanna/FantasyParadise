@@ -2,6 +2,7 @@ mods.forestry.Carpenter.removeRecipe(<forestry:chipsets>);
 mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:1>);
 mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:2>);
 mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:3>);
+mods.forestry.Carpenter.removeRecipe(<forestry:letters>);
 
 
 mods.forestry.Carpenter.addRecipe(<forestry:chipsets>.withTag({T: 0 as short}),[
