@@ -41,7 +41,7 @@ FusionCrafting.add(<draconicevolution:energy_storage_core>, <mekanism:basicblock
 
 
 //capacitor
-FusionCrafting.add(<draconicevolution:draconium_capacitor>, <thermalexpansion:capacitor:4>.withTag({Active: 0 as byte, Energy: 25000000, Mode: 0}), FusionCrafting.WYVERN, 60000004,
+FusionCrafting.add(<draconicevolution:draconium_capacitor>, <thermalexpansion:capacitor:4>.withTag({}), FusionCrafting.WYVERN, 60000004,
                                    [<draconicevolution:wyvern_energy_core>,<draconicevolution:wyvern_energy_core>,<draconicevolution:wyvern_energy_core>,
 								   <draconicevolution:wyvern_energy_core>,<draconicevolution:wyvern_core>,<draconicevolution:wyvern_core>,
 								   <ore:capacitor4>,<ore:capacitor4>]);
