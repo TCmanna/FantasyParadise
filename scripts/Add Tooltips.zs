@@ -10,6 +10,7 @@ import crafttweaker.item.IItemStack;
 <ic2:cable:1>.addTooltip("用于§f放置");
 <ic2:cable:2>.addTooltip("用于§f放置");
 <ic2:cable:3>.addTooltip("用于§f放置");
+<ic2:cable:4>.addTooltip("用于§f放置");
 
 val craftCables as IItemStack[] = [
     <contenttweaker:copper_cable>,
