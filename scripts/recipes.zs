@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.removeShapeless(<thermalexpansion:capacitor:4>, [ <thermalexpansion:capacitor:4>]);
 recipes.remove(<draconicevolution:energy_storage_core>);
 recipes.remove(<conarm:travel_belt_base>);
 recipes.remove(<conarm:travel_potion>);
@@ -421,6 +422,7 @@ recipes.remove(<ic2:te:88>);
 recipes.remove(<ic2:te:89>);
 //Don't touch me!
 //#Add
+recipes.addShapeless(<thermalexpansion:capacitor:4>.withTag({Energy: 0}), [<ore:capacitor4>]);
 recipes.addShaped(<mekanismgenerators:generator:12>, [[<thermalfoundation:material:327>, <immersiveengineering:metal_decoration0:7>, <thermalfoundation:material:327>],[<immersiveengineering:metal_decoration0:7>, <mekanismgenerators:generator:10>, <immersiveengineering:metal_decoration0:7>], [<thermalfoundation:material:327>, <immersiveengineering:metal_decoration0:7>, <thermalfoundation:material:327>]]);
 recipes.addShaped(<mekanismgenerators:generator:11> * 2, [[<ore:circuitAdvanced>, <mekanismgenerators:generator:10>, <ore:circuitAdvanced>],[<mekanismgenerators:generator:10>, <appliedenergistics2:material:56>, <mekanismgenerators:generator:10>], [<ore:circuitAdvanced>, <mekanismgenerators:generator:10>, <ore:circuitAdvanced>]]);
 recipes.addShaped(<mekanismgenerators:generator:10> * 2, [[<thermalfoundation:material:352>, <mekanism:ingot:1>, <thermalfoundation:material:352>],[<mekanism:ingot:1>, <fdamb:calciner_machine_hull>, <mekanism:ingot:1>], [<thermalfoundation:material:352>, <mekanism:ingot:1>, <thermalfoundation:material:352>]]);

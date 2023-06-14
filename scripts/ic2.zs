@@ -28,28 +28,3 @@ OreWasher.addRecipe([<ic2:purified:2>*2, <minecraft:nether_star>], <ic2:crushed:
 //高炉
 BlastFurnace.addRecipe([<mekores:mekanismore:15>], <tconstruct:shard>.withTag({Material: "platinum_plustic"}), 10, 5000);
 BlastFurnace.addRecipe([<contenttweaker:fdaingot_13>], <ic2:dust:13>, 1, 500);
-
-//carft recipe
-
-recipes.removeShaped(<ic2:charging_re_battery>);
-recipes.addShaped("charging_re_battery", <ic2:charging_re_battery:26>.withTag({}),
-    [[<ore:circuitBasic>, <ore:reBattery>.marked("p1"), <ore:circuitBasic>], 
-    [<ore:reBattery>.marked("p2"), null, <ore:reBattery>.marked("p3")], 
-    [<ore:circuitBasic>, <ore:reBattery>.marked("p4"), <ore:circuitBasic>]], 
-    function(out,ins,info) {
-        val data1 as IData = ins.p1.tag.memberGet("charge");
-        val data2 as IData = ins.p2.tag.memberGet("charge");
-        val data3 as IData = ins.p3.tag.memberGet("charge");
-        val data4 as IData = ins.p4.tag.memberGet("charge");
-
-        val dataInt1 as int = !isNull(data1)? data1.asInt() : 0;
-        val dataInt2 as int = !isNull(data2)? data2.asInt() : 0;
-        val dataInt3 as int = !isNull(data3)? data3.asInt() : 0;
-        val dataInt4 as int = !isNull(data4)? data4.asInt() : 0;
-
-        var chargeAll as int = dataInt1 + dataInt2 + dataInt3 + dataInt4;
-
-        var chargeData as IData = {"charge": chargeAll};
-
-        return out.withTag(chargeData);
-    },null);
