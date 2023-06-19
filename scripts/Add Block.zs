@@ -3,50 +3,27 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 
-var IronBorderedCobblestone as Block = VanillaFactory.createBlock("iron_bordered_cobblestone", <blockmaterial:rock>);
-IronBorderedCobblestone.blockHardness = 5.0;
-IronBorderedCobblestone.blockResistance = 10.0;
-IronBorderedCobblestone.toolClass = "pickaxe";
-IronBorderedCobblestone.toolLevel = 1;
-IronBorderedCobblestone.blockSoundType = <soundtype:stone>;
-IronBorderedCobblestone.creativeTab = <creativetab:FantasyParadise>;
-IronBorderedCobblestone.register();
+val bcArrayName as string[] = 
+["iron_bordered_cobblestone",
+"quartz_bordered_cobblestone",
+"gold_bordered_cobblestone",
+"diamond_bordered_cobblestone",
+"emerald_bordered_cobblestone"];
 
-var QuartzBorderedCobblestone as Block = VanillaFactory.createBlock("quartz_bordered_cobblestone", <blockmaterial:rock>);
-QuartzBorderedCobblestone.blockHardness = 6.0;
-QuartzBorderedCobblestone.blockResistance = 12.0;
-QuartzBorderedCobblestone.toolClass = "pickaxe";
-QuartzBorderedCobblestone.toolLevel = 1;
-QuartzBorderedCobblestone.blockSoundType = <soundtype:stone>;
-QuartzBorderedCobblestone.creativeTab = <creativetab:FantasyParadise>;
-QuartzBorderedCobblestone.register();
+val bcArrayFloat as float[][] = [[5.0, 10.0], [6.0, 12.0], [7.0, 15.0], [10.0, 20.0], [20.0, 50.0]];
 
-var GoldBorderedCobblestone as Block = VanillaFactory.createBlock("gold_bordered_cobblestone", <blockmaterial:rock>);
-GoldBorderedCobblestone.blockHardness = 7.0;
-GoldBorderedCobblestone.blockResistance = 15.0;
-GoldBorderedCobblestone.toolClass = "pickaxe";
-GoldBorderedCobblestone.toolLevel = 1;
-GoldBorderedCobblestone.blockSoundType = <soundtype:stone>;
-GoldBorderedCobblestone.creativeTab = <creativetab:FantasyParadise>;
-GoldBorderedCobblestone.register();
+val bcArrayInt as int[] = [1, 1, 1, 3, 3];
 
-var DiamondBorderedCobblestone as Block = VanillaFactory.createBlock("diamond_bordered_cobblestone", <blockmaterial:rock>);
-DiamondBorderedCobblestone.blockHardness = 10.0;
-DiamondBorderedCobblestone.blockResistance = 20.0;
-DiamondBorderedCobblestone.toolClass = "pickaxe";
-DiamondBorderedCobblestone.toolLevel = 3;
-DiamondBorderedCobblestone.blockSoundType = <soundtype:stone>;
-DiamondBorderedCobblestone.creativeTab = <creativetab:FantasyParadise>;
-DiamondBorderedCobblestone.register();
-
-var EmeraldBorderedCobblestone as Block = VanillaFactory.createBlock("emerald_bordered_cobblestone", <blockmaterial:rock>);
-EmeraldBorderedCobblestone.blockHardness = 20.0;
-EmeraldBorderedCobblestone.blockResistance = 50.0;
-EmeraldBorderedCobblestone.toolClass = "pickaxe";
-EmeraldBorderedCobblestone.toolLevel = 3;
-EmeraldBorderedCobblestone.blockSoundType = <soundtype:stone>;
-EmeraldBorderedCobblestone.creativeTab = <creativetab:FantasyParadise>;
-EmeraldBorderedCobblestone.register();
+for i in 0 .. 5 {
+    val borderedCobblestone as Block = VanillaFactory.createBlock(bcArrayName[i], <blockmaterial:rock>);
+    borderedCobblestone.blockHardness = bcArrayFloat[i][0];
+    borderedCobblestone.blockResistance = bcArrayFloat[i][1];
+    borderedCobblestone.toolClass = "pickaxe";
+    borderedCobblestone.toolLevel = bcArrayInt[i];
+    borderedCobblestone.blockSoundType = <soundtype:stone>;
+    borderedCobblestone.creativeTab = <creativetab:FantasyParadise>;
+    borderedCobblestone.register();
+}
 
 var HighHeatFusionMachineCasing as Block = VanillaFactory.createBlock("high_heat_fusion_machinecasing", <blockmaterial:iron>);
 HighHeatFusionMachineCasing.blockHardness = 35.0;
@@ -71,3 +48,21 @@ FPDore1.toolClass = "pickaxe";
 FPDore1.toolLevel = 3;
 FPDore1.creativeTab = <creativetab:FantasyParadise>;
 FPDore1.register();
+
+var manaBlock as Block = VanillaFactory.createBlock("base_conjuration", <blockmaterial:glass>);
+manaBlock.creativeTab = null;
+manaBlock.blockLayer = "TRANSLUCENT";
+manaBlock.translucent = true;
+manaBlock.fullBlock = false;
+manaBlock.lightOpacity = 0;
+manaBlock.lightValue = 10;
+manaBlock.register();
+
+var manaBlockR as Block = VanillaFactory.createBlock("base_conjuration_r", <blockmaterial:glass>);
+manaBlockR.creativeTab = null;
+manaBlockR.blockLayer = "TRANSLUCENT";
+manaBlockR.translucent = true;
+manaBlock.fullBlock = false;
+manaBlockR.lightOpacity = 0;
+manaBlock.lightValue = 10;
+manaBlockR.register();

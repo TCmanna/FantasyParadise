@@ -63,3 +63,5 @@ mods/worldedit-forge-mc1.12.2-6.1.10-dist.jar
 mods/NBTEdit-1.12-2.0.2.jar
 config/nbtedit.cfg
 config/neenergistics/neenergistics.cfg
+resources/fdamb/models/block/test.bbmodel
+resources/fdamb/models/block/test.json

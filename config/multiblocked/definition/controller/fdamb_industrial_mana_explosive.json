@@ -16,13 +16,13 @@
   "status": {
     "unformed": {
       "renderer": {
-        "modelLocation": "fdamb:blocks/industrial_mana_explosive_models",
+        "modelLocation": "fdamb:block/industrial_mana_explosive_models",
         "type": "imodel"
       }
     },
     "idle": {
       "renderer": {
-        "modelLocation": "fdamb:blocks/industrial_mana_explosive_models_f",
+        "modelLocation": "fdamb:block/industrial_mana_explosive_models_f",
         "type": "imodel"
       },
       "parent": "unformed"

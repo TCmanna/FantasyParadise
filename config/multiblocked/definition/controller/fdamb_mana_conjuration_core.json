@@ -1,0 +1,372 @@
+{
+  "version": 2,
+  "location": "fdamb:mana_conjuration_core",
+  "traits": {},
+  "properties": {
+    "rotationState": "NON_Y_AXIS",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "FantasyParadise"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "contenttweaker:base_conjuration",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "state": {
+          "id": "contenttweaker:base_conjuration_r",
+          "meta": 0
+        },
+        "type": "blockstate"
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "mana_conjuration_core",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "ABCCDCCDDCC",
+        "    E  EE  ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "FDCDGDDCCDC",
+        " D HIHH  D ",
+        " J EKEE  J ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "DCCCDCCCCCC",
+        "E   H      ",
+        "    H      ",
+        "    E      ",
+        "           ",
+        "           "
+      ],
+      [
+        "DCCDCCDDCDC",
+        "E  H  DH H ",
+        "   H  DH E ",
+        "   H  DH   ",
+        "   E  DE   ",
+        "      E    "
+      ],
+      [
+        "CDCDCCCCDGD",
+        " H D    HIE",
+        " E D    HK ",
+        "   D    E  ",
+        "   D       ",
+        "   ELLL    "
+      ],
+      [
+        "CDCCCGCCCDC",
+        " H   M   H ",
+        " E   N   E ",
+        "     N     ",
+        "     N     ",
+        "    L@L    "
+      ],
+      [
+        "DGDCCCCDCDC",
+        "EIH    D H ",
+        " KH    D E ",
+        "  E    D   ",
+        "       D   ",
+        "    LLLE   "
+      ],
+      [
+        "CDCDDCCDCCD",
+        " H HD  H  E",
+        " E HD  H   ",
+        "   HD  H   ",
+        "   ED  E   ",
+        "    E      "
+      ],
+      [
+        "CCCCCCDCCCD",
+        "      H   E",
+        "      H    ",
+        "      E    ",
+        "           ",
+        "           "
+      ],
+      [
+        "CDCCDDGDCDC",
+        " D  HHIH D ",
+        " J  EEKE J ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "CCDDCCDCCCC",
+        "  EE  E    ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "fdamb:mana_conjuration_core",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "fdamb:output_bus",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "botania:livingrock",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "botania:livingrock",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "minecraft:stained_glass",
+            "meta": 10
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "fdamb:input_bus",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "botania:enchantedsoil",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "botania:elfglass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "botania:doubleflower1",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "botania:conjurationcatalyst",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "botania:doubleflower1",
+            "meta": 8
+          }
+        ],
+        "type": "states"
+      },
+      "L": {
+        "states": [
+          {
+            "id": "botania:managlass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "M": {
+        "states": [
+          {
+            "id": "botania:shinyflower",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "N": {
+        "states": [
+          {
+            "id": "botania:bifrostperm",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "M"
+      ],
+      "N": [
+        "N"
+      ]
+    }
+  }
+}

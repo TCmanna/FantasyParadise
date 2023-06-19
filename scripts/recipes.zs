@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<extraplanets:tier5_items>);
 recipes.removeShapeless(<thermalexpansion:capacitor:4>, [ <thermalexpansion:capacitor:4>]);
 recipes.remove(<draconicevolution:energy_storage_core>);
 recipes.remove(<conarm:travel_belt_base>);
