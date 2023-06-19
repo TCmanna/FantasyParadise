@@ -28,7 +28,7 @@ FusionCrafting.add(<draconicevolution:draconium_block:1>, <draconicevolution:wyv
 								   <draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,
 								   <draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>]);
 
-FusionCrafting.add(<mekanismgenerators:reactor>, <draconicevolution:reactor_core>, 6, 10000000004,
+FusionCrafting.add(<mekanismgenerators:reactor>, <draconicevolution:reactor_core>, 6, 10000000000 as long,
                                    [<mekanism:basicblock2:4>.withTag({tier: 3}),<mekanism:basicblock2:4>.withTag({tier: 3}),<mekanism:basicblock2:4>.withTag({tier: 3}), <mekanism:basicblock2:4>.withTag({tier: 3}),
 								   <mekanismgenerators:reactor:2>, <mekanismgenerators:reactor:2>, <mekanism:teleportationcore>, <mekanism:teleportationcore>,
 								   <draconicevolution:chaotic_core>, <draconicevolution:chaotic_core>, <forge:bucketfilled>.withTag({FluidName: "ic2uu_matter", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "ic2uu_matter", Amount: 1000}),
@@ -41,10 +41,10 @@ FusionCrafting.add(<draconicevolution:energy_storage_core>, <mekanism:basicblock
 
 
 //capacitor
-FusionCrafting.add(<draconicevolution:draconium_capacitor>, <thermalexpansion:capacitor:4>.withTag({Active: 0 as byte, Energy: 25000000, Mode: 0}), FusionCrafting.WYVERN, 60000004,
+FusionCrafting.add(<draconicevolution:draconium_capacitor>, <thermalexpansion:capacitor:4>.withTag({Energy: 0}), FusionCrafting.WYVERN, 60000004,
                                    [<draconicevolution:wyvern_energy_core>,<draconicevolution:wyvern_energy_core>,<draconicevolution:wyvern_energy_core>,
 								   <draconicevolution:wyvern_energy_core>,<draconicevolution:wyvern_core>,<draconicevolution:wyvern_core>,
-								   <ore:capacitor4>,<ore:capacitor4>]);
+								   <thermalexpansion:capacitor:4>.withTag({Energy: 0}),<thermalexpansion:capacitor:4>.withTag({Energy: 0})]);
 
 FusionCrafting.add(<draconicevolution:draconium_capacitor:1>, <draconicevolution:draconium_capacitor>, FusionCrafting.WYVERN, 180000004,
                                    [<draconicevolution:awakened_core>,<draconicevolution:awakened_core>,<draconicevolution:awakened_core>,

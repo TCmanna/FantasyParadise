@@ -33,7 +33,7 @@
 <ore:capacitor1>.add(<thermalexpansion:capacitor:1>);
 <ore:capacitor2>.add(<thermalexpansion:capacitor:2>);
 <ore:capacitor3>.add(<thermalexpansion:capacitor:3>);
-<ore:capacitor4>.add(<thermalexpansion:capacitor:4>, <thermalexpansion:capacitor:4>.withTag({}));
+<ore:capacitor4>.add(<thermalexpansion:capacitor:4>.withTag({Energy: 0}), <thermalexpansion:capacitor:4>.withTag({}), <thermalexpansion:capacitor:4>.withTag({Energy: 0, Mode: 0}), <thermalexpansion:capacitor:4>.withTag({Active: 0 as byte, Energy: 0, Mode: 0}), <thermalexpansion:capacitor:4>.withTag({Active: 0 as byte, Energy: 0}), <thermalexpansion:capacitor:4>);
 
 //ic2-cable
 <ore:itemCopperCable>.add(<contenttweaker:copper_cable>);
