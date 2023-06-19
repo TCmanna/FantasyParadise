@@ -28,3 +28,4 @@ val craftCables as IItemStack[] = [
 for item in craftCables {
     item.addTooltip("用于§f合成");
 }
+

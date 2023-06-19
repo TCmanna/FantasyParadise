@@ -4,7 +4,6 @@ import mods.ic2.ThermalCentrifuge;
 import mods.ic2.BlastFurnace;
 import mods.ic2.MetalFormer;
 import mods.ic2.Canner;
-import crafttweaker.data.IData;
 
 //打粉机
 Macerator.addRecipe(<galacticraftplanets:item_basic_asteroids:9>, <galacticraftplanets:item_basic_asteroids:4>);

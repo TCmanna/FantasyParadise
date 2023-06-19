@@ -1,7 +1,17 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
-recipes.removeShapeless(<thermalexpansion:capacitor:4>, [ <thermalexpansion:capacitor:4>]);
+recipes.removeShaped(<extraplanets:tier5_items>, [[null, null, null],[null, <galacticraftcore:air_vent>, null], [null, null, null]]);
+recipes.removeShaped(<extraplanets:tier5_items>, [[null, null, null],[null, <galacticraftcore:air_vent>, null], [null, null, null]]);
+recipes.remove(<extraplanets:tier5_items>);
+recipes.remove(<extraplanets:tier5_items>);
+recipes.remove(<extraplanets:tier5_items>);
+recipes.remove(<extraplanets:tier5_items>);
+recipes.remove(<extraplanets:tier5_items>);
+recipes.remove(<extraplanets:tier5_items>);
+recipes.remove(<extraplanets:tier5_items>);
+recipes.remove(<extraplanets:tier5_items>);
+recipes.remove(<extraplanets:tier5_items>);
 recipes.remove(<draconicevolution:energy_storage_core>);
 recipes.remove(<conarm:travel_belt_base>);
 recipes.remove(<conarm:travel_potion>);
@@ -420,9 +430,18 @@ recipes.remove(<advanced_solar_panels:crafting:3>);
 recipes.remove(<ic2:te:61>);
 recipes.remove(<ic2:te:88>);
 recipes.remove(<ic2:te:89>);
+recipes.remove(<extraplanets:tier5_items:0>);
+recipes.remove(<mekanism:machineblock:5>.withTag({recipeType: 0}));
+recipes.remove(<mekanism:machineblock:5>.withTag({recipeType: 1}));
+recipes.remove(<mekanism:machineblock:5>.withTag({recipeType: 2}));
+recipes.remove(<mekanism:machineblock:5>.withTag({recipeType: 3}));
+recipes.remove(<mekanism:machineblock:5>.withTag({recipeType: 4}));
+recipes.remove(<mekanism:machineblock:5>.withTag({recipeType: 5}));
+recipes.remove(<mekanism:machineblock:5>.withTag({recipeType: 6}));
+recipes.remove(<mekanism:machineblock:5>.withTag({recipeType: 7}));
+recipes.remove(<mekanism:machineblock:5>.withTag({recipeType: 8}));
 //Don't touch me!
 //#Add
-recipes.addShapeless(<thermalexpansion:capacitor:4>.withTag({Energy: 0}), [<ore:capacitor4>]);
 recipes.addShaped(<mekanismgenerators:generator:12>, [[<thermalfoundation:material:327>, <immersiveengineering:metal_decoration0:7>, <thermalfoundation:material:327>],[<immersiveengineering:metal_decoration0:7>, <mekanismgenerators:generator:10>, <immersiveengineering:metal_decoration0:7>], [<thermalfoundation:material:327>, <immersiveengineering:metal_decoration0:7>, <thermalfoundation:material:327>]]);
 recipes.addShaped(<mekanismgenerators:generator:11> * 2, [[<ore:circuitAdvanced>, <mekanismgenerators:generator:10>, <ore:circuitAdvanced>],[<mekanismgenerators:generator:10>, <appliedenergistics2:material:56>, <mekanismgenerators:generator:10>], [<ore:circuitAdvanced>, <mekanismgenerators:generator:10>, <ore:circuitAdvanced>]]);
 recipes.addShaped(<mekanismgenerators:generator:10> * 2, [[<thermalfoundation:material:352>, <mekanism:ingot:1>, <thermalfoundation:material:352>],[<mekanism:ingot:1>, <fdamb:calciner_machine_hull>, <mekanism:ingot:1>], [<thermalfoundation:material:352>, <mekanism:ingot:1>, <thermalfoundation:material:352>]]);
@@ -682,7 +701,7 @@ recipes.addShaped(<immersiveengineering:metal_device1:1>, [[<ore:plateIron>, <im
 recipes.addShaped(<immersiveengineering:metal_device1>, [[<immersiveengineering:sheetmetal:8>, <immersiveengineering:sheetmetal:8>, <immersiveengineering:sheetmetal:8>],[<immersiveengineering:sheetmetal:8>, <thermalfoundation:material:513>, <immersiveengineering:sheetmetal:8>], [<immersiveengineering:sheetmetal:8>, <immersiveengineering:metal_device1:1>, <immersiveengineering:sheetmetal:8>]]);
 recipes.addShaped(<mekanism:transmitter>.withTag({tier: 0}) * 4, [[<immersiveengineering:sheetmetal:8>, <thermaldynamics:duct_0:4>, <immersiveengineering:sheetmetal:8>],[<immersiveengineering:wirecoil:2>, <mekanism:ingot:1>, <enderio:item_power_conduit:2>], [<immersiveengineering:sheetmetal:8>, <ore:itemInsulatedGlassCable>, <immersiveengineering:sheetmetal:8>]]);
 recipes.addShaped(<botania:spark>, [[<botania:petal:*>, <contenttweaker:fdaitem_5>, <botania:petal:*>],[<ore:dustSulfur>, <minecraft:gold_ingot>, <ore:dustSulfur>], [<ore:dustSulfur>, <thermalfoundation:material:1024>, <ore:dustSulfur>]]);
-recipes.addShaped(<mekanism:atomicdisassembler>, [[<tconstruct:pick_head>.withTag({Material: "cobalt"}).onlyWithTag({Material: "cobalt"}), <botania:terrapick>.anyDamage(), <draconicevolution:draconic_core>],[<thermalexpansion:frame:128>, <contenttweaker:fdaitem_3>, <thermalexpansion:frame:128>], [<thermalexpansion:frame:128>, <mekanism:atomicalloy>, <thermalexpansion:frame:128>]]);
+recipes.addShaped(<mekanism:atomicdisassembler> * 1, [[<taiga:vibranium_ingot>, <taiga:ignitz_ingot>, <taiga:ovium_ingot>], [<tconstruct:metal:3>, <mekanism:enrichedalloy>, <thermalfoundation:storage_alloy:2>],[<taiga:meteorite_ingot>, <botania:terrapick>, <taiga:nucleum_ingot>]]);
 recipes.addShaped(<immersiveengineering:material:8>, [[<ore:plateIron>, <thermalfoundation:material:24>, <ore:plateIron>],[<thermalfoundation:material:24>, <ore:plateConstantan>, <thermalfoundation:material:24>], [<ore:plateIron>, <thermalfoundation:material:24>, <ore:plateIron>]]);
 recipes.addShaped(<immersiveengineering:stone_decoration:10> * 3, [[<immersiveengineering:sheetmetal:8>, <minecraft:nether_brick>, <immersiveengineering:sheetmetal:8>],[<minecraft:brick_block>, <appliedenergistics2:sky_stone_small_brick>, <minecraft:sandstone:2>], [<immersiveengineering:sheetmetal:8>, <minecraft:stonebrick>, <immersiveengineering:sheetmetal:8>]]);
 recipes.addShaped(<appliedenergistics2:quartz_growth_accelerator>, [[<ore:plateIron>, <appliedenergistics2:part:516>, <ore:plateIron>],[<appliedenergistics2:quartz_vibrant_glass>, <thermalexpansion:machine:4>, <appliedenergistics2:quartz_vibrant_glass>], [<ore:plateIron>, <appliedenergistics2:part:516>, <ore:plateIron>]]);
@@ -813,4 +832,16 @@ recipes.addShaped(<ic2:te:63>, [[<ic2:resource:11>, <advanced_solar_panels:craft
 recipes.addShaped(<ic2:te:27>, [[<ic2:fluid_cell>, <ic2:casing:3>, <ic2:fluid_cell>],[<ic2:fluid_cell>, <ic2:resource:13>, <ic2:fluid_cell>], [<ic2:casing:3>, <ore:circuitAdvanced>, <ic2:casing:3>]]);
 recipes.addShaped(<ic2:nuclear:8>, [[<ore:plateDenseIron>, <ic2:nuclear>, <ore:plateDenseIron>],[<ore:plateDenseIron>, <ic2:nuclear>, <ore:plateDenseIron>], [<ore:plateDenseIron>, <ic2:nuclear>, <ore:plateDenseIron>]]);
 recipes.addShaped(<advanced_solar_panels:crafting:3>, [[<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dustGlowstone>],[<ore:dustGlowstone>, <ic2:nuclear:8>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dustGlowstone>]]);
+recipes.addShaped(<extraplanets:tier5_items:0> * 1, [[null, <minecraft:flint_and_steel>, <minecraft:stone_button>], [<extraplanets:tier5_items:3>, <contenttweaker:rocket5core>, <extraplanets:tier5_items:3>],[<extraplanets:tier5_items:3>, <galacticraftcore:air_vent>, <extraplanets:tier5_items:3>]]);
+recipes.addShaped(<contenttweaker:tccrafting> * 1, [[<minecraft:brick>, <botania:manaresource:4>, <minecraft:brick>], [<botania:manaresource:14>, <ore:circuitAdvanced>, <botania:manaresource:14>],[<minecraft:brick>, <botania:manaresource:4>, <minecraft:brick>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 0}) * 1, [[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>], [<contenttweaker:fdaingot_17>, <mekanism:machineblock:10>, <contenttweaker:fdaingot_17>],[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 1}) * 1, [[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>], [<contenttweaker:fdaingot_17>, <mekanism:machineblock:0>, <contenttweaker:fdaingot_17>],[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 2}) * 1, [[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>], [<contenttweaker:fdaingot_17>, <mekanism:machineblock:3>, <contenttweaker:fdaingot_17>],[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 3}) * 1, [[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>], [<contenttweaker:fdaingot_17>, <mekanism:machineblock:1>, <contenttweaker:fdaingot_17>],[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 4}) * 1, [[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>], [<contenttweaker:fdaingot_17>, <mekanism:machineblock:2>, <contenttweaker:fdaingot_17>],[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 5}) * 1, [[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>], [<contenttweaker:fdaingot_17>, <mekanism:machineblock:9>, <contenttweaker:fdaingot_17>],[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 6}) * 1, [[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>], [<contenttweaker:fdaingot_17>, <mekanism:machineblock2:3>, <contenttweaker:fdaingot_17>],[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 7}) * 1, [[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>], [<contenttweaker:fdaingot_17>, <mekanism:machineblock:8>, <contenttweaker:fdaingot_17>],[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>]]);
+recipes.addShaped(<mekanism:machineblock:5>.withTag({recipeType: 8}) * 1, [[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>], [<contenttweaker:fdaingot_17>, <mekanism:machineblock2:5>, <contenttweaker:fdaingot_17>],[<minecraft:redstone_block>, <contenttweaker:tccrafting>, <minecraft:redstone_block>]]);
+
 //File End
