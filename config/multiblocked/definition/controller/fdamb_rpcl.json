@@ -1,0 +1,757 @@
+{
+  "version": 2,
+  "location": "fdamb:rpcl",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "mekanism:basicblock2",
+          "meta": 7
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "rpcl",
+  "catalyst": "{ForgeCaps:{\"customnpcs:itemscripteddata\":{}},id:\"immersiveengineering:tool\",Count:1b,Damage:0s}",
+  "consumeCatalyst": "CONSUME_DURABILITY",
+  "noNeedController": true,
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "                 ",
+        "                 ",
+        "                 ",
+        "           A B   ",
+        "                 ",
+        "                 ",
+        "                 ",
+        "                 ",
+        "                 ",
+        "                 ",
+        "                 ",
+        "                 ",
+        "                 "
+      ],
+      [
+        "                 ",
+        "                 ",
+        "                 ",
+        "           C C   ",
+        "                 ",
+        "       D   D     ",
+        "       D   D     ",
+        "       D   D     ",
+        "       D   D     ",
+        "                 ",
+        "                 ",
+        "                 ",
+        "                 "
+      ],
+      [
+        "                 ",
+        "                 ",
+        "           E E   ",
+        "           C C   ",
+        "       D   D     ",
+        "       D   D     ",
+        "      FFFFFFF    ",
+        "      FFFFFFF    ",
+        "       D   D     ",
+        "       D   D     ",
+        "                 ",
+        "                 ",
+        "                 "
+      ],
+      [
+        "      GGG        ",
+        "      GHG        ",
+        "      GGGEECECE  ",
+        "           C C   ",
+        "       D   D     ",
+        "      FFFFFFF    ",
+        "    FFF     FFF  ",
+        "    FFF     FFF  ",
+        "      FFFFFFF    ",
+        "       D   D     ",
+        "                 ",
+        "                 ",
+        "                 "
+      ],
+      [
+        "      GIGCCCCCC  ",
+        "    EEI ICJJJJC  ",
+        "    EEGIGCJCJCC  ",
+        "    EE  KKKCCCC  ",
+        "    E  DLLLD     ",
+        "    EFFF   FFF   ",
+        "    F   MNM   F  ",
+        "    F   MNM   F  ",
+        "     FFF   FFF   ",
+        "       DOOOD     ",
+        "                 ",
+        "                 ",
+        "                 "
+      ],
+      [
+        "   GGGGIGCCCCCC  ",
+        "   GIIG ICPPPPJ  ",
+        "   GIIG GCPPPPJ  ",
+        "   GGGCCGCQCCCC  ",
+        "      LLL LLL    ",
+        "    FF       FF  ",
+        "   FF RR   RR FF ",
+        "   FF RR   RR FF ",
+        "    FF       FF  ",
+        "      OOO OOO    ",
+        "       SSSSS     ",
+        "                 ",
+        "                 "
+      ],
+      [
+        "   GIIIIGCCCCCC  ",
+        "   T    IC   PJ  ",
+        "   I    IC   PJ  ",
+        "   GIICIGCQQC C  ",
+        "   DDDL     LDDD ",
+        "  DDFF       FFDD",
+        "  DF  R     R  FD",
+        "  DF  R     R  FD",
+        "  DDFF       FFDD",
+        "   DDDO     ODDD ",
+        "      SSUUUSS    ",
+        "                 ",
+        "                 "
+      ],
+      [
+        "   GIIIIGCCCCCC  ",
+        "   T    IC   PJ  ",
+        "   I    IC   PJ  ",
+        "   GIKIIGCQQQKC  ",
+        "     LL     LL   ",
+        "    F         F  ",
+        "   F M       M F ",
+        "   F M       M F ",
+        "    F         F  ",
+        "     OO     OO   ",
+        "      SUUVUUS    ",
+        "                 ",
+        "                 "
+      ],
+      [
+        "   GGGGGGCCCCCC  ",
+        "   GIIIIGC   PJ  ",
+        "   GIIIIGC   PJ  ",
+        "   GGKGGGCQQQKC  ",
+        "     L   W   L   ",
+        "    F    W    F  ",
+        "   F N   W   N F ",
+        "   F N   W   N F ",
+        "    F    W    F  ",
+        "     O   W   O   ",
+        "      SUVVVUS    ",
+        "                 ",
+        "                 "
+      ],
+      [
+        "     X    CCCCC  ",
+        "    YR    CCZC@  ",
+        "    YR    CCCZC  ",
+        "     KQQQQCCCKC  ",
+        "     LL     LL   ",
+        "    F         F  ",
+        "   F M       M F ",
+        "   F M       M F ",
+        "    F         F  ",
+        "     OO     OO   ",
+        "      SUUVUUS    ",
+        "                 ",
+        "                 "
+      ],
+      [
+        "     X           ",
+        "    YR      Z    ",
+        "    YR       Z   ",
+        "ZZZZZ[CQQQQQC    ",
+        "Z  DDDL     LDDD ",
+        "  DDFF       FFDD",
+        "  DF  R     R  FD",
+        "  DF  R     R  FD",
+        "  DDFF       FFDD",
+        "   DDDO     ODDD ",
+        "      SSUUUSS    ",
+        "                 ",
+        "                 "
+      ],
+      [
+        "     X           ",
+        "  YYYR      Z    ",
+        "  YYYR      ZZ   ",
+        "ZZZZZ[CCQQQCC    ",
+        "Z     LLL LLL    ",
+        "    FF       FF  ",
+        "   FF RR   RR FF ",
+        "   FF RR   RR FF ",
+        "    FF       FF  ",
+        "      OOO OOO    ",
+        "       SSSSS     ",
+        "                 ",
+        "                 "
+      ],
+      [
+        "   XXX    \\]]]\\  ",
+        "  YXRR   \\^^Z^^\\ ",
+        "  YXRR    \\]]]\\  ",
+        "   XXXXXKKK      ",
+        "       DLLLD     ",
+        "     FFF   FFF   ",
+        "    F   MNM   F  ",
+        "    F   MNM   F  ",
+        "     FFF   FFF   ",
+        "       DOOOD     ",
+        "                 ",
+        "                 ",
+        "                 "
+      ],
+      [
+        "  XCCCX  \\]]]]]\\ ",
+        "  X   X ZZZZZ  \\ ",
+        "  XXXXX  \\]]]]]\\ ",
+        "                 ",
+        "       D   D     ",
+        "      FFFFFFF    ",
+        "    FFF     FFF  ",
+        "    FFF     FFF  ",
+        "      FFFFFFF    ",
+        "       D   D     ",
+        "                 ",
+        "                 ",
+        "                 "
+      ],
+      [
+        "  XCCCX   \\]]]\\  ",
+        "  _   ZZZ\\^^]^^\\ ",
+        "  XCCCX   \\]]]\\  ",
+        "   CC            ",
+        "   YCCCD   D     ",
+        "   Y   D   D     ",
+        "   Y  FFFFFFF    ",
+        "   Y  FFFFFFF    ",
+        "   Y   D   D     ",
+        "   Y   D   D     ",
+        "   Y             ",
+        "   Y             ",
+        "   Y             "
+      ],
+      [
+        "  XXXXX          ",
+        "  __X_X          ",
+        "  XXXXX          ",
+        "   EC            ",
+        "   EC            ",
+        "       D   D     ",
+        "       D   D     ",
+        "       D   D     ",
+        "       D   D     ",
+        "                 ",
+        "                 ",
+        "                 ",
+        "                 "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "mekanism:basicblock2",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "ic2:resource",
+            "meta": 13
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "thermaldynamics:duct_32",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "thermalfoundation:glass",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "ic2:resource",
+            "meta": 14
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "fdamb:output_bus",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "ic2:resource",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 10
+          }
+        ],
+        "type": "states"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "mekanismgenerators:generator",
+            "meta": 10
+          }
+        ],
+        "type": "states"
+      },
+      "L": {
+        "states": [
+          {
+            "id": "plustic:osmiridiumblock",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "M": {
+        "states": [
+          {
+            "id": "fdamb:calaciner_fixed",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "N": {
+        "states": [
+          {
+            "id": "fdamb:calciner_machine_casing",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "O": {
+        "states": [
+          {
+            "id": "draconicevolution:draconium_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "P": {
+        "states": [
+          {
+            "id": "taiga:palladium_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "Q": {
+        "states": [
+          {
+            "id": "mekanismgenerators:generator",
+            "meta": 12
+          }
+        ],
+        "type": "states"
+      },
+      "R": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 8
+          }
+        ],
+        "type": "states"
+      },
+      "S": {
+        "states": [
+          {
+            "id": "thermalfoundation:glass_alloy",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "T": {
+        "states": [
+          {
+            "id": "fdamb:input_bus",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "U": {
+        "states": [
+          {
+            "id": "appliedenergistics2:quartz_vibrant_glass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "V": {
+        "states": [
+          {
+            "id": "mekanismgenerators:reactorglass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "W": {
+        "states": [
+          {
+            "id": "mekanismgenerators:generator",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "X": {
+        "states": [
+          {
+            "id": "ic2:resource",
+            "meta": 11
+          }
+        ],
+        "type": "states"
+      },
+      "Y": {
+        "states": [
+          {
+            "id": "thermaldynamics:duct_16",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "Z": {
+        "states": [
+          {
+            "id": "thermaldynamics:duct_0",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "[": {
+        "states": [
+          {
+            "id": "fdamb:rf_input_pro",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "\\": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration1",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "]": {
+        "states": [
+          {
+            "id": "thermalfoundation:storage",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "^": {
+        "states": [
+          {
+            "id": "thermalfoundation:storage",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "_": {
+        "states": [
+          {
+            "id": "galacticraftcore:view_screen",
+            "meta": 2
+          },
+          {
+            "id": "galacticraftcore:view_screen",
+            "meta": 3
+          },
+          {
+            "id": "galacticraftcore:view_screen",
+            "meta": 4
+          },
+          {
+            "id": "galacticraftcore:view_screen",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "fdamb:rpcl",
+        "type": "component"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller",
+        "C"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "M"
+      ],
+      "N": [
+        "N"
+      ],
+      "O": [
+        "O"
+      ],
+      "P": [
+        "P"
+      ],
+      "Q": [
+        "Q"
+      ],
+      "R": [
+        "R"
+      ],
+      "S": [
+        "S"
+      ],
+      "T": [
+        "T"
+      ],
+      "U": [
+        "U"
+      ],
+      "V": [
+        "V"
+      ],
+      "W": [
+        "W"
+      ],
+      "X": [
+        "X"
+      ],
+      "Y": [
+        "Y"
+      ],
+      "Z": [
+        "Z"
+      ],
+      "[": [
+        "["
+      ],
+      "\\": [
+        "\\"
+      ],
+      "]": [
+        "]"
+      ],
+      "^": [
+        "^"
+      ],
+      "_": [
+        "_"
+      ],
+      " ": [
+        "any"
+      ]
+    }
+  }
+}

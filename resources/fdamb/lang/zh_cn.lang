@@ -8,6 +8,8 @@ tile.fdamb.gaia_mana_liquefaction.name=盖亚魔力液化器
 tile.fdamb.gaia_manafaction.name=盖亚魔力魔化器
 tile.fdamb.industrial_mana_explosive.name=工业爆燃魔导器
 tile.fdamb.cryo_freezer.name=凛冰急冻器
+tile.fdamb.mana_conjuration_core.name=魔力炼造核心
+tile.fdamb.rpcl.name=放射性粒子对撞实验室
 
 
 capacitor_create_mechine.name=电容构建站
@@ -20,6 +22,8 @@ gaia_mana_liquefaction.name=盖亚魔力液化器
 gaia_manafaction.name=盖亚魔力魔化器
 industrial_mana_explosive.name=工业爆燃魔导器
 cryo_freezer.name=凛冰急冻器
+mana_conjuration_core.name=魔力炼造凝结器
+rpcl.name=放射性粒子对撞实验室
 
 
 multiblocked.recipe_map.capacitor_create_mechine=电容构建站
@@ -32,6 +36,8 @@ multiblocked.recipe_map.gaia_mana_liquefaction=盖亚魔力液化器
 multiblocked.recipe_map.gaia_manafaction=盖亚魔力魔化器
 multiblocked.recipe_map.industrial_mana_explosive=工业爆燃魔导器
 multiblocked.recipe_map.cryo_freezer=凛冰急冻器
+multiblocked.recipe_map.mana_conjuration_core=魔力炼造凝结器
+multiblocked.recipe_map.rpcl=放射性粒子对撞实验室
 
 
 fdamb.capacitor_create_mechine.description=电容构建站
@@ -44,6 +50,8 @@ fdamb.gaia_mana_liquefaction.description=盖亚魔力液化器
 fdamb.gaia_manafaction.description=盖亚魔力魔化器
 fdamb.industrial_mana_explosive.description=工业爆燃魔导器
 fdamb.cryo_freezer.description=凛冰急冻器
+fdamb.mana_conjuration_core.description=魔力炼造凝结器
+fdamb.rpcl.description=放射性粒子对撞实验室
 
 
 tile.fdamb.rf_input.name=RF能源仓
@@ -65,3 +73,6 @@ multiblocked.recipe_map.pyrotheum_calciner=筑基炽焱煅烧炉
 multiblocked.recipe_map.pyrotheum_calciner_pro=大乘炽焱煅烧炉
 fdamb.pyrotheum_calciner.description=筑基炽焱煅烧炉
 fdamb.pyrotheum_calciner_pro.description=大乘炽焱煅烧炉
+
+
+multiblocked.gui.catalyst.2=测试

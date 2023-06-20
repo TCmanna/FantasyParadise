@@ -46,6 +46,8 @@ tile.contenttweaker.diamond_bordered_cobblestone.name=钻石边框圆石
 tile.contenttweaker.emerald_bordered_cobblestone.name=绿宝石边框圆石
 tile.contenttweaker.high_heat_fusion_machinecasing.name=高热容机械外壳
 tile.contenttweaker.high_heat_fusion_machineblock.name=高热容机械方块
+tile.contenttweaker.base_conjuration.name=基础魔力炼造方块
+tile.contenttweaker.base_conjuration_r.name=基础魔力炼造方块R
 
 tile.contenttweaker.fusion_astral_ore.name=融合星体矿石
 
