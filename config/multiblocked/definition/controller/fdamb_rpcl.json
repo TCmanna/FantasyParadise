@@ -16,11 +16,9 @@
   "status": {
     "unformed": {
       "renderer": {
-        "state": {
-          "id": "mekanism:basicblock2",
-          "meta": 7
-        },
-        "type": "blockstate"
+        "baseTexture": "mekanism:blocks/boiler_casing",
+        "frontTexture": "mekanism:blocks/boiler_casing",
+        "type": "gregtech"
       }
     },
     "idle": {

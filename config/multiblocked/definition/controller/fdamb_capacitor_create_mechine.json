@@ -92,11 +92,9 @@
     },
     "idle": {
       "renderer": {
-        "state": {
-          "id": "mekanism:basicblock",
-          "meta": 7
-        },
-        "type": "blockstate"
+        "baseTexture": "mekanism:blocks/teleporter_frame",
+        "frontTexture": "mekanism:blocks/teleporter_frame",
+        "type": "gregtech"
       },
       "parent": "unformed"
     },
