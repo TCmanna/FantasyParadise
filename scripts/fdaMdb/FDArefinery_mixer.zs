@@ -35,6 +35,7 @@ rm.recipeMap.start()
 rm.recipeMap.start()
     .duration(800)
     .inputFluids(<liquid:brine>*1000)
+    .inputItems(<contenttweaker:fdadust_1>)
     .inputFE(2000000)
     .outputFluids(<liquid:fdairidium_1>*1000)
     .buildAndRegister();
